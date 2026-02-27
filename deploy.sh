@@ -20,7 +20,7 @@ fi
 JOB_NAME="investment-updates-pipeline"
 REGION="us-central1"
 SERVICE_ACCOUNT="${JOB_NAME}-sa@${PROJECT}.iam.gserviceaccount.com"
-SCHEDULE="*/1 * * * *"    # Every 1 minute (can be adjusted)
+SCHEDULE="0 9 * * *"    # Once daily at 9:00 AM EST
 ENV_FILE="env.yaml"
 
 # ─────── 1) Create service account if it doesn't exist ────────────────────────
