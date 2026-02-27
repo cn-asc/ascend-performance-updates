@@ -4,6 +4,11 @@ env.yaml
 token.json
 credentials.json
 
+# Output / generated data - keep locally only
+*.csv
+eval_metrics*.json
+eval_metrics_ground_truth/*.json
+
 # Large files
 *.zip
 eval_test_cases/
