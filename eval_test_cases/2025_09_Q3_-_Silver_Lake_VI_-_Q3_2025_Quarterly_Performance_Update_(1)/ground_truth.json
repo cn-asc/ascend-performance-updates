@@ -1,0 +1,33 @@
+{
+  "investment_performance": [
+    "Fund-level performance as of 9/30/2025:\u2028 \u2013 Net IRR: 7.1%\u2028 \u2013 Net MOIC: 1.22x\u2028 \u2013 Net DPI: 13.1%",
+    "Total commitments: $269.9M; Funded commitments (net of recallables): $236.8M (87.8%)",
+    "NAV: $316.2M as of 9/30/2025",
+    "Distributions to date: $37.8M",
+    "Portfolio includes 57 investments, with 49 remaining, 8 of which are public",
+    "Underlying fund MOIC: 1.29x (Silver Lake Partners VI and Silver Lake Alpine II combined)",
+    "SLP VI individual MOIC: 1.29x (94.2% funded)",
+    "Average age of remaining portfolio: 3.8 years",
+    "Most recent capital call (22nd): $4.1M on 9/30/25 (1.5% of committed capital)",
+    "Most recent distribution (9th): $1.7M on 9/30/25 (0.6% of contributed capital)",
+    "Top 10 investments comprise 53.6% of total fair value",
+    "Geographic allocation (by remaining value): 55% U.S., 10% U.K., 7% Italy, 7% UAE, 6% France",
+    "Sector exposure (by remaining value): 66% Information Technology, 14% Consumer Discretionary, 7% Communications Services, 6% Healthcare, 4% Financials, 3% Industrials"
+  ],
+  "key_takeaways": [
+    "Fund continues to demonstrate moderate growth with a net IRR of 7.1% and net MOIC of 1.22x, consistent with prior quarters and in line with a maturing growth equity portfolio",
+    "Distributions remain modest at 13.1% DPI, signaling the majority of returns are unrealized and the portfolio is still in value-building mode",
+    "Strong unrealized performance in select positions: Clubessential (2.32x MOIC), Shadowbox/Powlan (1.62x), Vantage Data Centers (1.51x), and Qualtrics (1.24x), highlighting embedded value in portfolio.",
+    "Portfolio composition remains heavily weighted to IT (66%), with a global footprint primarily centered in the U.S. but diversified across EMEA as well."
+  ],
+  "business_updates": [
+    "Clari merger with Salesloft (Q4 2025 close) created a 50/50 combined entity; Silver Lake to receive ~$13M dividend from pre-merger Clari cash\u2014Clari\u2019s MOIC at 0.81x as of Q3",
+    "Klarna IPO (NYSE) \u2013 Silver Lake sold 15% of its position for $91M proceeds, slightly above cost basis ($38.30/share vs. $37.75/share); MOIC of 0.98x as of Q3",
+    "Qualtrics acquisition of Press Ganey Forsta ($6.75B TEV) with no new equity required\u2014position well-positioned in the AI/experience analytics space; MOIC at 1.24x",
+    "Shadowbox Studios / Powlan \u2013 $12M incremental funding brings total to $21M; MOIC at 1.62x; plays in film infrastructure and hyperscale data support sectors",
+    "Vantage Data Centers \u2013 Additional $602M committed, with $364M funded as of Q3; MOIC of 1.51x; Silver Lake retains substantial upside via unfunded commitments",
+    "Clubessential pending sale to Xplor Technologies \u2013 Monetization of ~60% stake in cash, 40% roll into new entity; deal values company at $3.25B; MOIC at 2.32x",
+    "Overall activity reflects a gradual shift toward realization, with partial exits and M&A providing signs of maturing investments and potential DPI acceleration in future quarters",
+    "Fund remains aligned with strategy to back high-growth, tech-enabled platforms across vertical software, fintech, infrastructure, and healthcare tech"
+  ]
+}

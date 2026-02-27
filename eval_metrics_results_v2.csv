@@ -1,0 +1,9 @@
+Row Labels,Average of overall_score,Average of cost_usd
+claude-3-haiku-20240307,0.53125,0.001838909
+claude-haiku-4-5-20251001,0.375,0.007166227
+claude-sonnet-4-20250514,0.46875,0.021303
+gemini-2.5-flash,0.375,0.002235
+gpt-5-mini,0.5625,0.004066091
+gpt-5-nano,0.34375,0.0013475
+gpt-5.2,0.46875,0.011415455
+Grand Total,0.446428571,0.007053169

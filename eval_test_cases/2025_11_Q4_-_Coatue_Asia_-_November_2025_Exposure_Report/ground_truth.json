@@ -1,0 +1,22 @@
+{
+  "investment_performance": [
+    "Fund NAV (as of Nov 30, 2025): $552.0M",
+    "MTD Performance (Net): -4.1%",
+    "YTD Performance (Net): 54%"
+  ],
+  "key_takeaways": [
+    "Strong year-to-date performance of ~54% net for both the main and feeder funds contrasts with a sharp MTD decline of -4.1%, primarily attributed to technology and China-related exposures.",
+    "The fund significantly outperformed major indices YTD (e.g., MSCI China Index at 30.2%, Hang Seng Tech Index at 25.3%, NASDAQ Composite at 21.7%).",
+    "The portfolio is heavily concentrated in large-cap and mega-cap names (>$10B in market cap accounts for ~31% of NAV), while small and mid-cap exposures remain limited.",
+    "Exposure by sector remains skewed toward Tech (26.8%), Private (8.4%), and Consumer/Retail (2.1%).",
+    "Geographic concentration remains high with primary exposure to Japan (6.6%), South Korea (20.6%), and Taiwan (8.7%). Notably, China exposure was flat, suggesting hedging or limited active positions in the month.",
+    "Despite the monthly drawdown, the cumulative return chart (page 3) shows positive long-term compounding since inception (Dec 2021), outperforming regional benchmarks."
+  ],
+  "business_updates": [
+    "As of this report, the fund holds 15 issuers and maintains a high liquidity profile, with 98%\u2013100% liquidity available within 1\u20135 days.",
+    "Portfolio pricing integrity is supported by third-party confirmations, with 83.3% of NAV independently confirmed by MSFS and 16.7% from fund manager inputs, primarily for private investments.",
+    "Only one private issuer is currently held in the portfolio; these private placement positions have limited liquidity.",
+    "Private investment NAV is classified as Level III under ASC 820 and comprises the largest single issuer exposure (8.42% of NAV), indicating a material position with limited public valuation transparency.",
+    "No leverage or short exposure is indicated in the report; performance is driven by long-only equity and option positions."
+  ]
+}

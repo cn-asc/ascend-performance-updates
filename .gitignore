@@ -1,0 +1,27 @@
+# Secrets and credentials - never commit
+.env
+env.yaml
+token.json
+credentials.json
+
+# Large files
+*.zip
+eval_test_cases/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

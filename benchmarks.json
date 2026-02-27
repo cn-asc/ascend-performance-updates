@@ -1,0 +1,1850 @@
+{
+  "private_equity": {
+    "irrs_by_vintage": {
+      "2000": {
+        "top_decile": 29.56,
+        "top_quartile": 22.51,
+        "median": 12.5,
+        "bottom_quartile": 5.2,
+        "bottom_decile": -3.02
+      },
+      "2001": {
+        "top_decile": 46.0,
+        "top_quartile": 33.1,
+        "median": 21.1,
+        "bottom_quartile": 12.1,
+        "bottom_decile": 7.6
+      },
+      "2002": {
+        "top_decile": 36.51,
+        "top_quartile": 24.08,
+        "median": 15.78,
+        "bottom_quartile": 5.74,
+        "bottom_decile": -2.09
+      },
+      "2003": {
+        "top_decile": 43.44,
+        "top_quartile": 31.0,
+        "median": 18.37,
+        "bottom_quartile": 9.78,
+        "bottom_decile": 2.47
+      },
+      "2004": {
+        "top_decile": 34.16,
+        "top_quartile": 22.73,
+        "median": 11.65,
+        "bottom_quartile": 4.01,
+        "bottom_decile": -3.04
+      },
+      "2005": {
+        "top_decile": 23.65,
+        "top_quartile": 14.46,
+        "median": 9.26,
+        "bottom_quartile": 2.86,
+        "bottom_decile": -4.4
+      },
+      "2006": {
+        "top_decile": 21.0,
+        "top_quartile": 13.7,
+        "median": 9.5,
+        "bottom_quartile": 4.7,
+        "bottom_decile": -1.5
+      },
+      "2007": {
+        "top_decile": 23.0,
+        "top_quartile": 15.89,
+        "median": 9.23,
+        "bottom_quartile": 3.87,
+        "bottom_decile": -3.85
+      },
+      "2008": {
+        "top_decile": 24.85,
+        "top_quartile": 17.32,
+        "median": 10.77,
+        "bottom_quartile": 5.72,
+        "bottom_decile": -2.35
+      },
+      "2009": {
+        "top_decile": 26.28,
+        "top_quartile": 21.36,
+        "median": 15.0,
+        "bottom_quartile": 6.66,
+        "bottom_decile": 0.7
+      },
+      "2010": {
+        "top_decile": 29.05,
+        "top_quartile": 24.98,
+        "median": 15.26,
+        "bottom_quartile": 6.28,
+        "bottom_decile": -3.65
+      },
+      "2011": {
+        "top_decile": 31.25,
+        "top_quartile": 20.6,
+        "median": 14.07,
+        "bottom_quartile": 8.3,
+        "bottom_decile": 2.64
+      },
+      "2012": {
+        "top_decile": 31.11,
+        "top_quartile": 23.38,
+        "median": 13.99,
+        "bottom_quartile": 8.03,
+        "bottom_decile": 1.4
+      },
+      "2013": {
+        "top_decile": 31.59,
+        "top_quartile": 23.82,
+        "median": 15.73,
+        "bottom_quartile": 9.38,
+        "bottom_decile": 2.38
+      },
+      "2014": {
+        "top_decile": 32.05,
+        "top_quartile": 25.01,
+        "median": 15.5,
+        "bottom_quartile": 9.0,
+        "bottom_decile": 2.13
+      },
+      "2015": {
+        "top_decile": 29.45,
+        "top_quartile": 21.34,
+        "median": 16.11,
+        "bottom_quartile": 11.25,
+        "bottom_decile": 5.06
+      },
+      "2016": {
+        "top_decile": 34.44,
+        "top_quartile": 22.81,
+        "median": 17.06,
+        "bottom_quartile": 11.0,
+        "bottom_decile": 5.61
+      },
+      "2017": {
+        "top_decile": 33.77,
+        "top_quartile": 23.5,
+        "median": 17.33,
+        "bottom_quartile": 12.59,
+        "bottom_decile": 8.41
+      },
+      "2018": {
+        "top_decile": 29.64,
+        "top_quartile": 22.19,
+        "median": 15.45,
+        "bottom_quartile": 10.3,
+        "bottom_decile": 7.12
+      },
+      "2019": {
+        "top_decile": 26.91,
+        "top_quartile": 21.6,
+        "median": 15.0,
+        "bottom_quartile": 9.8,
+        "bottom_decile": 5.78
+      },
+      "2020": {
+        "top_decile": 27.96,
+        "top_quartile": 18.6,
+        "median": 13.1,
+        "bottom_quartile": 9.32,
+        "bottom_decile": 3.7
+      },
+      "2021": {
+        "top_decile": 26.86,
+        "top_quartile": 18.15,
+        "median": 11.32,
+        "bottom_quartile": 5.03,
+        "bottom_decile": -0.1
+      },
+      "2022": {
+        "top_decile": 27.48,
+        "top_quartile": 17.96,
+        "median": 10.12,
+        "bottom_quartile": 0.93,
+        "bottom_decile": -8.6
+      },
+      "2023": {
+        "top_decile": 43.86,
+        "top_quartile": 26.4,
+        "median": 13.03,
+        "bottom_quartile": 0.96,
+        "bottom_decile": -14.61
+      }
+    },
+    "multiples_by_vintage": {
+      "2000": {
+        "tvpi_top_decile": 2.76,
+        "tvpi_top_quartile": 2.23,
+        "tvpi_median": 1.76,
+        "tvpi_bottom_quartile": 1.36,
+        "tvpi_bottom_decile": 0.94,
+        "dpi_top_decile": 2.72,
+        "dpi_top_quartile": 2.19,
+        "dpi_median": 1.7,
+        "dpi_bottom_quartile": 1.3,
+        "dpi_bottom_decile": 0.88
+      },
+      "2001": {
+        "tvpi_top_decile": 2.96,
+        "tvpi_top_quartile": 2.03,
+        "tvpi_median": 1.61,
+        "tvpi_bottom_quartile": 1.43,
+        "tvpi_bottom_decile": 1.25,
+        "dpi_top_decile": 2.93,
+        "dpi_top_quartile": 2.02,
+        "dpi_median": 1.61,
+        "dpi_bottom_quartile": 1.47,
+        "dpi_bottom_decile": 1.26
+      },
+      "2002": {
+        "tvpi_top_decile": 2.07,
+        "tvpi_top_quartile": 1.73,
+        "tvpi_median": 1.59,
+        "tvpi_bottom_quartile": 1.28,
+        "tvpi_bottom_decile": 1.14,
+        "dpi_top_decile": 1.98,
+        "dpi_top_quartile": 1.73,
+        "dpi_median": 1.57,
+        "dpi_bottom_quartile": 1.3,
+        "dpi_bottom_decile": 1.07
+      },
+      "2003": {
+        "tvpi_top_decile": 1.94,
+        "tvpi_top_quartile": 1.76,
+        "tvpi_median": 1.46,
+        "tvpi_bottom_quartile": 1.24,
+        "tvpi_bottom_decile": 0.81,
+        "dpi_top_decile": 1.9,
+        "dpi_top_quartile": 1.66,
+        "dpi_median": 1.47,
+        "dpi_bottom_quartile": 1.23,
+        "dpi_bottom_decile": 0.48
+      },
+      "2004": {
+        "tvpi_top_decile": 2.01,
+        "tvpi_top_quartile": 1.6,
+        "tvpi_median": 1.5,
+        "tvpi_bottom_quartile": 1.26,
+        "tvpi_bottom_decile": 0.85,
+        "dpi_top_decile": 2.01,
+        "dpi_top_quartile": 1.6,
+        "dpi_median": 1.5,
+        "dpi_bottom_quartile": 1.19,
+        "dpi_bottom_decile": 0.71
+      },
+      "2005": {
+        "tvpi_top_decile": 1.68,
+        "tvpi_top_quartile": 1.58,
+        "tvpi_median": 1.33,
+        "tvpi_bottom_quartile": 1.19,
+        "tvpi_bottom_decile": 0.96,
+        "dpi_top_decile": 1.67,
+        "dpi_top_quartile": 1.49,
+        "dpi_median": 1.31,
+        "dpi_bottom_quartile": 1.17,
+        "dpi_bottom_decile": 0.96
+      },
+      "2006": {
+        "tvpi_top_decile": 1.87,
+        "tvpi_top_quartile": 1.52,
+        "tvpi_median": 1.28,
+        "tvpi_bottom_quartile": 1.07,
+        "tvpi_bottom_decile": 0.86,
+        "dpi_top_decile": 1.92,
+        "dpi_top_quartile": 1.49,
+        "dpi_median": 1.28,
+        "dpi_bottom_quartile": 1.08,
+        "dpi_bottom_decile": 0.88
+      },
+      "2007": {
+        "tvpi_top_decile": 1.73,
+        "tvpi_top_quartile": 1.44,
+        "tvpi_median": 1.32,
+        "tvpi_bottom_quartile": 1.11,
+        "tvpi_bottom_decile": 0.84,
+        "dpi_top_decile": 1.73,
+        "dpi_top_quartile": 1.43,
+        "dpi_median": 1.31,
+        "dpi_bottom_quartile": 1.04,
+        "dpi_bottom_decile": 0.64
+      },
+      "2008": {
+        "tvpi_top_decile": 1.87,
+        "tvpi_top_quartile": 1.54,
+        "tvpi_median": 1.36,
+        "tvpi_bottom_quartile": 1.19,
+        "tvpi_bottom_decile": 1.07,
+        "dpi_top_decile": 1.85,
+        "dpi_top_quartile": 1.54,
+        "dpi_median": 1.31,
+        "dpi_bottom_quartile": 1.15,
+        "dpi_bottom_decile": 0.82
+      },
+      "2009": {
+        "tvpi_top_decile": 2.16,
+        "tvpi_top_quartile": 1.68,
+        "tvpi_median": 1.35,
+        "tvpi_bottom_quartile": 1.22,
+        "tvpi_bottom_decile": 1.09,
+        "dpi_top_decile": 2.06,
+        "dpi_top_quartile": 1.68,
+        "dpi_median": 1.33,
+        "dpi_bottom_quartile": 1.2,
+        "dpi_bottom_decile": 1.07
+      },
+      "2010": {
+        "tvpi_top_decile": 2.14,
+        "tvpi_top_quartile": 1.69,
+        "tvpi_median": 1.36,
+        "tvpi_bottom_quartile": 1.25,
+        "tvpi_bottom_decile": 1.15,
+        "dpi_top_decile": 1.86,
+        "dpi_top_quartile": 1.58,
+        "dpi_median": 1.34,
+        "dpi_bottom_quartile": 1.21,
+        "dpi_bottom_decile": 1.1
+      },
+      "2011": {
+        "tvpi_top_decile": 1.96,
+        "tvpi_top_quartile": 1.6,
+        "tvpi_median": 1.29,
+        "tvpi_bottom_quartile": 1.12,
+        "tvpi_bottom_decile": 1.03,
+        "dpi_top_decile": 1.84,
+        "dpi_top_quartile": 1.34,
+        "dpi_median": 1.17,
+        "dpi_bottom_quartile": 1.09,
+        "dpi_bottom_decile": 0.97
+      },
+      "2012": {
+        "tvpi_top_decile": 1.81,
+        "tvpi_top_quartile": 1.51,
+        "tvpi_median": 1.3,
+        "tvpi_bottom_quartile": 1.19,
+        "tvpi_bottom_decile": 0.91,
+        "dpi_top_decile": 1.55,
+        "dpi_top_quartile": 1.39,
+        "dpi_median": 1.23,
+        "dpi_bottom_quartile": 1.06,
+        "dpi_bottom_decile": 0.73
+      },
+      "2013": {
+        "tvpi_top_decile": 1.51,
+        "tvpi_top_quartile": 1.39,
+        "tvpi_median": 1.28,
+        "tvpi_bottom_quartile": 1.18,
+        "tvpi_bottom_decile": 1.1,
+        "dpi_top_decile": 1.46,
+        "dpi_top_quartile": 1.32,
+        "dpi_median": 1.18,
+        "dpi_bottom_quartile": 1.04,
+        "dpi_bottom_decile": 0.94
+      },
+      "2014": {
+        "tvpi_top_decile": 1.62,
+        "tvpi_top_quartile": 1.44,
+        "tvpi_median": 1.31,
+        "tvpi_bottom_quartile": 1.15,
+        "tvpi_bottom_decile": 1.0,
+        "dpi_top_decile": 1.48,
+        "dpi_top_quartile": 1.34,
+        "dpi_median": 1.19,
+        "dpi_bottom_quartile": 1.02,
+        "dpi_bottom_decile": 0.73
+      },
+      "2015": {
+        "tvpi_top_decile": 1.8,
+        "tvpi_top_quartile": 1.5,
+        "tvpi_median": 1.28,
+        "tvpi_bottom_quartile": 1.14,
+        "tvpi_bottom_decile": 0.92,
+        "dpi_top_decile": 1.56,
+        "dpi_top_quartile": 1.24,
+        "dpi_median": 1.08,
+        "dpi_bottom_quartile": 0.9,
+        "dpi_bottom_decile": 0.69
+      },
+      "2016": {
+        "tvpi_top_decile": 1.9,
+        "tvpi_top_quartile": 1.47,
+        "tvpi_median": 1.33,
+        "tvpi_bottom_quartile": 1.21,
+        "tvpi_bottom_decile": 1.0,
+        "dpi_top_decile": 1.37,
+        "dpi_top_quartile": 1.22,
+        "dpi_median": 0.99,
+        "dpi_bottom_quartile": 0.83,
+        "dpi_bottom_decile": 0.53
+      },
+      "2017": {
+        "tvpi_top_decile": 1.67,
+        "tvpi_top_quartile": 1.47,
+        "tvpi_median": 1.32,
+        "tvpi_bottom_quartile": 1.19,
+        "tvpi_bottom_decile": 1.01,
+        "dpi_top_decile": 1.26,
+        "dpi_top_quartile": 1.11,
+        "dpi_median": 0.98,
+        "dpi_bottom_quartile": 0.7,
+        "dpi_bottom_decile": 0.49
+      },
+      "2018": {
+        "tvpi_top_decile": 1.6,
+        "tvpi_top_quartile": 1.45,
+        "tvpi_median": 1.3,
+        "tvpi_bottom_quartile": 1.21,
+        "tvpi_bottom_decile": 1.11,
+        "dpi_top_decile": 1.17,
+        "dpi_top_quartile": 1.08,
+        "dpi_median": 0.85,
+        "dpi_bottom_quartile": 0.59,
+        "dpi_bottom_decile": 0.33
+      },
+      "2019": {
+        "tvpi_top_decile": 1.57,
+        "tvpi_top_quartile": 1.45,
+        "tvpi_median": 1.33,
+        "tvpi_bottom_quartile": 1.23,
+        "tvpi_bottom_decile": 1.1,
+        "dpi_top_decile": 1.04,
+        "dpi_top_quartile": 0.88,
+        "dpi_median": 0.69,
+        "dpi_bottom_quartile": 0.48,
+        "dpi_bottom_decile": 0.23
+      },
+      "2020": {
+        "tvpi_top_decile": 1.51,
+        "tvpi_top_quartile": 1.34,
+        "tvpi_median": 1.28,
+        "tvpi_bottom_quartile": 1.2,
+        "tvpi_bottom_decile": 1.1,
+        "dpi_top_decile": 0.89,
+        "dpi_top_quartile": 0.63,
+        "dpi_median": 0.46,
+        "dpi_bottom_quartile": 0.28,
+        "dpi_bottom_decile": 0.17
+      },
+      "2021": {
+        "tvpi_top_decile": 1.4,
+        "tvpi_top_quartile": 1.3,
+        "tvpi_median": 1.22,
+        "tvpi_bottom_quartile": 1.16,
+        "tvpi_bottom_decile": 1.11,
+        "dpi_top_decile": 0.67,
+        "dpi_top_quartile": 0.49,
+        "dpi_median": 0.29,
+        "dpi_bottom_quartile": 0.17,
+        "dpi_bottom_decile": 0.03
+      },
+      "2022": {
+        "tvpi_top_decile": 1.35,
+        "tvpi_top_quartile": 1.25,
+        "tvpi_median": 1.18,
+        "tvpi_bottom_quartile": 1.1,
+        "tvpi_bottom_decile": 1.05,
+        "dpi_top_decile": 0.65,
+        "dpi_top_quartile": 0.39,
+        "dpi_median": 0.19,
+        "dpi_bottom_quartile": 0.06,
+        "dpi_bottom_decile": 0.0
+      },
+      "2023": {
+        "tvpi_top_decile": 1.4,
+        "tvpi_top_quartile": 1.19,
+        "tvpi_median": 1.11,
+        "tvpi_bottom_quartile": 1.04,
+        "tvpi_bottom_decile": 1.01,
+        "dpi_top_decile": 0.32,
+        "dpi_top_quartile": 0.17,
+        "dpi_median": 0.06,
+        "dpi_bottom_quartile": 0.01,
+        "dpi_bottom_decile": 0.0
+      }
+    }
+  },
+  "venture_capital": {
+    "irrs_by_vintage": {
+      "2000": {
+        "top_decile": 11.12,
+        "top_quartile": 5.19,
+        "median": -0.06,
+        "bottom_quartile": -5.18,
+        "bottom_decile": -14.24
+      },
+      "2001": {
+        "top_decile": 13.21,
+        "top_quartile": 6.67,
+        "median": 2.08,
+        "bottom_quartile": -6.3,
+        "bottom_decile": -15.29
+      },
+      "2002": {
+        "top_decile": 12.36,
+        "top_quartile": 7.56,
+        "median": 1.4,
+        "bottom_quartile": -7.0,
+        "bottom_decile": -19.17
+      },
+      "2003": {
+        "top_decile": 15.23,
+        "top_quartile": 6.07,
+        "median": 1.89,
+        "bottom_quartile": -10.51,
+        "bottom_decile": -16.88
+      },
+      "2004": {
+        "top_decile": 14.83,
+        "top_quartile": 6.98,
+        "median": 0.51,
+        "bottom_quartile": -10.49,
+        "bottom_decile": -21.28
+      },
+      "2005": {
+        "top_decile": 13.81,
+        "top_quartile": 9.75,
+        "median": 3.4,
+        "bottom_quartile": -0.3,
+        "bottom_decile": -9.72
+      },
+      "2006": {
+        "top_decile": 16.98,
+        "top_quartile": 11.79,
+        "median": 5.65,
+        "bottom_quartile": -3.58,
+        "bottom_decile": -10.84
+      },
+      "2007": {
+        "top_decile": 27.78,
+        "top_quartile": 18.22,
+        "median": 10.9,
+        "bottom_quartile": 1.7,
+        "bottom_decile": -9.58
+      },
+      "2008": {
+        "top_decile": 29.18,
+        "top_quartile": 20.0,
+        "median": 7.8,
+        "bottom_quartile": -0.6,
+        "bottom_decile": -15.74
+      },
+      "2009": {
+        "top_decile": 31.32,
+        "top_quartile": 22.9,
+        "median": 9.88,
+        "bottom_quartile": 4.65,
+        "bottom_decile": 0.39
+      },
+      "2010": {
+        "top_decile": 42.36,
+        "top_quartile": 22.3,
+        "median": 12.01,
+        "bottom_quartile": 2.79,
+        "bottom_decile": -6.9
+      },
+      "2011": {
+        "top_decile": 34.06,
+        "top_quartile": 22.1,
+        "median": 14.4,
+        "bottom_quartile": 8.15,
+        "bottom_decile": -4.18
+      },
+      "2012": {
+        "top_decile": 42.15,
+        "top_quartile": 27.23,
+        "median": 17.6,
+        "bottom_quartile": 8.0,
+        "bottom_decile": 0.72
+      },
+      "2013": {
+        "top_decile": 36.61,
+        "top_quartile": 26.2,
+        "median": 16.7,
+        "bottom_quartile": 11.4,
+        "bottom_decile": 4.96
+      },
+      "2014": {
+        "top_decile": 33.24,
+        "top_quartile": 23.19,
+        "median": 15.68,
+        "bottom_quartile": 8.9,
+        "bottom_decile": 3.28
+      },
+      "2015": {
+        "top_decile": 32.31,
+        "top_quartile": 21.55,
+        "median": 15.08,
+        "bottom_quartile": 8.75,
+        "bottom_decile": 1.71
+      },
+      "2016": {
+        "top_decile": 34.83,
+        "top_quartile": 25.48,
+        "median": 16.04,
+        "bottom_quartile": 8.05,
+        "bottom_decile": 3.94
+      },
+      "2017": {
+        "top_decile": 28.47,
+        "top_quartile": 18.94,
+        "median": 13.27,
+        "bottom_quartile": 5.84,
+        "bottom_decile": 0.23
+      },
+      "2018": {
+        "top_decile": 30.6,
+        "top_quartile": 21.26,
+        "median": 13.1,
+        "bottom_quartile": 5.9,
+        "bottom_decile": 0.48
+      },
+      "2019": {
+        "top_decile": 28.15,
+        "top_quartile": 17.42,
+        "median": 9.17,
+        "bottom_quartile": 4.04,
+        "bottom_decile": -1.81
+      },
+      "2020": {
+        "top_decile": 24.76,
+        "top_quartile": 12.31,
+        "median": 7.48,
+        "bottom_quartile": 2.4,
+        "bottom_decile": -6.27
+      },
+      "2021": {
+        "top_decile": 21.12,
+        "top_quartile": 10.8,
+        "median": 3.48,
+        "bottom_quartile": -2.8,
+        "bottom_decile": -5.96
+      },
+      "2022": {
+        "top_decile": 27.0,
+        "top_quartile": 13.03,
+        "median": 4.5,
+        "bottom_quartile": -5.21,
+        "bottom_decile": -11.44
+      },
+      "2023": {
+        "top_decile": 33.06,
+        "top_quartile": 18.23,
+        "median": 8.11,
+        "bottom_quartile": -4.85,
+        "bottom_decile": -11.79
+      }
+    },
+    "multiples_by_vintage": {
+      "2000": {
+        "tvpi_top_decile": 1.91,
+        "tvpi_top_quartile": 1.42,
+        "tvpi_median": 0.96,
+        "tvpi_bottom_quartile": 0.65,
+        "tvpi_bottom_decile": 0.28,
+        "dpi_top_decile": 1.88,
+        "dpi_top_quartile": 1.37,
+        "dpi_median": 0.93,
+        "dpi_bottom_quartile": 0.59,
+        "dpi_bottom_decile": 0.3
+      },
+      "2001": {
+        "tvpi_top_decile": 1.83,
+        "tvpi_top_quartile": 1.44,
+        "tvpi_median": 1.11,
+        "tvpi_bottom_quartile": 0.78,
+        "tvpi_bottom_decile": 0.46,
+        "dpi_top_decile": 1.85,
+        "dpi_top_quartile": 1.48,
+        "dpi_median": 1.02,
+        "dpi_bottom_quartile": 0.62,
+        "dpi_bottom_decile": 0.28
+      },
+      "2002": {
+        "tvpi_top_decile": 1.76,
+        "tvpi_top_quartile": 1.48,
+        "tvpi_median": 1.11,
+        "tvpi_bottom_quartile": 0.67,
+        "tvpi_bottom_decile": 0.41,
+        "dpi_top_decile": 1.68,
+        "dpi_top_quartile": 1.41,
+        "dpi_median": 0.98,
+        "dpi_bottom_quartile": 0.47,
+        "dpi_bottom_decile": 0.18
+      },
+      "2003": {
+        "tvpi_top_decile": 2.66,
+        "tvpi_top_quartile": 1.49,
+        "tvpi_median": 1.02,
+        "tvpi_bottom_quartile": 0.45,
+        "tvpi_bottom_decile": 0.35,
+        "dpi_top_decile": 2.28,
+        "dpi_top_quartile": 1.4,
+        "dpi_median": 0.9,
+        "dpi_bottom_quartile": 0.48,
+        "dpi_bottom_decile": 0.21
+      },
+      "2004": {
+        "tvpi_top_decile": 2.3,
+        "tvpi_top_quartile": 1.61,
+        "tvpi_median": 1.08,
+        "tvpi_bottom_quartile": 0.64,
+        "tvpi_bottom_decile": 0.33,
+        "dpi_top_decile": 1.83,
+        "dpi_top_quartile": 1.39,
+        "dpi_median": 0.93,
+        "dpi_bottom_quartile": 0.53,
+        "dpi_bottom_decile": 0.15
+      },
+      "2005": {
+        "tvpi_top_decile": 2.55,
+        "tvpi_top_quartile": 1.9,
+        "tvpi_median": 1.33,
+        "tvpi_bottom_quartile": 0.98,
+        "tvpi_bottom_decile": 0.48,
+        "dpi_top_decile": 2.36,
+        "dpi_top_quartile": 1.75,
+        "dpi_median": 1.23,
+        "dpi_bottom_quartile": 0.62,
+        "dpi_bottom_decile": 0.22
+      },
+      "2006": {
+        "tvpi_top_decile": 3.03,
+        "tvpi_top_quartile": 2.19,
+        "tvpi_median": 1.43,
+        "tvpi_bottom_quartile": 0.83,
+        "tvpi_bottom_decile": 0.43,
+        "dpi_top_decile": 2.47,
+        "dpi_top_quartile": 1.78,
+        "dpi_median": 1.21,
+        "dpi_bottom_quartile": 0.66,
+        "dpi_bottom_decile": 0.31
+      },
+      "2007": {
+        "tvpi_top_decile": 4.66,
+        "tvpi_top_quartile": 2.71,
+        "tvpi_median": 1.72,
+        "tvpi_bottom_quartile": 1.08,
+        "tvpi_bottom_decile": 0.62,
+        "dpi_top_decile": 4.14,
+        "dpi_top_quartile": 2.41,
+        "dpi_median": 1.71,
+        "dpi_bottom_quartile": 0.97,
+        "dpi_bottom_decile": 0.51
+      },
+      "2008": {
+        "tvpi_top_decile": 5.57,
+        "tvpi_top_quartile": 2.84,
+        "tvpi_median": 1.7,
+        "tvpi_bottom_quartile": 0.94,
+        "tvpi_bottom_decile": 0.3,
+        "dpi_top_decile": 3.96,
+        "dpi_top_quartile": 2.06,
+        "dpi_median": 1.17,
+        "dpi_bottom_quartile": 0.56,
+        "dpi_bottom_decile": 0.21
+      },
+      "2009": {
+        "tvpi_top_decile": 3.61,
+        "tvpi_top_quartile": 2.39,
+        "tvpi_median": 1.83,
+        "tvpi_bottom_quartile": 1.29,
+        "tvpi_bottom_decile": 0.94,
+        "dpi_top_decile": 2.51,
+        "dpi_top_quartile": 1.71,
+        "dpi_median": 1.27,
+        "dpi_bottom_quartile": 0.78,
+        "dpi_bottom_decile": 0.48
+      },
+      "2010": {
+        "tvpi_top_decile": 4.58,
+        "tvpi_top_quartile": 3.13,
+        "tvpi_median": 1.56,
+        "tvpi_bottom_quartile": 1.1,
+        "tvpi_bottom_decile": 0.52,
+        "dpi_top_decile": 3.57,
+        "dpi_top_quartile": 1.98,
+        "dpi_median": 1.06,
+        "dpi_bottom_quartile": 0.74,
+        "dpi_bottom_decile": 0.42
+      },
+      "2011": {
+        "tvpi_top_decile": 4.8,
+        "tvpi_top_quartile": 3.57,
+        "tvpi_median": 2.12,
+        "tvpi_bottom_quartile": 1.39,
+        "tvpi_bottom_decile": 0.49,
+        "dpi_top_decile": 3.69,
+        "dpi_top_quartile": 2.72,
+        "dpi_median": 1.57,
+        "dpi_bottom_quartile": 0.82,
+        "dpi_bottom_decile": 0.45
+      },
+      "2012": {
+        "tvpi_top_decile": 6.95,
+        "tvpi_top_quartile": 4.11,
+        "tvpi_median": 2.63,
+        "tvpi_bottom_quartile": 1.55,
+        "tvpi_bottom_decile": 1.05,
+        "dpi_top_decile": 5.93,
+        "dpi_top_quartile": 3.13,
+        "dpi_median": 1.65,
+        "dpi_bottom_quartile": 0.86,
+        "dpi_bottom_decile": 0.54
+      },
+      "2013": {
+        "tvpi_top_decile": 3.66,
+        "tvpi_top_quartile": 3.08,
+        "tvpi_median": 2.06,
+        "tvpi_bottom_quartile": 1.33,
+        "tvpi_bottom_decile": 0.9,
+        "dpi_top_decile": 2.8,
+        "dpi_top_quartile": 2.34,
+        "dpi_median": 1.26,
+        "dpi_bottom_quartile": 0.56,
+        "dpi_bottom_decile": 0.23
+      },
+      "2014": {
+        "tvpi_top_decile": 4.93,
+        "tvpi_top_quartile": 3.49,
+        "tvpi_median": 2.47,
+        "tvpi_bottom_quartile": 1.78,
+        "tvpi_bottom_decile": 1.4,
+        "dpi_top_decile": 3.35,
+        "dpi_top_quartile": 2.28,
+        "dpi_median": 1.73,
+        "dpi_bottom_quartile": 0.91,
+        "dpi_bottom_decile": 0.21
+      },
+      "2015": {
+        "tvpi_top_decile": 4.5,
+        "tvpi_top_quartile": 2.97,
+        "tvpi_median": 2.12,
+        "tvpi_bottom_quartile": 1.41,
+        "tvpi_bottom_decile": 0.95,
+        "dpi_top_decile": 2.02,
+        "dpi_top_quartile": 1.23,
+        "dpi_median": 0.67,
+        "dpi_bottom_quartile": 0.31,
+        "dpi_bottom_decile": 0.13
+      },
+      "2016": {
+        "tvpi_top_decile": 5.39,
+        "tvpi_top_quartile": 3.02,
+        "tvpi_median": 2.28,
+        "tvpi_bottom_quartile": 1.62,
+        "tvpi_bottom_decile": 1.25,
+        "dpi_top_decile": 2.61,
+        "dpi_top_quartile": 1.74,
+        "dpi_median": 0.83,
+        "dpi_bottom_quartile": 0.46,
+        "dpi_bottom_decile": 0.28
+      },
+      "2017": {
+        "tvpi_top_decile": 3.4,
+        "tvpi_top_quartile": 2.63,
+        "tvpi_median": 1.84,
+        "tvpi_bottom_quartile": 1.4,
+        "tvpi_bottom_decile": 1.0,
+        "dpi_top_decile": 1.37,
+        "dpi_top_quartile": 0.8,
+        "dpi_median": 0.4,
+        "dpi_bottom_quartile": 0.14,
+        "dpi_bottom_decile": 0.0
+      },
+      "2018": {
+        "tvpi_top_decile": 3.29,
+        "tvpi_top_quartile": 2.38,
+        "tvpi_median": 1.7,
+        "tvpi_bottom_quartile": 1.3,
+        "tvpi_bottom_decile": 0.98,
+        "dpi_top_decile": 1.05,
+        "dpi_top_quartile": 0.56,
+        "dpi_median": 0.16,
+        "dpi_bottom_quartile": 0.04,
+        "dpi_bottom_decile": 0.0
+      },
+      "2019": {
+        "tvpi_top_decile": 2.79,
+        "tvpi_top_quartile": 1.81,
+        "tvpi_median": 1.4,
+        "tvpi_bottom_quartile": 1.15,
+        "tvpi_bottom_decile": 0.94,
+        "dpi_top_decile": 0.61,
+        "dpi_top_quartile": 0.21,
+        "dpi_median": 0.07,
+        "dpi_bottom_quartile": 0.02,
+        "dpi_bottom_decile": 0.0
+      },
+      "2020": {
+        "tvpi_top_decile": 2.39,
+        "tvpi_top_quartile": 1.47,
+        "tvpi_median": 1.29,
+        "tvpi_bottom_quartile": 1.03,
+        "tvpi_bottom_decile": 0.82,
+        "dpi_top_decile": 0.55,
+        "dpi_top_quartile": 0.22,
+        "dpi_median": 0.07,
+        "dpi_bottom_quartile": 0.0,
+        "dpi_bottom_decile": 0.0
+      },
+      "2021": {
+        "tvpi_top_decile": 1.69,
+        "tvpi_top_quartile": 1.28,
+        "tvpi_median": 1.08,
+        "tvpi_bottom_quartile": 0.97,
+        "tvpi_bottom_decile": 0.85,
+        "dpi_top_decile": 0.27,
+        "dpi_top_quartile": 0.05,
+        "dpi_median": 0.0,
+        "dpi_bottom_quartile": 0.0,
+        "dpi_bottom_decile": 0.0
+      },
+      "2022": {
+        "tvpi_top_decile": 1.48,
+        "tvpi_top_quartile": 1.23,
+        "tvpi_median": 1.05,
+        "tvpi_bottom_quartile": 0.89,
+        "tvpi_bottom_decile": 0.76,
+        "dpi_top_decile": 0.07,
+        "dpi_top_quartile": 0.01,
+        "dpi_median": 0.0,
+        "dpi_bottom_quartile": 0.0,
+        "dpi_bottom_decile": 0.0
+      },
+      "2023": {
+        "tvpi_top_decile": 1.44,
+        "tvpi_top_quartile": 1.21,
+        "tvpi_median": 1.07,
+        "tvpi_bottom_quartile": 0.93,
+        "tvpi_bottom_decile": 0.79,
+        "dpi_top_decile": 0.09,
+        "dpi_top_quartile": 0.0,
+        "dpi_median": 0.0,
+        "dpi_bottom_quartile": 0.0,
+        "dpi_bottom_decile": 0.0
+      }
+    }
+  },
+  "real_estate": {
+    "irrs_by_vintage": {
+      "2000": {
+        "top_decile": 11.12,
+        "top_quartile": 5.19,
+        "median": -0.06,
+        "bottom_quartile": -5.18,
+        "bottom_decile": -14.24
+      },
+      "2001": {
+        "top_decile": 13.21,
+        "top_quartile": 6.67,
+        "median": 2.08,
+        "bottom_quartile": -6.3,
+        "bottom_decile": -15.29
+      },
+      "2002": {
+        "top_decile": 12.36,
+        "top_quartile": 7.56,
+        "median": 1.4,
+        "bottom_quartile": -7.0,
+        "bottom_decile": -19.17
+      },
+      "2003": {
+        "top_decile": 15.23,
+        "top_quartile": 6.07,
+        "median": 1.89,
+        "bottom_quartile": -10.51,
+        "bottom_decile": -16.88
+      },
+      "2004": {
+        "top_decile": 14.83,
+        "top_quartile": 6.98,
+        "median": 0.51,
+        "bottom_quartile": -10.49,
+        "bottom_decile": -21.28
+      },
+      "2005": {
+        "top_decile": 13.81,
+        "top_quartile": 9.75,
+        "median": 3.4,
+        "bottom_quartile": -0.3,
+        "bottom_decile": -9.72
+      },
+      "2006": {
+        "top_decile": 16.98,
+        "top_quartile": 11.79,
+        "median": 5.65,
+        "bottom_quartile": -3.58,
+        "bottom_decile": -10.84
+      },
+      "2007": {
+        "top_decile": 27.78,
+        "top_quartile": 18.22,
+        "median": 10.9,
+        "bottom_quartile": 1.7,
+        "bottom_decile": -9.58
+      },
+      "2008": {
+        "top_decile": 29.18,
+        "top_quartile": 20.0,
+        "median": 7.8,
+        "bottom_quartile": -0.6,
+        "bottom_decile": -15.74
+      },
+      "2009": {
+        "top_decile": 31.32,
+        "top_quartile": 22.9,
+        "median": 9.88,
+        "bottom_quartile": 4.65,
+        "bottom_decile": 0.39
+      },
+      "2010": {
+        "top_decile": 42.36,
+        "top_quartile": 22.3,
+        "median": 12.01,
+        "bottom_quartile": 2.79,
+        "bottom_decile": -6.9
+      },
+      "2011": {
+        "top_decile": 34.06,
+        "top_quartile": 22.1,
+        "median": 14.4,
+        "bottom_quartile": 8.15,
+        "bottom_decile": -4.18
+      },
+      "2012": {
+        "top_decile": 42.15,
+        "top_quartile": 27.23,
+        "median": 17.6,
+        "bottom_quartile": 8.0,
+        "bottom_decile": 0.72
+      },
+      "2013": {
+        "top_decile": 36.61,
+        "top_quartile": 26.2,
+        "median": 16.7,
+        "bottom_quartile": 11.4,
+        "bottom_decile": 4.96
+      },
+      "2014": {
+        "top_decile": 34.24,
+        "top_quartile": 23.19,
+        "median": 15.68,
+        "bottom_quartile": 8.9,
+        "bottom_decile": 3.28
+      },
+      "2015": {
+        "top_decile": 32.31,
+        "top_quartile": 21.55,
+        "median": 15.08,
+        "bottom_quartile": 8.75,
+        "bottom_decile": 1.71
+      },
+      "2016": {
+        "top_decile": 34.83,
+        "top_quartile": 25.48,
+        "median": 16.04,
+        "bottom_quartile": 4.85,
+        "bottom_decile": 3.94
+      },
+      "2017": {
+        "top_decile": 28.47,
+        "top_quartile": 18.94,
+        "median": 13.27,
+        "bottom_quartile": 5.84,
+        "bottom_decile": 0.23
+      },
+      "2018": {
+        "top_decile": 30.6,
+        "top_quartile": 21.26,
+        "median": 13.1,
+        "bottom_quartile": 5.9,
+        "bottom_decile": 0.48
+      },
+      "2019": {
+        "top_decile": 28.15,
+        "top_quartile": 17.42,
+        "median": 9.17,
+        "bottom_quartile": 4.04,
+        "bottom_decile": -1.81
+      },
+      "2020": {
+        "top_decile": 24.76,
+        "top_quartile": 12.31,
+        "median": 7.48,
+        "bottom_quartile": 2.49,
+        "bottom_decile": -6.27
+      },
+      "2021": {
+        "top_decile": 21.12,
+        "top_quartile": 10.8,
+        "median": 3.48,
+        "bottom_quartile": -2.8,
+        "bottom_decile": -5.96
+      },
+      "2022": {
+        "top_decile": 27.0,
+        "top_quartile": 13.03,
+        "median": 4.5,
+        "bottom_quartile": -5.21,
+        "bottom_decile": -11.44
+      },
+      "2023": {
+        "top_decile": 33.06,
+        "top_quartile": 18.23,
+        "median": 8.11,
+        "bottom_quartile": -4.85,
+        "bottom_decile": -11.79
+      }
+    },
+    "multiples_by_vintage": {
+      "2000": {
+        "tvpi_top_decile": 2.26,
+        "tvpi_top_quartile": 1.87,
+        "tvpi_median": 1.65,
+        "tvpi_bottom_quartile": 1.46,
+        "tvpi_bottom_decile": 1.36,
+        "dpi_top_decile": 2.25,
+        "dpi_top_quartile": 1.81,
+        "dpi_median": 1.5,
+        "dpi_bottom_quartile": 1.43,
+        "dpi_bottom_decile": 1.25
+      },
+      "2001": {
+        "tvpi_top_decile": 2.37,
+        "tvpi_top_quartile": 1.98,
+        "tvpi_median": 1.54,
+        "tvpi_bottom_quartile": 1.26,
+        "tvpi_bottom_decile": 1.01,
+        "dpi_top_decile": 2.31,
+        "dpi_top_quartile": 1.69,
+        "dpi_median": 1.43,
+        "dpi_bottom_quartile": 1.11,
+        "dpi_bottom_decile": 0.8
+      },
+      "2002": {
+        "tvpi_top_decile": 1.94,
+        "tvpi_top_quartile": 1.59,
+        "tvpi_median": 1.52,
+        "tvpi_bottom_quartile": 1.12,
+        "tvpi_bottom_decile": 0.76,
+        "dpi_top_decile": 1.9,
+        "dpi_top_quartile": 1.56,
+        "dpi_median": 1.51,
+        "dpi_bottom_quartile": 1.02,
+        "dpi_bottom_decile": 0.35
+      },
+      "2003": {
+        "tvpi_top_decile": 1.91,
+        "tvpi_top_quartile": 1.62,
+        "tvpi_median": 1.49,
+        "tvpi_bottom_quartile": 1.29,
+        "tvpi_bottom_decile": 1.2,
+        "dpi_top_decile": 1.86,
+        "dpi_top_quartile": 1.62,
+        "dpi_median": 1.44,
+        "dpi_bottom_quartile": 1.25,
+        "dpi_bottom_decile": 0.64
+      },
+      "2004": {
+        "tvpi_top_decile": 2.91,
+        "tvpi_top_quartile": 1.86,
+        "tvpi_median": 1.33,
+        "tvpi_bottom_quartile": 0.8,
+        "tvpi_bottom_decile": 0.5,
+        "dpi_top_decile": 2.62,
+        "dpi_top_quartile": 1.82,
+        "dpi_median": 1.16,
+        "dpi_bottom_quartile": 0.67,
+        "dpi_bottom_decile": 0.38
+      },
+      "2005": {
+        "tvpi_top_decile": 1.75,
+        "tvpi_top_quartile": 1.29,
+        "tvpi_median": 1.02,
+        "tvpi_bottom_quartile": 0.74,
+        "tvpi_bottom_decile": 0.37,
+        "dpi_top_decile": 1.67,
+        "dpi_top_quartile": 1.23,
+        "dpi_median": 0.92,
+        "dpi_bottom_quartile": 0.68,
+        "dpi_bottom_decile": 0.32
+      },
+      "2006": {
+        "tvpi_top_decile": 1.68,
+        "tvpi_top_quartile": 1.37,
+        "tvpi_median": 1.04,
+        "tvpi_bottom_quartile": 0.6,
+        "tvpi_bottom_decile": 0.3,
+        "dpi_top_decile": 1.63,
+        "dpi_top_quartile": 1.32,
+        "dpi_median": 0.93,
+        "dpi_bottom_quartile": 0.49,
+        "dpi_bottom_decile": 0.18
+      },
+      "2007": {
+        "tvpi_top_decile": 1.68,
+        "tvpi_top_quartile": 1.45,
+        "tvpi_median": 1.2,
+        "tvpi_bottom_quartile": 0.9,
+        "tvpi_bottom_decile": 0.47,
+        "dpi_top_decile": 1.68,
+        "dpi_top_quartile": 1.43,
+        "dpi_median": 1.18,
+        "dpi_bottom_quartile": 0.76,
+        "dpi_bottom_decile": 0.37
+      },
+      "2008": {
+        "tvpi_top_decile": 2.23,
+        "tvpi_top_quartile": 1.66,
+        "tvpi_median": 1.46,
+        "tvpi_bottom_quartile": 1.11,
+        "tvpi_bottom_decile": 0.66,
+        "dpi_top_decile": 1.72,
+        "dpi_top_quartile": 1.6,
+        "dpi_median": 1.41,
+        "dpi_bottom_quartile": 1.04,
+        "dpi_bottom_decile": 0.64
+      },
+      "2009": {
+        "tvpi_top_decile": 2.01,
+        "tvpi_top_quartile": 1.73,
+        "tvpi_median": 1.39,
+        "tvpi_bottom_quartile": 1.22,
+        "tvpi_bottom_decile": 0.51,
+        "dpi_top_decile": 2.02,
+        "dpi_top_quartile": 1.72,
+        "dpi_median": 1.38,
+        "dpi_bottom_quartile": 1.08,
+        "dpi_bottom_decile": 0.3
+      },
+      "2010": {
+        "tvpi_top_decile": 2.05,
+        "tvpi_top_quartile": 1.9,
+        "tvpi_median": 1.6,
+        "tvpi_bottom_quartile": 1.23,
+        "tvpi_bottom_decile": 1.08,
+        "dpi_top_decile": 2.02,
+        "dpi_top_quartile": 1.84,
+        "dpi_median": 1.56,
+        "dpi_bottom_quartile": 1.09,
+        "dpi_bottom_decile": 0.78
+      },
+      "2011": {
+        "tvpi_top_decile": 2.39,
+        "tvpi_top_quartile": 1.86,
+        "tvpi_median": 1.56,
+        "tvpi_bottom_quartile": 1.3,
+        "tvpi_bottom_decile": 1.16,
+        "dpi_top_decile": 2.2,
+        "dpi_top_quartile": 1.68,
+        "dpi_median": 1.47,
+        "dpi_bottom_quartile": 1.18,
+        "dpi_bottom_decile": 0.61
+      },
+      "2012": {
+        "tvpi_top_decile": 2.18,
+        "tvpi_top_quartile": 1.64,
+        "tvpi_median": 1.5,
+        "tvpi_bottom_quartile": 1.34,
+        "tvpi_bottom_decile": 1.13,
+        "dpi_top_decile": 2.12,
+        "dpi_top_quartile": 1.59,
+        "dpi_median": 1.48,
+        "dpi_bottom_quartile": 1.32,
+        "dpi_bottom_decile": 1.02
+      },
+      "2013": {
+        "tvpi_top_decile": 1.76,
+        "tvpi_top_quartile": 1.61,
+        "tvpi_median": 1.4,
+        "tvpi_bottom_quartile": 1.13,
+        "tvpi_bottom_decile": 0.8,
+        "dpi_top_decile": 1.65,
+        "dpi_top_quartile": 1.56,
+        "dpi_median": 1.28,
+        "dpi_bottom_quartile": 0.91,
+        "dpi_bottom_decile": 0.42
+      },
+      "2014": {
+        "tvpi_top_decile": 1.8,
+        "tvpi_top_quartile": 1.6,
+        "tvpi_median": 1.36,
+        "tvpi_bottom_quartile": 1.1,
+        "tvpi_bottom_decile": 0.91,
+        "dpi_top_decile": 1.66,
+        "dpi_top_quartile": 1.48,
+        "dpi_median": 1.11,
+        "dpi_bottom_quartile": 0.74,
+        "dpi_bottom_decile": 0.35
+      },
+      "2015": {
+        "tvpi_top_decile": 1.79,
+        "tvpi_top_quartile": 1.6,
+        "tvpi_median": 1.36,
+        "tvpi_bottom_quartile": 1.16,
+        "tvpi_bottom_decile": 0.92,
+        "dpi_top_decile": 1.67,
+        "dpi_top_quartile": 1.49,
+        "dpi_median": 1.1,
+        "dpi_bottom_quartile": 0.62,
+        "dpi_bottom_decile": 0.3
+      },
+      "2016": {
+        "tvpi_top_decile": 1.99,
+        "tvpi_top_quartile": 1.55,
+        "tvpi_median": 1.31,
+        "tvpi_bottom_quartile": 1.03,
+        "tvpi_bottom_decile": 0.71,
+        "dpi_top_decile": 1.6,
+        "dpi_top_quartile": 1.3,
+        "dpi_median": 0.89,
+        "dpi_bottom_quartile": 0.46,
+        "dpi_bottom_decile": 0.12
+      },
+      "2017": {
+        "tvpi_top_decile": 1.72,
+        "tvpi_top_quartile": 1.55,
+        "tvpi_median": 1.34,
+        "tvpi_bottom_quartile": 1.09,
+        "tvpi_bottom_decile": 0.57,
+        "dpi_top_decile": 1.51,
+        "dpi_top_quartile": 1.25,
+        "dpi_median": 0.65,
+        "dpi_bottom_quartile": 0.27,
+        "dpi_bottom_decile": 0.12
+      },
+      "2018": {
+        "tvpi_top_decile": 1.65,
+        "tvpi_top_quartile": 1.43,
+        "tvpi_median": 1.29,
+        "tvpi_bottom_quartile": 1.02,
+        "tvpi_bottom_decile": 0.85,
+        "dpi_top_decile": 1.27,
+        "dpi_top_quartile": 0.81,
+        "dpi_median": 0.5,
+        "dpi_bottom_quartile": 0.26,
+        "dpi_bottom_decile": 0.06
+      },
+      "2019": {
+        "tvpi_top_decile": 1.54,
+        "tvpi_top_quartile": 1.3,
+        "tvpi_median": 1.19,
+        "tvpi_bottom_quartile": 1.02,
+        "tvpi_bottom_decile": 0.72,
+        "dpi_top_decile": 0.71,
+        "dpi_top_quartile": 0.44,
+        "dpi_median": 0.21,
+        "dpi_bottom_quartile": 0.1,
+        "dpi_bottom_decile": 0.02
+      },
+      "2020": {
+        "tvpi_top_decile": 1.48,
+        "tvpi_top_quartile": 1.28,
+        "tvpi_median": 1.13,
+        "tvpi_bottom_quartile": 1.01,
+        "tvpi_bottom_decile": 0.88,
+        "dpi_top_decile": 0.55,
+        "dpi_top_quartile": 0.38,
+        "dpi_median": 0.13,
+        "dpi_bottom_quartile": 0.06,
+        "dpi_bottom_decile": 0.02
+      },
+      "2021": {
+        "tvpi_top_decile": 1.32,
+        "tvpi_top_quartile": 1.2,
+        "tvpi_median": 1.09,
+        "tvpi_bottom_quartile": 0.99,
+        "tvpi_bottom_decile": 0.9,
+        "dpi_top_decile": 0.3,
+        "dpi_top_quartile": 0.16,
+        "dpi_median": 0.05,
+        "dpi_bottom_quartile": 0.01,
+        "dpi_bottom_decile": 0.0
+      },
+      "2022": {
+        "tvpi_top_decile": 1.19,
+        "tvpi_top_quartile": 1.11,
+        "tvpi_median": 1.05,
+        "tvpi_bottom_quartile": 0.98,
+        "tvpi_bottom_decile": 0.88,
+        "dpi_top_decile": 0.22,
+        "dpi_top_quartile": 0.09,
+        "dpi_median": 0.02,
+        "dpi_bottom_quartile": 0.0,
+        "dpi_bottom_decile": 0.0
+      },
+      "2023": {
+        "tvpi_top_decile": 1.28,
+        "tvpi_top_quartile": 1.09,
+        "tvpi_median": 1.02,
+        "tvpi_bottom_quartile": 0.94,
+        "tvpi_bottom_decile": 0.88,
+        "dpi_top_decile": 0.27,
+        "dpi_top_quartile": 0.11,
+        "dpi_median": 0.02,
+        "dpi_bottom_quartile": 0.0,
+        "dpi_bottom_decile": 0.0
+      }
+    }
+  },
+  "private_debt": {
+    "irrs_by_vintage": {
+      "2000": {
+        "top_decile": 17.92,
+        "top_quartile": 14.84,
+        "median": 8.5,
+        "bottom_quartile": 6.55,
+        "bottom_decile": 3.16
+      },
+      "2001": {
+        "top_decile": 28.97,
+        "top_quartile": 22.4,
+        "median": 13.6,
+        "bottom_quartile": 10.68,
+        "bottom_decile": 4.6
+      },
+      "2002": {
+        "top_decile": 31.04,
+        "top_quartile": 22.38,
+        "median": 11.23,
+        "bottom_quartile": 7.57,
+        "bottom_decile": 1.6
+      },
+      "2003": {
+        "top_decile": 18.67,
+        "top_quartile": 13.4,
+        "median": 8.8,
+        "bottom_quartile": 7.17,
+        "bottom_decile": -3.04
+      },
+      "2004": {
+        "top_decile": 16.36,
+        "top_quartile": 11.58,
+        "median": 8.65,
+        "bottom_quartile": 4.03,
+        "bottom_decile": -2.31
+      },
+      "2005": {
+        "top_decile": 12.55,
+        "top_quartile": 9.41,
+        "median": 7.25,
+        "bottom_quartile": 4.18,
+        "bottom_decile": 2.82
+      },
+      "2006": {
+        "top_decile": 14.52,
+        "top_quartile": 9.29,
+        "median": 7.4,
+        "bottom_quartile": 3.06,
+        "bottom_decile": -1.92
+      },
+      "2007": {
+        "top_decile": 16.95,
+        "top_quartile": 11.82,
+        "median": 8.2,
+        "bottom_quartile": 2.18,
+        "bottom_decile": -3.82
+      },
+      "2008": {
+        "top_decile": 22.42,
+        "top_quartile": 13.98,
+        "median": 9.91,
+        "bottom_quartile": 6.43,
+        "bottom_decile": 1.95
+      },
+      "2009": {
+        "top_decile": 19.78,
+        "top_quartile": 15.74,
+        "median": 10.3,
+        "bottom_quartile": 7.72,
+        "bottom_decile": 4.41
+      },
+      "2010": {
+        "top_decile": 20.76,
+        "top_quartile": 13.51,
+        "median": 10.21,
+        "bottom_quartile": 7.65,
+        "bottom_decile": 3.43
+      },
+      "2011": {
+        "top_decile": 15.6,
+        "top_quartile": 11.55,
+        "median": 8.12,
+        "bottom_quartile": 5.95,
+        "bottom_decile": 3.86
+      },
+      "2012": {
+        "top_decile": 13.49,
+        "top_quartile": 10.19,
+        "median": 8.34,
+        "bottom_quartile": 5.89,
+        "bottom_decile": 2.18
+      },
+      "2013": {
+        "top_decile": 12.62,
+        "top_quartile": 10.58,
+        "median": 7.49,
+        "bottom_quartile": 5.68,
+        "bottom_decile": 3.94
+      },
+      "2014": {
+        "top_decile": 11.45,
+        "top_quartile": 10.1,
+        "median": 7.62,
+        "bottom_quartile": 5.5,
+        "bottom_decile": 1.24
+      },
+      "2015": {
+        "top_decile": 15.28,
+        "top_quartile": 10.0,
+        "median": 8.04,
+        "bottom_quartile": 5.68,
+        "bottom_decile": 0.06
+      },
+      "2016": {
+        "top_decile": 13.73,
+        "top_quartile": 11.5,
+        "median": 8.99,
+        "bottom_quartile": 7.16,
+        "bottom_decile": 4.95
+      },
+      "2017": {
+        "top_decile": 14.67,
+        "top_quartile": 11.75,
+        "median": 9.0,
+        "bottom_quartile": 6.95,
+        "bottom_decile": 3.02
+      },
+      "2018": {
+        "top_decile": 15.63,
+        "top_quartile": 12.28,
+        "median": 9.66,
+        "bottom_quartile": 7.68,
+        "bottom_decile": 6.4
+      },
+      "2019": {
+        "top_decile": 14.96,
+        "top_quartile": 12.49,
+        "median": 9.91,
+        "bottom_quartile": 8.11,
+        "bottom_decile": 1.52
+      },
+      "2020": {
+        "top_decile": 13.41,
+        "top_quartile": 11.32,
+        "median": 9.89,
+        "bottom_quartile": 8.36,
+        "bottom_decile": 6.27
+      },
+      "2021": {
+        "top_decile": 16.91,
+        "top_quartile": 13.11,
+        "median": 10.56,
+        "bottom_quartile": 8.49,
+        "bottom_decile": 6.42
+      },
+      "2022": {
+        "top_decile": 18.4,
+        "top_quartile": 14.12,
+        "median": 11.4,
+        "bottom_quartile": 8.37,
+        "bottom_decile": 6.46
+      },
+      "2023": {
+        "top_decile": 21.07,
+        "top_quartile": 14.89,
+        "median": 10.9,
+        "bottom_quartile": 8.01,
+        "bottom_decile": 3.58
+      }
+    },
+    "multiples_by_vintage": {
+      "2000": {
+        "tvpi_top_decile": 1.94,
+        "tvpi_top_quartile": 1.57,
+        "tvpi_median": 1.41,
+        "tvpi_bottom_quartile": 1.27,
+        "tvpi_bottom_decile": 0.95,
+        "dpi_top_decile": 1.66,
+        "dpi_top_quartile": 1.52,
+        "dpi_median": 1.34,
+        "dpi_bottom_quartile": 1.15,
+        "dpi_bottom_decile": 0.82
+      },
+      "2001": {
+        "tvpi_top_decile": 2.96,
+        "tvpi_top_quartile": 2.03,
+        "tvpi_median": 1.61,
+        "tvpi_bottom_quartile": 1.43,
+        "tvpi_bottom_decile": 1.25,
+        "dpi_top_decile": 2.93,
+        "dpi_top_quartile": 2.02,
+        "dpi_median": 1.61,
+        "dpi_bottom_quartile": 1.47,
+        "dpi_bottom_decile": 1.26
+      },
+      "2002": {
+        "tvpi_top_decile": 2.07,
+        "tvpi_top_quartile": 1.73,
+        "tvpi_median": 1.59,
+        "tvpi_bottom_quartile": 1.28,
+        "tvpi_bottom_decile": 1.14,
+        "dpi_top_decile": 1.98,
+        "dpi_top_quartile": 1.73,
+        "dpi_median": 1.57,
+        "dpi_bottom_quartile": 1.3,
+        "dpi_bottom_decile": 1.07
+      },
+      "2003": {
+        "tvpi_top_decile": 1.94,
+        "tvpi_top_quartile": 1.76,
+        "tvpi_median": 1.46,
+        "tvpi_bottom_quartile": 1.24,
+        "tvpi_bottom_decile": 0.81,
+        "dpi_top_decile": 1.9,
+        "dpi_top_quartile": 1.66,
+        "dpi_median": 1.47,
+        "dpi_bottom_quartile": 1.23,
+        "dpi_bottom_decile": 0.48
+      },
+      "2004": {
+        "tvpi_top_decile": 2.01,
+        "tvpi_top_quartile": 1.6,
+        "tvpi_median": 1.5,
+        "tvpi_bottom_quartile": 1.26,
+        "tvpi_bottom_decile": 0.85,
+        "dpi_top_decile": 2.01,
+        "dpi_top_quartile": 1.6,
+        "dpi_median": 1.5,
+        "dpi_bottom_quartile": 1.19,
+        "dpi_bottom_decile": 0.71
+      },
+      "2005": {
+        "tvpi_top_decile": 1.68,
+        "tvpi_top_quartile": 1.58,
+        "tvpi_median": 1.33,
+        "tvpi_bottom_quartile": 1.19,
+        "tvpi_bottom_decile": 0.96,
+        "dpi_top_decile": 1.67,
+        "dpi_top_quartile": 1.49,
+        "dpi_median": 1.31,
+        "dpi_bottom_quartile": 1.17,
+        "dpi_bottom_decile": 0.96
+      },
+      "2006": {
+        "tvpi_top_decile": 1.87,
+        "tvpi_top_quartile": 1.52,
+        "tvpi_median": 1.28,
+        "tvpi_bottom_quartile": 1.07,
+        "tvpi_bottom_decile": 0.86,
+        "dpi_top_decile": 1.92,
+        "dpi_top_quartile": 1.49,
+        "dpi_median": 1.28,
+        "dpi_bottom_quartile": 1.08,
+        "dpi_bottom_decile": 0.88
+      },
+      "2007": {
+        "tvpi_top_decile": 1.73,
+        "tvpi_top_quartile": 1.44,
+        "tvpi_median": 1.32,
+        "tvpi_bottom_quartile": 1.11,
+        "tvpi_bottom_decile": 0.84,
+        "dpi_top_decile": 1.73,
+        "dpi_top_quartile": 1.43,
+        "dpi_median": 1.31,
+        "dpi_bottom_quartile": 1.04,
+        "dpi_bottom_decile": 0.64
+      },
+      "2008": {
+        "tvpi_top_decile": 1.87,
+        "tvpi_top_quartile": 1.54,
+        "tvpi_median": 1.36,
+        "tvpi_bottom_quartile": 1.19,
+        "tvpi_bottom_decile": 1.07,
+        "dpi_top_decile": 1.85,
+        "dpi_top_quartile": 1.54,
+        "dpi_median": 1.31,
+        "dpi_bottom_quartile": 1.15,
+        "dpi_bottom_decile": 0.82
+      },
+      "2009": {
+        "tvpi_top_decile": 2.16,
+        "tvpi_top_quartile": 1.68,
+        "tvpi_median": 1.35,
+        "tvpi_bottom_quartile": 1.22,
+        "tvpi_bottom_decile": 1.09,
+        "dpi_top_decile": 2.06,
+        "dpi_top_quartile": 1.68,
+        "dpi_median": 1.33,
+        "dpi_bottom_quartile": 1.2,
+        "dpi_bottom_decile": 1.07
+      },
+      "2010": {
+        "tvpi_top_decile": 2.14,
+        "tvpi_top_quartile": 1.69,
+        "tvpi_median": 1.36,
+        "tvpi_bottom_quartile": 1.25,
+        "tvpi_bottom_decile": 1.15,
+        "dpi_top_decile": 1.86,
+        "dpi_top_quartile": 1.58,
+        "dpi_median": 1.34,
+        "dpi_bottom_quartile": 1.21,
+        "dpi_bottom_decile": 1.1
+      },
+      "2011": {
+        "tvpi_top_decile": 1.96,
+        "tvpi_top_quartile": 1.6,
+        "tvpi_median": 1.29,
+        "tvpi_bottom_quartile": 1.12,
+        "tvpi_bottom_decile": 1.03,
+        "dpi_top_decile": 1.84,
+        "dpi_top_quartile": 1.34,
+        "dpi_median": 1.17,
+        "dpi_bottom_quartile": 1.09,
+        "dpi_bottom_decile": 0.97
+      },
+      "2012": {
+        "tvpi_top_decile": 1.81,
+        "tvpi_top_quartile": 1.51,
+        "tvpi_median": 1.3,
+        "tvpi_bottom_quartile": 1.19,
+        "tvpi_bottom_decile": 0.91,
+        "dpi_top_decile": 1.55,
+        "dpi_top_quartile": 1.39,
+        "dpi_median": 1.23,
+        "dpi_bottom_quartile": 1.06,
+        "dpi_bottom_decile": 0.73
+      },
+      "2013": {
+        "tvpi_top_decile": 1.51,
+        "tvpi_top_quartile": 1.39,
+        "tvpi_median": 1.28,
+        "tvpi_bottom_quartile": 1.18,
+        "tvpi_bottom_decile": 1.1,
+        "dpi_top_decile": 1.46,
+        "dpi_top_quartile": 1.32,
+        "dpi_median": 1.18,
+        "dpi_bottom_quartile": 1.04,
+        "dpi_bottom_decile": 0.94
+      },
+      "2014": {
+        "tvpi_top_decile": 1.62,
+        "tvpi_top_quartile": 1.44,
+        "tvpi_median": 1.31,
+        "tvpi_bottom_quartile": 1.15,
+        "tvpi_bottom_decile": 1.0,
+        "dpi_top_decile": 1.48,
+        "dpi_top_quartile": 1.34,
+        "dpi_median": 1.19,
+        "dpi_bottom_quartile": 1.02,
+        "dpi_bottom_decile": 0.73
+      },
+      "2015": {
+        "tvpi_top_decile": 1.8,
+        "tvpi_top_quartile": 1.5,
+        "tvpi_median": 1.28,
+        "tvpi_bottom_quartile": 1.14,
+        "tvpi_bottom_decile": 0.92,
+        "dpi_top_decile": 1.56,
+        "dpi_top_quartile": 1.24,
+        "dpi_median": 1.08,
+        "dpi_bottom_quartile": 0.9,
+        "dpi_bottom_decile": 0.69
+      },
+      "2016": {
+        "tvpi_top_decile": 1.9,
+        "tvpi_top_quartile": 1.47,
+        "tvpi_median": 1.33,
+        "tvpi_bottom_quartile": 1.21,
+        "tvpi_bottom_decile": 1.0,
+        "dpi_top_decile": 1.37,
+        "dpi_top_quartile": 1.22,
+        "dpi_median": 0.99,
+        "dpi_bottom_quartile": 0.83,
+        "dpi_bottom_decile": 0.53
+      },
+      "2017": {
+        "tvpi_top_decile": 1.67,
+        "tvpi_top_quartile": 1.47,
+        "tvpi_median": 1.32,
+        "tvpi_bottom_quartile": 1.19,
+        "tvpi_bottom_decile": 1.01,
+        "dpi_top_decile": 1.26,
+        "dpi_top_quartile": 1.11,
+        "dpi_median": 0.98,
+        "dpi_bottom_quartile": 0.7,
+        "dpi_bottom_decile": 0.49
+      },
+      "2018": {
+        "tvpi_top_decile": 1.6,
+        "tvpi_top_quartile": 1.45,
+        "tvpi_median": 1.3,
+        "tvpi_bottom_quartile": 1.21,
+        "tvpi_bottom_decile": 1.11,
+        "dpi_top_decile": 1.17,
+        "dpi_top_quartile": 1.08,
+        "dpi_median": 0.85,
+        "dpi_bottom_quartile": 0.59,
+        "dpi_bottom_decile": 0.33
+      },
+      "2019": {
+        "tvpi_top_decile": 1.57,
+        "tvpi_top_quartile": 1.45,
+        "tvpi_median": 1.33,
+        "tvpi_bottom_quartile": 1.23,
+        "tvpi_bottom_decile": 1.1,
+        "dpi_top_decile": 1.04,
+        "dpi_top_quartile": 0.88,
+        "dpi_median": 0.69,
+        "dpi_bottom_quartile": 0.48,
+        "dpi_bottom_decile": 0.23
+      },
+      "2020": {
+        "tvpi_top_decile": 1.51,
+        "tvpi_top_quartile": 1.34,
+        "tvpi_median": 1.28,
+        "tvpi_bottom_quartile": 1.2,
+        "tvpi_bottom_decile": 1.1,
+        "dpi_top_decile": 0.89,
+        "dpi_top_quartile": 0.63,
+        "dpi_median": 0.46,
+        "dpi_bottom_quartile": 0.28,
+        "dpi_bottom_decile": 0.17
+      },
+      "2021": {
+        "tvpi_top_decile": 1.4,
+        "tvpi_top_quartile": 1.3,
+        "tvpi_median": 1.22,
+        "tvpi_bottom_quartile": 1.16,
+        "tvpi_bottom_decile": 1.11,
+        "dpi_top_decile": 0.67,
+        "dpi_top_quartile": 0.49,
+        "dpi_median": 0.29,
+        "dpi_bottom_quartile": 0.17,
+        "dpi_bottom_decile": 0.03
+      },
+      "2022": {
+        "tvpi_top_decile": 1.35,
+        "tvpi_top_quartile": 1.25,
+        "tvpi_median": 1.18,
+        "tvpi_bottom_quartile": 1.1,
+        "tvpi_bottom_decile": 1.05,
+        "dpi_top_decile": 0.65,
+        "dpi_top_quartile": 0.39,
+        "dpi_median": 0.19,
+        "dpi_bottom_quartile": 0.06,
+        "dpi_bottom_decile": 0.0
+      },
+      "2023": {
+        "tvpi_top_decile": 1.4,
+        "tvpi_top_quartile": 1.19,
+        "tvpi_median": 1.11,
+        "tvpi_bottom_quartile": 1.04,
+        "tvpi_bottom_decile": 1.01,
+        "dpi_top_decile": 0.32,
+        "dpi_top_quartile": 0.17,
+        "dpi_median": 0.06,
+        "dpi_bottom_quartile": 0.01,
+        "dpi_bottom_decile": 0.0
+      }
+    }
+  }
+}

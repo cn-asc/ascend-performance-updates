@@ -1,0 +1,26 @@
+{
+  "investment_performance": [
+    "Capital Account Balance (Q3 2025): $367,878.47",
+    "Total Paid-in Capital: $142,884.00",
+    "Invested Capital: $142,884.00",
+    "Realized Proceeds: $0.00",
+    "% Gain (Trailing 12 Months): 121.42%",
+    "% Gain (All Time): 157.47%",
+    "Issue Date: October 19, 2023",
+    "Valuation Change: Share price rose from $81.00 (Sep 2023) to $212.00 (Aug 2025), reflecting a post-money valuation increase from $150B to $400B"
+  ],
+  "key_takeaways": [
+    "Capital account value more than doubled since investment initiation, driven by sustained growth in SpaceX\u2019s valuation across multiple tender offers",
+    "Over the trailing 12 months, investor capital appreciated 121%, with 157% total gain since October 2023",
+    "Investment remains fully unrealized, with no liquidity events or cash distributions recorded yet",
+    "Latest secondary market tender priced SpaceX at $212/share, implying a $400B post-money valuation, the highest to date",
+    "Rapid appreciation reflects strong private market demand and increasing strategic value of SpaceX's core businesses (launch, Starlink, and direct-to-cell connectivity)"
+  ],
+  "business_updates": [
+    "Starship Milestone: On August 26, SpaceX completed its 10th Starship test flight, successfully deploying eight Starlink simulator payloads in orbit. This marked the first in-space payload deployment and achieved key progress in heat-shield and propulsive reentry validation",
+    "Starlink Expansion: Reported over 7 million users across 150 countries as of August 2025, reflecting strong global adoption of satellite internet",
+    "Direct-to-Cell Rollout: T-Mobile and SpaceX launched Starlink-powered text messaging service in July, signaling commercialization of direct-to-cell satellite connectivity",
+    "Strategic Spectrum Acquisition: SpaceX acquired $17B worth of wireless spectrum licenses from EchoStar, enabling it to operate independent cellular service without relying on third-party carrier spectrum",
+    "These updates indicate continued vertical integration and expansion of SpaceX\u2019s capabilities across broadband, mobile, and space infrastructure sectors, with strong long-term value creation potential"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "investment_performance": [
+    "Net IRR: 12.2% (fund level), 12.1% (for a $500K investor)",
+    "Net MOIC: 1.34x (fund level), 1.33x (for a $500K investor)",
+    "Net DPI (Distributions / Paid-in Capital): 7.2%",
+    "NAV (as of 9/30/25): $566.5M",
+    "Total Commitments: $479.9M",
+    "Funded Commitments (net of recallables): $388.2M (80.9%)",
+    "Total Paid-in Capital: $438.7M",
+    "Distributions to Date: $31.5M",
+    "Underlying Fund (Thoma Bravo Fund XV) MOIC: 1.40x (82.8% funded)",
+    "Total Investments: 8, all still unrealized; 1 is publicly traded",
+    "Average Age of Portfolio: 2.5 years"
+  ],
+  "key_takeaways": [
+    "Fund performance is tracking steadily with a Net IRR of 12.2% and MOIC of 1.34x, reflecting a solid mark-up across the portfolio",
+    "DPI remains modest at 7.2%, typical for a fund still early in realization phase (vintage 2022, avg. portfolio age 2.5 years)",
+    "Capital deployment is largely complete with over 80% of capital funded, supporting a transition into value build-up and select liquidity events",
+    "The portfolio is fully concentrated in software and IT, with 100% of value in that sector, and 89% of holdings based in the U.S.",
+    "The top 8 positions represent 100% of portfolio value, with largest exposures to SailPoint (18.9%), Ping Identity (17.3%), and Coupa Software (16.1%)",
+    "Net MOIC has steadily increased over time, rising from 0.97x in mid-2022 to 1.34x as of Q3 2025, signaling consistent NAV appreciation"
+  ],
+  "business_updates": [
+    "Anaplan: Acquired Syrup Tech in September 2025 to enhance AI-native retail supply chain forecasting; continues profitable growth with reinvestment in tech and GTM strategy",
+    "Bottomline Technologies: Migrating customers to new Financial Messaging SaaS platform; investing in AI for accounts payable automation",
+    "Coupa: Pursuing multiple revenue initiatives including payment monetization via Bottomline, supplier upsells, and launch of the Coupa Advantage Marketplace",
+    "Darktrace: Closed acquisition of Mira Security in Q3 to boost network security visibility, especially in encrypted traffic analysis for regulated industries",
+    "Imprivata: Restructuring sales to improve cross-sell efficiency; launching new face authentication and Patient Access identity tools",
+    "Ping Identity: Q2 acquisition of Procyon continues to perform well, strengthening access management capabilities",
+    "Qlik: Released Open Lakehouse and Agentic AI framework; focused on expanding analytics product suite and bookings growth",
+    "These updates reflect a portfolio actively executing on AI, cybersecurity, cloud migration, and enterprise productivity trends through M&A and product expansion"
+  ]
+}

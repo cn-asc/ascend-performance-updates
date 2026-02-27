@@ -1,0 +1,30 @@
+{
+  "investment_performance": [
+    "Capital Invested: $15.6M",
+    "Current Value: $803.0M",
+    "TVPI: 51.4x",
+    "DPI: 0%",
+    "Capital Invested: $108.7M",
+    "Current Value: $1.37B",
+    "TVPI: 12.6x",
+    "DPI: 0%",
+    "Capital Invested: $85.1M",
+    "Current Value: $84.5M",
+    "TVPI: 0.99x",
+    "DPI: 0%",
+    "Total Parkway exposure to Figure AI across all rounds exceeds $209M, with combined current value over $2.25B, reflecting extremely strong marked appreciation, especially in Series A and B holdings."
+  ],
+  "key_takeaways": [
+    "Public demonstrations of real-world humanoid dexterity, including folding laundry and loading a dishwasher\u2014complex tasks requiring fine motor coordination and perceptual reasoning.",
+    "Completion of a $1B+ Series C round, bringing Figure\u2019s post-money valuation to $40+ billion. Parkway led the round, with strategic participation from NVIDIA, Intel Capital, Qualcomm Ventures, Salesforce, Brookfield, LG, T-Mobile Ventures, Microsoft, OpenAI, and Jeff Bezos.",
+    "Launch of Project Go-Big, a landmark initiative focused on large-scale humanoid pretraining using internet-scale multimodal data and human-to-robot skill transfer.",
+    "Reveal of Figure 03, the next-gen humanoid platform designed for mass production, with modular components, improved battery, and tighter AI integration.",
+    "Figure has gone from a $420M valuation at Series A (2023) to $40B+ in Series C (2025), making it one of the most capital-efficient and rapidly appreciated investments in Parkway\u2019s portfolio."
+  ],
+  "business_updates": [
+    "Figure\u2019s technology integrates proprietary Helix AI, enabling real-world general-purpose functionality in humanoid robots.",
+    "Strategic partnership with Brookfield provides real-world industrial environments for training data and deployment\u2014an edge in large-scale robotics learning.",
+    "Parkway remains a major backer and board-level partner, having led all funding rounds from Series A through C.",
+    "Figure is positioned at the frontier of embodied AI and is explicitly cited alongside OpenAI and xAI in Parkway's commentary on the emerging race toward AGI, with expected near-general cognitive functionality by 2027."
+  ]
+}

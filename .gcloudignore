@@ -1,0 +1,19 @@
+# Files to ignore when deploying to Cloud Run
+.env
+.env.example
+*.pyc
+__pycache__/
+*.log
+.DS_Store
+.git/
+.gitignore
+README.md
+test_*.py
+*_test.py
+fix_*.sh
+setup_oauth.py
+test_drive_access.py
+extract_benchmarks_from_images.py
+create_benchmarks.py
+credentials.json
+token.json

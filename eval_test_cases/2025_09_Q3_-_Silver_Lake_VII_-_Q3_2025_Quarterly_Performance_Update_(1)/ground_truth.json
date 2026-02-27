@@ -1,0 +1,33 @@
+{
+  "investment_performance": [
+    "Net IRR: 15.7% (Fund level), 13.9% (for a $500K advisory investor)",
+    "Net MOIC: 1.21x (Fund level), 1.18x (for a $500K advisory investor)",
+    "DPI (Distributions / Paid-in Capital): 0.1%",
+    "NAV as of 9/30/25: $25.44M",
+    "Total Commitments: $55.1M",
+    "Funded Commitments (net of recallables): $21.1M (38.3%)",
+    "Total Paid-in Capital: $21.1M",
+    "Total Distributions: $19K (first distribution, effective 1/2/25)",
+    "Average Age of Remaining Portfolio: 1.1 years",
+    "Underlying Fund (SLP VII) Net MOIC: 1.31x; 34.5% funded",
+    "Number of Investments: 8 (all unrealized)",
+    "Public Investments: None"
+  ],
+  "key_takeaways": [
+    "The fund is in early deployment stages with only 38.3% of capital called to date and limited distributions (0.1% DPI), which is expected for a 2024 vintage",
+    "Fund performance shows solid early value creation, with a Net MOIC of 1.21x and Net IRR of 15.7%, outperforming typical benchmarks at this point in the fund lifecycle",
+    "Investment activity is diversified across a range of industries with a heavy concentration in technology (63%)",
+    "The portfolio is fully unrealized, and investors should expect continued capital deployment and value build-up over the next 12\u201324 months",
+    "Investments in high-growth tech and infrastructure platforms (e.g., Qualtrics, Vantage Data Centers, Altera) are showing promising early unrealized MOICs",
+    "Top 8 investments represent 100% of current portfolio fair value, concentrated across U.S. and UAE assets"
+  ],
+  "business_updates": [
+    "Qualtrics (29% of portfolio fair value) agreed to acquire Press Ganey Forsta for $6.75B in a strategic deal using internal cash, debt, and equity. This strengthens its position in the AI-powered experience management market. As of 9/30/25, Qualtrics had a MOIC of 1.41x",
+    "Mission Pet Health (19.2% of fair value) and Vantage Data Centers (17.2%) continue to be top holdings. Vantage has received new capital to support 2.3GW hyperscale data center leases; current MOIC stands at 1.51x",
+    "Endeavor Group Holdings (12.1%) benefited from significant media rights renewals for UFC ($7.7B) and WWE ($1.6B), exceeding expectations and unlocking cost synergies post take-private. As of Q3, MOIC was 1.73x",
+    "Altera (11.3%) was acquired in partnership with Intel (Silver Lake took a 51% stake). The deal closed in September 2025; early MOIC is 1.20x",
+    "PowLan (newer, small position) is supporting proprietary powered land for data centers, co-sponsored with Commonwealth AM. MOIC at 1.10x",
+    "The portfolio remains entirely U.S.-centric (95%) with a small UAE allocation (Khazna Data Centers)",
+    "Silver Lake continues to focus on digital infrastructure, enterprise software, and vertical tech platforms, deploying capital methodically across growth opportunities with platform potential"
+  ]
+}

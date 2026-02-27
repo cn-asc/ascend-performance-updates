@@ -1,0 +1,1271 @@
+{
+  "total_test_cases": 21,
+  "quantitative_performance_average": 2.3333333333333335,
+  "cost_summary": {
+    "total_extraction_cost": 0.7399997500000001,
+    "total_formatting_cost": 0.08303975000000001,
+    "total_cost": 0.8230395
+  },
+  "detailed_results": [
+    {
+      "test_case": "2025_09_Q3_-_Everside_Fund_IV_-_Q3_2025_Quarterly_Update",
+      "metadata": {
+        "fund_name": "Fund IV",
+        "asset_class": "Private Credit",
+        "vintage": 2023,
+        "performance_summary": "Underperforming"
+      },
+      "metrics": {
+        "extraction_tokens": 31023,
+        "extraction_prompt_tokens": 28665,
+        "extraction_completion_tokens": 2358,
+        "extraction_cost": 0.08317574999999999,
+        "extraction_latency_ms": 37733.927965164185,
+        "formatting_tokens": 4736,
+        "formatting_prompt_tokens": 2943,
+        "formatting_completion_tokens": 1793,
+        "formatting_cost": 0.00432175,
+        "formatting_latency_ms": 29350.391149520874,
+        "total_cost": 0.08749749999999999
+      },
+      "sections": {
+        "quantitative_performance": {
+          "score": 2.0,
+          "irr_score": 1.0,
+          "moic_score": 1.0,
+          "dpi_score": 0.0,
+          "metric_checks": {
+            "irr": {
+              "match": true,
+              "gt_value": "11",
+              "pred_value": "11",
+              "score": 1.0
+            },
+            "moic": {
+              "match": true,
+              "gt_value": "1.2",
+              "pred_value": "1.2",
+              "score": 1.0
+            },
+            "dpi": {
+              "match": false,
+              "gt_value": null,
+              "pred_value": "0.03",
+              "score": 0.0
+            }
+          },
+          "ground_truth": "  \u2022 Fund IV generated an 11% Net IRR and 1.1\u20131.2x Net MOIC / TVPI from inception (June 2023) through September 30, 2025, with Net DPI of ~0.03x (3% of called capital) reflecting the early life of the fund and growing but still modest realizations.\n  \u2022 Performance this quarter was driven primarily by Secondary and Direct investments, which benefit from more seasoned credit profiles and current income, while Primary commitments remain early in their J-curves (~0.9x net MOIC).\n  \u2022 The Fund has called 48% of $601M total commitments and distributed $5.8M in Q3, with management targeting an additional ~2% distribution by year-end 2025.\n  \u2022 Direct portfolio metrics remain conservative, with ~12.7% weighted average coupon, all investments current on interest, and leverage at ~3.8\u20134.0x, below broader LMM benchmarks.\n  \u2022 Exit momentum is emerging earlier than expected, including a full refinance-driven exit in women\u2019s health (1.2\u20131.3x net MOIC, ~17% net IRR) and a subsequent full exit in in-home healthcare at similar returns, validating the downside-protected credit-first strategy.",
+          "predicted": "**Quantitative Performance:**\n  \u2022 Net IRR: 11%\n  \u2022 Net MOIC: 1.2x\n  \u2022 Net DPI: 0.03x (3%)\n  \u2022 Since inception (Jun\u20112023) through 9/30/25: 11% Net IRR and 1.2x Net TVPI (Q3'25 excerpt)\n  \u2022 Q3'25 snapshot: 11% Net IRR, ~1.1x Net MOIC, 0.03x DPI; 48% of LP commitments called\n  \u2022 Fund distributed $5.8M in Q3'25; total distributions $9.815M; capital called $289.2M of $601M fund\n  \u2022 NAV $312.3M; Total value $322.1M; total portfolio shown: $642.6M (1.1x, 11% IRR)"
+        },
+        "key_takeaways": {
+          "ground_truth": "  \u2022 Underwriting emphasized Secondaries and Directs to reduce early J-curve drag; this is playing out, with Secondaries and Directs driving nearly all current performance and cash yield while Primaries remain early.\n  \u2022 Fund IV has outperformed a blended high-yield and leveraged loan benchmark (~10%) despite early-stage drag from Primary investments, underscoring the value of the diversified Primary / Secondary / Direct structure.\n  \u2022 Our underwriting highlighted that DPI would lag peers early due to SBIC structure; current DPI profile is fully consistent with this known risk and not indicative of underperformance. DPI focus is increasing, with management explicitly highlighting improved M&A conditions, rising strategic buyer interest, and multiple portfolio companies entering sale processes, which should support faster distribution velocity in 2026.\n  \u2022 Portfolio fundamentals remain strong, with LTM revenue up ~7.6% and EBITDA up ~5.6%, and no evidence of systemic credit stress across holdings.",
+          "predicted": "**Key Takeaways and Business Updates:**\n  \u2022 Fund-level Net IRR (11%) exceeded a ~10% blended leveraged-loan/high-yield benchmark\n  \u2022 Net TVPI 1.2x since inception; DPI remains low at 0.03x (3% of called capital)\n  \u2022 Deployment: 48% called, fund ~107% invested (deployment pace vs final close of $601M)\n  \u2022 Realizations beginning to materialize: first full exit in\u2011quarter and second full exit post\u2011quarter\n  \u2022 Expecting an income distribution ~2% of called capital by end of Q4'25\n  \u2022 Secondary sleeve outperformed direct sleeve (32% IRR / 1.2x vs direct 12% IRR / 1.1x)"
+        },
+        "business_updates": {
+          "ground_truth": "  \u2022 M&A activity accelerated meaningfully starting September 2025, supported by pent-up demand following rate cuts and renewed engagement from both private equity and well-capitalized strategic buyers moving down-market.",
+          "predicted": "**Market Commentary:**\n  \u2022 M&A activity reaccelerated in Sept\u20112025; portfolio companies attracting sale processes and unsolicited bids\n  \u2022 Q3'25 activity: one new primary, three new direct investments, and first full portfolio exit closed\n  \u2022 After quarter: large secondary acquired ($17M), an additional direct investment, and second full exit completed\n  \u2022 Notable new commitments: $25M primary to SBIC fund; direct deals include $2.6M pest control, $6.5M convertible preferred (ABA/rehab), $2.9M event rentals\n  \u2022 Team additions made to investment, data, accounting, and IR support functions"
+        }
+      }
+    },
+    {
+      "test_case": "2025_09_Q3_-_Silver_Lake_VII_-_Q3_2025_Quarterly_Performance_Update_(1)",
+      "metadata": {
+        "fund_name": "iCapital - SL Partners VII (International) Access Fund, L.P.",
+        "asset_class": "Private Equity",
+        "vintage": 2024,
+        "performance_summary": "As Expected"
+      },
+      "metrics": {
+        "extraction_tokens": 7164,
+        "extraction_prompt_tokens": 6294,
+        "extraction_completion_tokens": 870,
+        "extraction_cost": 0.0231945,
+        "extraction_latency_ms": 11364.142894744873,
+        "formatting_tokens": 3129,
+        "formatting_prompt_tokens": 1749,
+        "formatting_completion_tokens": 1380,
+        "formatting_cost": 0.00319725,
+        "formatting_latency_ms": 50468.947410583496,
+        "total_cost": 0.02639175
+      },
+      "sections": {
+        "quantitative_performance": {
+          "score": 2.0,
+          "irr_score": 1.0,
+          "moic_score": 1.0,
+          "dpi_score": 0.0,
+          "metric_checks": {
+            "irr": {
+              "match": true,
+              "gt_value": "13.9",
+              "pred_value": "13.9",
+              "score": 1.0
+            },
+            "moic": {
+              "match": true,
+              "gt_value": "1.21",
+              "pred_value": "1.21",
+              "score": 1.0
+            },
+            "dpi": {
+              "match": false,
+              "gt_value": null,
+              "pred_value": "0.1",
+              "score": 0.0
+            }
+          },
+          "ground_truth": "  \u2022 Net IRR: 15.7% (Fund level), 13.9% (for a $500K advisory investor)\n  \u2022 Net MOIC: 1.21x (Fund level), 1.18x (for a $500K advisory investor)\n  \u2022 DPI (Distributions / Paid-in Capital): 0.1%\n  \u2022 NAV as of 9/30/25: $25.44M\n  \u2022 Total Commitments: $55.1M\n  \u2022 Funded Commitments (net of recallables): $21.1M (38.3%)\n  \u2022 Total Paid-in Capital: $21.1M\n  \u2022 Total Distributions: $19K (first distribution, effective 1/2/25)\n  \u2022 Average Age of Remaining Portfolio: 1.1 years\n  \u2022 Underlying Fund (SLP VII) Net MOIC: 1.31x; 34.5% funded\n  \u2022 Number of Investments: 8 (all unrealized)\n  \u2022 Public Investments: None",
+          "predicted": "**Quantitative Performance:**\n  \u2022 Net IRR: 13.9%\n  \u2022 Net MOIC: 1.21x\n  \u2022 Net DPI: 0.1%\n  \u2022 Fund-level Net IRR: 13.9% (as of 9/30/25)\n  \u2022 Fund-level Net MOIC: 1.21x (as of 9/30/25)\n  \u2022 Fund-level Distributions / Total paid-in capital (DPI): 0.1% (as of 9/30/25)\n  \u2022 Fund NAV: $21,123,807 (as of 9/30/25)\n  \u2022 Total investment commitments: $55,133,000 (as of 12/8/25)\n  \u2022 Investment commitment called: 38.3% (as of 9/30/25)\n  \u2022 Last investment capital call: effective 9/19/25, 5th call of $2.0M (3.7% of committed)\n  \u2022 Last distribution: effective 1/2/25, 1st distribution $19K (0.1% of contributed capital)\n  \u2022 Average age of remaining portfolio: 1.1 years (as of 9/30/25)"
+        },
+        "key_takeaways": {
+          "ground_truth": "  \u2022 The fund is in early deployment stages with only 38.3% of capital called to date and limited distributions (0.1% DPI), which is expected for a 2024 vintage\n  \u2022 Fund performance shows solid early value creation, with a Net MOIC of 1.21x and Net IRR of 15.7%, outperforming typical benchmarks at this point in the fund lifecycle\n  \u2022 Investment activity is diversified across a range of industries with a heavy concentration in technology (63%)\n  \u2022 The portfolio is fully unrealized, and investors should expect continued capital deployment and value build-up over the next 12\u201324 months\n  \u2022 Investments in high-growth tech and infrastructure platforms (e.g., Qualtrics, Vantage Data Centers, Altera) are showing promising early unrealized MOICs\n  \u2022 Top 8 investments represent 100% of current portfolio fair value, concentrated across U.S. and UAE assets",
+          "predicted": "**Key Takeaways and Business Updates:**\n  \u2022 Fund-level performance: 13.9% Net IRR and 1.21x Net MOIC (9/30/25)\n  \u2022 Early distribution profile: DPI 0.1% (9/30/25)\n  \u2022 38.3% of commitments called; remaining portfolio average age 1.1 years\n  \u2022 Underlying fund highlighted: Silver Lake Partners VII (2023 vintage) Net MOIC 1.31x; 34.5% called (9/30/25)"
+        },
+        "business_updates": {
+          "ground_truth": "  \u2022 Qualtrics (29% of portfolio fair value) agreed to acquire Press Ganey Forsta for $6.75B in a strategic deal using internal cash, debt, and equity. This strengthens its position in the AI-powered experience management market. As of 9/30/25, Qualtrics had a MOIC of 1.41x\n  \u2022 Mission Pet Health (19.2% of fair value) and Vantage Data Centers (17.2%) continue to be top holdings. Vantage has received new capital to support 2.3GW hyperscale data center leases; current MOIC stands at 1.51x\n  \u2022 Endeavor Group Holdings (12.1%) benefited from significant media rights renewals for UFC ($7.7B) and WWE ($1.6B), exceeding expectations and unlocking cost synergies post take-private. As of Q3, MOIC was 1.73x\n  \u2022 Altera (11.3%) was acquired in partnership with Intel (Silver Lake took a 51% stake). The deal closed in September 2025; early MOIC is 1.20x\n  \u2022 PowLan (newer, small position) is supporting proprietary powered land for data centers, co-sponsored with Commonwealth AM. MOIC at 1.10x\n  \u2022 The portfolio remains entirely U.S.-centric (95%) with a small UAE allocation (Khazna Data Centers)\n  \u2022 Silver Lake continues to focus on digital infrastructure, enterprise software, and vertical tech platforms, deploying capital methodically across growth opportunities with platform potential",
+          "predicted": "**Market Commentary:**\n  \u2022 Altera: Silver Lake acquired 51% from Intel; headline TEV $8.75B (closed 9/12/25); SLP VII-funded ~ $1.2B; Altera unrealized gross MOIC 1.20x (9/30/25)\n  \u2022 Endeavor/TKO: secured multi-year media rights renewals; >$180M run-rate cost savings; Events divestment expected close Q4 2025 to prepay debt; unrealized gross MOIC 1.73x (9/30/25)\n  \u2022 PowLan: SLP VII invested $9M in Q3 2025; unrealized gross MOIC 1.10x (9/30/25)\n  \u2022 Qualtrics: Oct 2025 agreement to acquire Press Ganey Forsta ($6.75B EV); funded without new cash equity; unrealized gross MOIC 1.41x (9/30/25)\n  \u2022 Vantage Data Centers: additional capital including $165M from SLP VII in Q3 2025; SLP VII funded ~$826M (NA) and ~$677M (EMEA); unrealized gross MOIC 1.51x (9/30/25)"
+        }
+      }
+    },
+    {
+      "test_case": "2025_12_Q4_-_Newfront_-_Acquisition",
+      "metadata": {
+        "fund_name": "Newfront",
+        "asset_class": "Private Equity",
+        "vintage": null,
+        "performance_summary": "As Expected"
+      },
+      "metrics": {
+        "extraction_tokens": 1739,
+        "extraction_prompt_tokens": 1370,
+        "extraction_completion_tokens": 369,
+        "extraction_cost": 0.007563500000000001,
+        "extraction_latency_ms": 5611.865758895874,
+        "formatting_tokens": 2071,
+        "formatting_prompt_tokens": 1248,
+        "formatting_completion_tokens": 823,
+        "formatting_cost": 0.0019579999999999997,
+        "formatting_latency_ms": 17023.86999130249,
+        "total_cost": 0.0095215
+      },
+      "sections": {
+        "quantitative_performance": {
+          "score": 3.0,
+          "irr_score": 1.0,
+          "moic_score": 1.0,
+          "dpi_score": 1.0,
+          "metric_checks": {
+            "irr": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "moic": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "dpi": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            }
+          },
+          "ground_truth": "  \u2022 $1.05 billion upfront, consisting of:\n  \u2022 ~$900M in cash\n  \u2022 ~$150M in equity for Newfront employee-shareholders\n  \u2022 Up to $250M in contingent equity consideration based on performance targets\n  \u2022 Additional $150M earnout (primarily equity) tied to above-target revenue growth.\n  \u2022 Investors will receive a return of principal. Final cash flow waterfall is pending; full mechanics and timing of distributions will follow.",
+          "predicted": "**Quantitative Performance:**\n  \u2022 Net IRR: Not reported\n  \u2022 Announced acquisition by Willis Towers Watson (Nasdaq: WTW) for up to $1.3 billion\n  \u2022 Upfront consideration of $1.05 billion (\u2248 $900M cash, $150M equity) to Newfront employee-shareholders\n  \u2022 Contingent consideration up to $250 million payable primarily in equity subject to performance targets\n  \u2022 Incremental up to $150 million (primarily equity) payable if above-target revenue growth is achieved\n  \u2022 Transaction expected to close in Q1 2026 subject to regulatory approvals and customary closing conditions\n  \u2022 Manager indicates outcome expected to return entire principal to investors; final distribution mechanics pending cash flow waterfall"
+        },
+        "key_takeaways": {
+          "ground_truth": "  \u2022 The exit provides a full return of capital to investors ahead of expectations, despite the company not meeting earlier revenue growth hopes.\n  \u2022 While the investment did not generate outsized returns, it did produce capital preservation and liquidity in a challenging private market environment.\n  \u2022 This outcome reflects the strategic value of Newfront\u2019s proprietary software, which drew interest from a large incumbent.",
+          "predicted": "**Key Takeaways and Business Updates:**\n  \u2022 Exit announced at up to $1.3 billion headline value with a mix of cash and equity consideration\n  \u2022 Base consideration of $1.05 billion with additional earnout components up to $400 million tied to performance/revenue growth\n  \u2022 Closing targeted for Q1 2026; timing and amounts of distributions not yet provided (awaiting final cash flow waterfall)"
+        },
+        "business_updates": {
+          "ground_truth": "  \u2022 The transaction validates Newfront\u2019s tech-enabled approach to insurance brokerage, which had long been considered attractive to strategic buyers.\n  \u2022 Transaction expected to close in Q1 2026, subject to regulatory approvals and customary closing conditions.\n  \u2022 Investors will be updated once the final distribution details are provided by company counsel.",
+          "predicted": "**Market Commentary:**\n  \u2022 Strategic buyer: Willis Towers Watson acquiring Newfront\n  \u2022 Rationale: Newfront's differentiated technology offerings and strategic interest from industry incumbents\n  \u2022 Manager commentary notes revenue growth in recent years was slower than hoped relative to entry valuation"
+        }
+      }
+    },
+    {
+      "test_case": "2025_09_Q3_-_Silver_Lake_VI_-_Q3_2025_Quarterly_Performance_Update_(1)",
+      "metadata": {
+        "fund_name": "SLP VI and SLA II (iCapital), L.P.",
+        "asset_class": "Private Equity",
+        "vintage": 2020,
+        "performance_summary": "Underperforming"
+      },
+      "metrics": {
+        "extraction_tokens": 8254,
+        "extraction_prompt_tokens": 7326,
+        "extraction_completion_tokens": 928,
+        "extraction_cost": 0.025812500000000002,
+        "extraction_latency_ms": 13187.171936035156,
+        "formatting_tokens": 4161,
+        "formatting_prompt_tokens": 1976,
+        "formatting_completion_tokens": 2185,
+        "formatting_cost": 0.004863999999999999,
+        "formatting_latency_ms": 36450.47402381897,
+        "total_cost": 0.030676500000000002
+      },
+      "sections": {
+        "quantitative_performance": {
+          "score": 3.0,
+          "irr_score": 1.0,
+          "moic_score": 1.0,
+          "dpi_score": 1.0,
+          "metric_checks": {
+            "irr": {
+              "match": true,
+              "gt_value": "7.1",
+              "pred_value": "7.1",
+              "score": 1.0
+            },
+            "moic": {
+              "match": true,
+              "gt_value": "1.22",
+              "pred_value": "1.22",
+              "score": 1.0
+            },
+            "dpi": {
+              "match": true,
+              "gt_value": "13.1",
+              "pred_value": "13.1",
+              "score": 1.0
+            }
+          },
+          "ground_truth": "  \u2022 Fund-level performance as of 9/30/2025:\u2028 \u2013 Net IRR: 7.1%\u2028 \u2013 Net MOIC: 1.22x\u2028 \u2013 Net DPI: 13.1%\n  \u2022 Total commitments: $269.9M; Funded commitments (net of recallables): $236.8M (87.8%)\n  \u2022 NAV: $316.2M as of 9/30/2025\n  \u2022 Distributions to date: $37.8M\n  \u2022 Portfolio includes 57 investments, with 49 remaining, 8 of which are public\n  \u2022 Underlying fund MOIC: 1.29x (Silver Lake Partners VI and Silver Lake Alpine II combined)\n  \u2022 SLP VI individual MOIC: 1.29x (94.2% funded)\n  \u2022 Average age of remaining portfolio: 3.8 years\n  \u2022 Most recent capital call (22nd): $4.1M on 9/30/25 (1.5% of committed capital)\n  \u2022 Most recent distribution (9th): $1.7M on 9/30/25 (0.6% of contributed capital)\n  \u2022 Top 10 investments comprise 53.6% of total fair value\n  \u2022 Geographic allocation (by remaining value): 55% U.S., 10% U.K., 7% Italy, 7% UAE, 6% France\n  \u2022 Sector exposure (by remaining value): 66% Information Technology, 14% Consumer Discretionary, 7% Communications Services, 6% Healthcare, 4% Financials, 3% Industrials",
+          "predicted": "**Quantitative Performance:**\n  \u2022 Net IRR: 7.1% (vs benchmark 13.1% - Bottom 25%)\n  \u2022 Net MOIC: 1.22x (vs benchmark 1.28x - Below Median)\n  \u2022 Net DPI: 0.131x (vs benchmark 0.46x - Bottom 10%)\n  \u2022 09/30/2025 NAV $316.2M; net MOIC 1.22x; net IRR 7.1% (fund level)\n  \u2022 Paid-in capital $289.7M; distributions $37.8M; distributions / paid-in = 13.1%\n  \u2022 12/04/2025: total commitments $269.9M; funded less recallable $236.85M (87.8% funded)\n  \u2022 09/30/2025 underlying commitments $265.3M; 87.5% funded; MOIC 1.29x; 57 investments (49 remaining; 8 public)"
+        },
+        "key_takeaways": {
+          "ground_truth": "  \u2022 Fund continues to demonstrate moderate growth with a net IRR of 7.1% and net MOIC of 1.22x, consistent with prior quarters and in line with a maturing growth equity portfolio\n  \u2022 Distributions remain modest at 13.1% DPI, signaling the majority of returns are unrealized and the portfolio is still in value-building mode\n  \u2022 Strong unrealized performance in select positions: Clubessential (2.32x MOIC), Shadowbox/Powlan (1.62x), Vantage Data Centers (1.51x), and Qualtrics (1.24x), highlighting embedded value in portfolio.\n  \u2022 Portfolio composition remains heavily weighted to IT (66%), with a global footprint primarily centered in the U.S. but diversified across EMEA as well.",
+          "predicted": "**Key Takeaways and Business Updates:**\n  \u2022 Fund-level net performance: 7.1% IRR, 1.22x MOIC (09/30/2025)\n  \u2022 DPI implied by distributions/paid-in = 0.131x (13.1%)\n  \u2022 Fund 87.8% funded (as of 12/04/2025)\n  \u2022 9/30/25 capital call: 22nd, $4.1M (1.5% of committed capital)\n  \u2022 9/30/25 distribution: 9th, $1.7M (0.6% of current contributed capital)\n  \u2022 Top 10 investments = 53.6% of total NAV (09/30/2025)"
+        },
+        "business_updates": {
+          "ground_truth": "  \u2022 Clari merger with Salesloft (Q4 2025 close) created a 50/50 combined entity; Silver Lake to receive ~$13M dividend from pre-merger Clari cash\u2014Clari\u2019s MOIC at 0.81x as of Q3\n  \u2022 Klarna IPO (NYSE) \u2013 Silver Lake sold 15% of its position for $91M proceeds, slightly above cost basis ($38.30/share vs. $37.75/share); MOIC of 0.98x as of Q3\n  \u2022 Qualtrics acquisition of Press Ganey Forsta ($6.75B TEV) with no new equity required\u2014position well-positioned in the AI/experience analytics space; MOIC at 1.24x\n  \u2022 Shadowbox Studios / Powlan \u2013 $12M incremental funding brings total to $21M; MOIC at 1.62x; plays in film infrastructure and hyperscale data support sectors\n  \u2022 Vantage Data Centers \u2013 Additional $602M committed, with $364M funded as of Q3; MOIC of 1.51x; Silver Lake retains substantial upside via unfunded commitments\n  \u2022 Clubessential pending sale to Xplor Technologies \u2013 Monetization of ~60% stake in cash, 40% roll into new entity; deal values company at $3.25B; MOIC at 2.32x\n  \u2022 Overall activity reflects a gradual shift toward realization, with partial exits and M&A providing signs of maturing investments and potential DPI acceleration in future quarters\n  \u2022 Fund remains aligned with strategy to back high-growth, tech-enabled platforms across vertical software, fintech, infrastructure, and healthcare tech",
+          "predicted": "**Market Commentary:**\n  \u2022 Clari (SLP VI): merged with Salesloft (agreement 8/7/25; closed Q4); SLP VI to receive ~ $13M dividend; unrealized gross MOIC 0.81x\n  \u2022 Klarna (SLP VI): sold 2.4M shares in Sep 2025 IPO (15% position); $91M proceeds at $38.30 vs $37.75 cost; unreal. MOIC 0.98x\n  \u2022 Qualtrics (SLP VI): signed to acquire Press Ganey Forsta (Oct 2025); financed with cash/debt/equity; unreal. MOIC 1.24x\n  \u2022 Shadowbox Studios / Powlan (SLP VI): $12M funded Apr\u2013Jul 2025; cumulative $21M; unreal. MOIC 1.62x\n  \u2022 Vantage Data Centers (SLP VI): Silver Lake elected additional $602M (Sep 2025); SLP VI funded $364M to 09/30/25; remaining unfunded in Vantage NA $1,186M; unreal. MOIC 1.51x\n  \u2022 Clubessential (SLA II): agreed sale to Xplor (Q3 2025) at $3.25B TEV; expected ~60% cash monetization, ~40% roll; pending approvals; unreal. MOIC 2.32x"
+        }
+      }
+    },
+    {
+      "test_case": "2025_11_Q4_-_Satori_Alpha_II_-__November_2025_Update_(1)",
+      "metadata": {
+        "fund_name": "Satori Alpha (Satori Alpha, LP / Satori Alpha II, LP)",
+        "asset_class": "Multi-Strategy (Hedge Fund + Private Investments)",
+        "vintage": 2011,
+        "performance_summary": "As Expected"
+      },
+      "metrics": {
+        "extraction_tokens": 9281,
+        "extraction_prompt_tokens": 8169,
+        "extraction_completion_tokens": 1112,
+        "extraction_cost": 0.029863749999999998,
+        "extraction_latency_ms": 19112.618923187256,
+        "formatting_tokens": 3320,
+        "formatting_prompt_tokens": 1903,
+        "formatting_completion_tokens": 1417,
+        "formatting_cost": 0.00330975,
+        "formatting_latency_ms": 21178.89928817749,
+        "total_cost": 0.033173499999999995
+      },
+      "sections": {
+        "quantitative_performance": {
+          "score": 3.0,
+          "irr_score": 1.0,
+          "moic_score": 1.0,
+          "dpi_score": 1.0,
+          "metric_checks": {
+            "irr": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "moic": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "dpi": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            }
+          },
+          "ground_truth": "  \u2022 Fund-level Net IRR, Net MOIC, and Net DPI are not provided in the November 2025 update, as Satori Alpha II combines liquid and illiquid strategies and does not calculate an aggregate fund-level performance metric across both.\n  \u2022 Liquid investments within Satori Alpha portfolios showed generally strong performance through November 30, 2025, with several core managers delivering double-digit YTD and ITD annualized returns net of underlying fees and Satori Alpha\u2019s hypothetical fund-level fees.",
+          "predicted": "**Quantitative Performance:**\n  \u2022 Net IRR: Not provided\n  \u2022 Net MOIC: Not provided\n  \u2022 Net DPI: Not provided\n  \u2022 Satori Power: cumulative net return 79.77% since launch (Feb 2022\u2013Nov 2025)\n  \u2022 Benchmark comparison since launch: Blended Sector +27.02%; S&P 500 +60.63%\n  \u2022 Liquid investments table includes Nov-25, YTD, 2024, fund ITD annualized return and Satori ITD return (net of underlying fees and Satori hypothetical fees: 1.4% mgmt / 10% incentive)\n  \u2022 Bounty Minerals: 3Q revenue $30.2M and EBITDA $25.2M (23% QoQ); 9M EBITDA $69.7M (+97% YoY)\n  \u2022 X-Energy: subsequent fundraising at $5.0B pre-money vs prior $1.1B"
+        },
+        "key_takeaways": {
+          "ground_truth": "  \u2022 The portfolio continues to benefit from strong manager selection across liquid equity and credit strategies, with notable contributions from RA Capital, Pershing Square, Pavise, and Regan Credit platforms.",
+          "predicted": "**Key Takeaways and Business Updates:**\n  \u2022 Fund-level Net IRR/MOIC/TVPI/DPI not disclosed in this update\n  \u2022 Satori Power materially outperformed its blended sector benchmark (79.77% vs 27.02%)\n  \u2022 Bounty Minerals showing strong profitability and material EBITDA growth\n  \u2022 Crescent/GPIF hospitality assets experienced significant write-downs (two properties marked to zero; others down 17.5% in 3Q)\n  \u2022 Document largely contains disclosures/definitions and does not report aggregate fund performance metrics"
+        },
+        "business_updates": {
+          "ground_truth": "  \u2022 X-Energy, a core private holding, completed a significant up-round at a $5 billion pre-money valuation (up from $1.1 billion), advanced regulatory approvals, broke ground on the first advanced nuclear fuel facility in the U.S., and secured large-scale global partnerships alongside Amazon and international investors.\n  \u2022 Bounty Minerals continues to demonstrate strong operating momentum, reporting $30.2 million of Q3 revenue and $25.2 million of EBITDA, with year-to-date EBITDA up 97% year-over-year, supported by LNG exports and longer-term AI-driven power demand.\n  \u2022 Crescent / GPIF reported mixed hospitality performance with select assets marked down to zero, but remains optimistic about realizations over the next 12\u201318 months and sees potential demand tailwinds from the 2026 FIFA World Cup.\n  \u2022 Satori plans to expand the platform with new commitments, including Zelda Ventures II and Glade Brook Strategic Growth V, reinforcing continued access to high-quality venture and growth equity opportunities as AI reshapes global industries",
+          "predicted": "**Market Commentary:**\n  \u2022 Added \"Private Distribution Summary\" to highlight recent distributions from underlying managers and co-invests\n  \u2022 November distributions: Aqua Ceres Australia Water Fund (water credits sale), Bounty Minerals (OFCF), Cicero HUD Loans I (operating income), Glade Brook Strategic Growth III (partial sale of Zepto)\n  \u2022 Crescent/GPIF: Kimpton Brice Savannah and Kimpton Monaco Denver marked to zero; Hotel Crescent Court and Ritz-Carlton Dallas down 17.5% in 3Q; exploring sale of Hotel at Avalon and a secondary recap for a hotel pool\n  \u2022 Crescent expects strong multifamily realizations in 1H 2026 and sees potential tailwind from 2026 FIFA matches\n  \u2022 X-Energy: accelerated NRC review, broke ground on U.S. advanced nuclear fuel facility, secured major partnerships and mobilized up to $50B of capital with Amazon and partners\n  \u2022 New commitments planned: Satori to commit to Zelda Ventures II (target late Jan) and expects to add Glade Brook Strategic Growth V (target finalize end of 1Q 2026)"
+        }
+      }
+    },
+    {
+      "test_case": "2025_09_Q3_-_Riverside_Vargas_(BWE)_-_Q3_2025_Report",
+      "metadata": {
+        "fund_name": "BWE Vargas GP QOF LLC",
+        "asset_class": "Real Estate",
+        "vintage": 2025,
+        "performance_summary": "As Expected"
+      },
+      "metrics": {
+        "extraction_tokens": 3421,
+        "extraction_prompt_tokens": 2836,
+        "extraction_completion_tokens": 585,
+        "extraction_cost": 0.013153,
+        "extraction_latency_ms": 8477.664947509766,
+        "formatting_tokens": 3128,
+        "formatting_prompt_tokens": 1466,
+        "formatting_completion_tokens": 1662,
+        "formatting_cost": 0.0036905,
+        "formatting_latency_ms": 43538.58780860901,
+        "total_cost": 0.0168435
+      },
+      "sections": {
+        "quantitative_performance": {
+          "score": 3.0,
+          "irr_score": 1.0,
+          "moic_score": 1.0,
+          "dpi_score": 1.0,
+          "metric_checks": {
+            "irr": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "moic": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "dpi": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            }
+          },
+          "ground_truth": "  \u2022 Riverside Vargas (BWE) is an early-stage development investment; as of Q3 2025 there are no fund-level Net IRR, Net MOIC, or Net DPI metrics available, as the project has not yet begun operations or generated cash flow.\n  \u2022 Total equity at the GP QOF level is $2.63 million, fully funded by Class A investors, representing a 5.59% ownership interest in the underlying Riverside\u2013Vargas QOZB Condo 1, LLC as of September 30, 2025.\n  \u2022 The overall development budget totals $102.7 million, with $24.3 million (23.7%) spent to date and $78.3 million remaining, indicating the project is still in the early construction phase.\n  \u2022 A $56.5 million construction loan has closed at 55% loan-to-cost, providing sufficient leverage to carry the project through development with contingencies fully intact.",
+          "predicted": "**Quantitative Performance:**\n  \u2022 Net IRR: N/A (direct investment; early-stage development)\n  \u2022 Construction commenced; Notice to Proceed issued to Skybeck on 9/8/2025; site prep and earthwork underway\n  \u2022 Construction loan closed with IBC Bank on 9/5/2025: $56,458,899 at 55% loan-to-cost\n  \u2022 Interest rate: floating at NY Prime (7.25% as of 9/30/2025) with step-down floor (7.25% / 6.75% / 6.25%)\n  \u2022 Development budget (9/30/2025): $102,652,544; costs to date $24,340,561 (23.71%); remaining $78,311,983 (76.29%)\n  \u2022 General Contractor GMP (Skybeck): $64,475,027; approved OCOs to date: $0\n  \u2022 Hard costs paid through 9/30/2025: $1,564,180 (2.43% of hard costs)\n  \u2022 Remaining contingency (9/30/2025): hard cost $1,647,162; project $4,049,455; total $5,696,617\n  \u2022 Construction timeline targets first unit delivery October 2027 and final close-out February 2028"
+        },
+        "key_takeaways": {
+          "ground_truth": "  \u2022 The investment has successfully transitioned from pre-development to active construction, materially reducing entitlement and execution risk following permit approvals and loan closing.\n  \u2022 With construction just underway and no income generation yet, performance should be evaluated primarily on milestone achievement and budget adherence, both of which are currently tracking as planned.\n  \u2022 The GMP with Skybeck remains unchanged at $64.5 million, with no approved change orders to date, supporting cost certainty at this stage of development.\n  \u2022 Significant remaining contingency ($5.7 million total) provides downside protection against construction cost inflation or unforeseen issues during the build phase.",
+          "predicted": "**Key Takeaways and Business Updates:**\n  \u2022 Major milestone: broke ground and began site work following NTP (9/8/2025)\n  \u2022 Permitting progress: site development permit approved/pulled; building permit fees paid and permit pulled\n  \u2022 Financing secured: $56.46M construction loan at 55% LTC with floating prime-based rate (7.25% as of 9/30/2025)\n  \u2022 Project spend tracking: 23.71% of total development budget incurred as of 9/30/2025\n  \u2022 Contingency remaining totals $5.70M as of 9/30/2025"
+        },
+        "business_updates": {
+          "ground_truth": "  \u2022 Construction officially commenced on September 8, 2025, following issuance of the Notice to Proceed to Skybeck, with site preparation and earthwork now underway at the Austin Riverside location.\n  \u2022 All major site development and building permits have been secured, and nearly all easements and license agreements have been finalized, clearing key regulatory hurdles.\n  \u2022 The project has been rebranded as \u201cThe Grant\u201d, with updated branding and marketing materials to be shared in future investor updates, supporting future lease-up positioning.\n  \u2022 The current construction schedule targets first unit delivery in October 2027 and final close-out by February 2028, setting expectations for a longer-duration, development-oriented investment profile.",
+          "predicted": "**Market Commentary:**\n  \u2022 Project rebranded from Riverside\u2013Vargas to \"The Grant\"; branding updates and renderings to be shared in future investor communications\n  \u2022 Easements and license agreements are nearing completion\n  \u2022 Construction schedule established: first units October 2027; final close-out February 2028"
+        }
+      }
+    },
+    {
+      "test_case": "2025_09_Q3_-_Kaia_Residences_(BWE)_-_Q3_2025_Report",
+      "metadata": {
+        "fund_name": "BWE Kaia, LLC",
+        "asset_class": "Real Estate",
+        "vintage": 2022,
+        "performance_summary": "As Expected"
+      },
+      "metrics": {
+        "extraction_tokens": 5855,
+        "extraction_prompt_tokens": 5137,
+        "extraction_completion_tokens": 718,
+        "extraction_cost": 0.01904175,
+        "extraction_latency_ms": 10748.466968536377,
+        "formatting_tokens": 3678,
+        "formatting_prompt_tokens": 1599,
+        "formatting_completion_tokens": 2079,
+        "formatting_cost": 0.00455775,
+        "formatting_latency_ms": 35257.899045944214,
+        "total_cost": 0.0235995
+      },
+      "sections": {
+        "quantitative_performance": {
+          "score": 3.0,
+          "irr_score": 1.0,
+          "moic_score": 1.0,
+          "dpi_score": 1.0,
+          "metric_checks": {
+            "irr": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "moic": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "dpi": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            }
+          },
+          "ground_truth": "",
+          "predicted": "**Quantitative Performance:**\n  \u2022 Net IRR: No fund-level net IRR reported (direct investment; forward-looking Class C estimates only)\n  \u2022 Construction progress: superstructure concrete nearing completion on Level 2 (Q3 2025)\n  \u2022 Construction start/schedule: began Apr 2025; 29.9% shown on development schedule\n  \u2022 Budget: total current budget $161,460,608; 16.8% drawn to date\n  \u2022 Tariff exposure: $0.8M\u2013$1.2M (unchanged; within contingency)\n  \u2022 Schedule impact: ~2-month shift from Xcel Energy delay; substantial completion projected mid\u2011Q4 2027\n  \u2022 Market rents (Q3 2025, high-end): ~$3,577/unit (~$3.35/SF); -3.2% QoQ, -4.4% YoY\n  \u2022 Denver metro rents: -4.9% YoY (steepest annual decrease in >20 years)\n  \u2022 Leasing: 12,598 units absorbed over past year (robust absorption)\n  \u2022 Debt snapshot: Bank OZK (mortgage) & Affinius Capital (mezz); construction loan limit $111,450,000; outstanding balance $0 as of 9/30/2025; rate SOFR+4.35% (3.75% floor & cap)\n  \u2022 Capital calls completed: 25% (Nov), 22% (May), 26.5% (Aug), 26.5% (Nov) per updated schedule\n  \u2022 Remaining unfunded equity: ~ $10.1M (29.7% of commitments) due by Nov 30, 2025"
+        },
+        "key_takeaways": {
+          "ground_truth": "  \u2022 The original underwriting assumed a 52-month hold with ~28 months of construction; current timelines now reflect a ~2-month schedule delay, pushing substantial completion to mid-Q4 2027, modestly behind plan but not yet threatening the targeted 2029 disposition window. Development economics remain intact despite schedule pressure, with the sponsor indicating tariff-related cost exposure of $800K\u2013$1.2M, unchanged from Q2 and fully absorbed within existing contingency.\n  \u2022 Total project budget remains consistent with underwriting, supported by a GMP contract, and there have been no budget overruns to date, aligning with the memo\u2019s emphasis on construction cost certainty.\n  \u2022 Approximately 29.7% of total equity commitments (~$10.1 million) represented the final unfunded tranche, with the last capital call due by November 30, 2025, completing the equity funding plan.\n  \u2022 Balance sheet growth is tracking construction progress, with work-in-progress assets increasing to ~$35.1M, up materially quarter-over-quarter, while cash balances remain strong at the property level.\n  \u2022 Near-term financials show expected operating losses and zero revenue, consistent with a pre-lease-up development phase and no indication of budget overruns or financing stress.\n  \u2022 Construction risk is tracking slightly worse than initial expectations due to a third-party utility delay (Xcel Energy), but this risk was explicitly contemplated in the underwriting and mitigated through contingency, GMP structure, and sponsor control over sequencing and labor.\n  \u2022 The investment memo underwrote strong rent growth (4.6% avg.) driven by supply constraints, whereas actual market data shows short-term rent declines (-4.4% YoY for luxury Denver), representing the largest negative deviation from original expectations. Below expectations in near-term market rents, but with improving absorption dynamics that support the medium-term lease-up thesis. The regulatory-tailwind thesis remains fully intact: Kaia\u2019s exemption from Denver\u2019s affordable housing ordinance continues to limit competitive supply, and no new contrary regulatory risks have emerged.",
+          "predicted": "**Key Takeaways and Business Updates:**\n  \u2022 No fund-level net IRR/MOIC/DPI reported; only forward-looking Class C estimates provided\n  \u2022 Project budget remains consistent; tariff exposure unchanged and within contingency\n  \u2022 Schedule pushed ~2 months; substantial completion now targeted mid\u2011Q4 2027\n  \u2022 High-end rent comps declined (-3.2% QoQ; -4.4% YoY) but absorption remains strong (12,598 units), suggesting market stabilization\n  \u2022 Construction financing in place with $111.45M limit and $0 outstanding as of 9/30/2025"
+        },
+        "business_updates": {
+          "ground_truth": "  \u2022 Denver high-end luxury apartment rents averaged $3,577 per unit ($3.35 PSF) in Q3 2025, reflecting a 3.2% quarter-over-quarter and 4.4% year-over-year decline, while the broader Denver metro experienced a 4.9% YoY rent decline, the steepest in over 20 years.\n  \u2022 Return sensitivity remains intact: while near-term market rents are below the memo\u2019s pro forma assumptions, the project remains early enough that long-term IRR math is still driven more by stabilization timing and exit cap rates than by current spot rents.",
+          "predicted": "**Market Commentary:**\n  \u2022 River City evaluating schedule acceleration via additional manpower and concurrent trade activity\n  \u2022 Recovery options under review: increased labor, overtime, and sequencing adjustments to mitigate delay\n  \u2022 Denver rent environment weakening (metro -4.9% YoY) while leasing/absorption remains strong per market report\n  \u2022 Project: 295-unit Class A+ high-rise with ground-floor commercial space at 808 N Lincoln St., Denver (Golden Triangle)"
+        }
+      }
+    },
+    {
+      "test_case": "2025_09_Q3_-_Peregrine_Select_Fund_II_-_Q3_2025_LP_Report",
+      "metadata": {
+        "fund_name": "Peregrine Select Fund II, L.P.",
+        "asset_class": "Venture Capital",
+        "vintage": 2021,
+        "performance_summary": "Outperforming"
+      },
+      "metrics": {
+        "extraction_tokens": 21424,
+        "extraction_prompt_tokens": 17990,
+        "extraction_completion_tokens": 3434,
+        "extraction_cost": 0.0795585,
+        "extraction_latency_ms": 48713.92488479614,
+        "formatting_tokens": 6168,
+        "formatting_prompt_tokens": 4235,
+        "formatting_completion_tokens": 1933,
+        "formatting_cost": 0.00492475,
+        "formatting_latency_ms": 41715.197801589966,
+        "total_cost": 0.08448325000000001
+      },
+      "sections": {
+        "quantitative_performance": {
+          "score": 3.0,
+          "irr_score": 1.0,
+          "moic_score": 1.0,
+          "dpi_score": 1.0,
+          "metric_checks": {
+            "irr": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "moic": {
+              "match": true,
+              "gt_value": "1.32",
+              "pred_value": "1.32",
+              "score": 1.0
+            },
+            "dpi": {
+              "match": true,
+              "gt_value": "0.00",
+              "pred_value": "0.00",
+              "score": 1.0
+            }
+          },
+          "ground_truth": "  \u2022 Total Committed Capital: $43.02M\n  \u2022 Capital Called: $43.02M\n  \u2022 Distributions to Date: $0\n  \u2022 Net TVPI: 1.32x\n  \u2022 Net DPI: 0.00x\n  \u2022 Accrued Carry Fees: $2.88M\n  \u2022 Partners\u2019 Residual Capital Balance: $57.2M\n  \u2022 Net Q3 2025 Income: $4.58M, driven by unrealized gains of ~$4.8M\n  \u2022 Highest performing position:\n  \u2022 Precision Medication: $1.45M cost \u2192 $16.31M value (11.25x MOIC)\n  \u2022 Other notable positions:\n  \u2022 Benefitbay: $2.6M cost \u2192 $5.16M value (1.98x MOIC across tranches)\n  \u2022 Elife: $3.5M cost \u2192 $6.84M value (1.95x MOIC)\n  \u2022 Revi: $1.25M cost \u2192 $3.0M value (2.4x MOIC overall)\n  \u2022 Total unrealized gain: $22.1M on a $37.2M cost basis across portfolio",
+          "predicted": "**Quantitative Performance:**\n  \u2022 Net IRR: Not provided\n  \u2022 Net MOIC: 1.32x (vs benchmark 1.08x - Top 25%)\n  \u2022 Net DPI: 0.00x (vs benchmark 0.0x - Above Median)\n  \u2022 Net Performance (post all fees): TVPI 1.32x\n  \u2022 DPI reported 0.00x (value largely unrealized)\n  \u2022 Capital committed/called: $43,020,000 / $43,020,000; partners\u2019 residual capital balance $57,233,207\n  \u2022 Portfolio summary (Q3 2025): total cost ~$37.8M, total value ~$59.3M (multiple 1.57x); total investments at cost $37.15M, fair value $59.26M; unrealized gain ~$22.11M\n  \u2022 Q3 marked net increase: 2 markups vs 4 markdowns; quarter net unrealized gain ~$4.80M; YTD net income $(2.37)M"
+        },
+        "key_takeaways": {
+          "ground_truth": "  \u2022 Portfolio saw two material Q3 markups (Precision Medication, Revi) and four markdowns (including Benefitbay and Stage Meta), with overall net unrealized gain of ~$4.8M in Q3.\n  \u2022 Benefitbay and HelloHero received follow-on investments in Q3.\n  \u2022 No cash distributions yet, but the portfolio has significant upside potential, especially from positions like Precision Medication and Benefitbay.\n  \u2022 Precision Medication rebounded sharply after halting GLP-1 compounding (formerly 70%+ of revenue). It is now EBITDA positive and has a clear runway to dominance in the D2C compounding space.",
+          "predicted": "**Key Takeaways and Business Updates:**\n  \u2022 Fund-level TVPI 1.32x with 0.00x DPI\u2014value is mainly unrealized to date\n  \u2022 Q3 marks: Precision Medication largest markup (value $16.31M on $1.45M cost, ~11.25x)\n  \u2022 Notable impairments: Vertify and Unboxt marked to $0; ForwardLane down to 50% of cost\n  \u2022 Significant unrealized appreciation: ~$22.11M gain on ~$37.15M cost (as of 9/30/25)\n  \u2022 Performance driven by unrealized marks; watch list includes Cadalys, Maya AI, Averi, Eze"
+        },
+        "business_updates": {
+          "ground_truth": "  \u2022 Overall portfolio quality improving, with several companies nearing inflection points or successfully executing pivots.\n  \u2022 Liquidity events:\n  \u2022 Upswot sold to Uptiq; conversion into equity with ~25% of proceeds in holdback.\n  \u2022 Qeepsake executed an all-stock asset sale to Tinybeans; proceeds expected post 24-month lockup.\n  \u2022 Macro environment still poses challenges, but many portfolio companies are adapting by shifting to cash-flow positive operations or raising insider-led rounds at reasonable valuations.\n  \u2022 GPs remain actively involved, especially in distressed or pivoting companies, with hands-on support through capital raises, restructurings, and GTM strategies.",
+          "predicted": "**Market Commentary:**\n  \u2022 Follow-on activity: Q3 follow-ons into Benefitbay and HelloHero\n  \u2022 Benefitbay: position down to $5.16M from $6.28M; company value $50M; ended Q3 with ~$7M contracted ARR; expects ~10M contracted ARR by year-end (most go-live Jan 2026)\n  \u2022 Precision Medication: marked up to $16.31M; stabilized ~ $45M revenue run-rate; near breakeven; facility expansion and credit line discussion\n  \u2022 Upswot asset sale closed Jan 2025 (stock consideration, holdback and potential earnout)\n  \u2022 HAAS Alert closing $3M\u2013$4M Series A extension; burn reduction to extend runway through 2026\n  \u2022 Influence Mobile: right-sized team, launched AI bidding engine, expanded financing round to $2M; product metrics improving"
+        }
+      }
+    },
+    {
+      "test_case": "2025_09_Q3_-_CD&R_-_Q3_2025_Quarterly_Performance_Update",
+      "metadata": {
+        "fund_name": "CD&R Fund XI (iCapital), L.P.",
+        "asset_class": "Private Equity",
+        "vintage": 2023,
+        "performance_summary": "As Expected"
+      },
+      "metrics": {
+        "extraction_tokens": 63439,
+        "extraction_prompt_tokens": 57633,
+        "extraction_completion_tokens": 5806,
+        "extraction_cost": 0.18214175,
+        "extraction_latency_ms": 85337.55207061768,
+        "formatting_tokens": 8140,
+        "formatting_prompt_tokens": 6164,
+        "formatting_completion_tokens": 1976,
+        "formatting_cost": 0.005493,
+        "formatting_latency_ms": 31491.796016693115,
+        "total_cost": 0.18763475
+      },
+      "sections": {
+        "quantitative_performance": {
+          "score": 1.0,
+          "irr_score": 0.0,
+          "moic_score": 1.0,
+          "dpi_score": 0.0,
+          "metric_checks": {
+            "irr": {
+              "match": false,
+              "gt_value": "15",
+              "pred_value": "6.1",
+              "score": 0.0
+            },
+            "moic": {
+              "match": true,
+              "gt_value": "1.2",
+              "pred_value": "1.2",
+              "score": 1.0
+            },
+            "dpi": {
+              "match": false,
+              "gt_value": "0.1",
+              "pred_value": "0.0",
+              "score": 0.0
+            }
+          },
+          "ground_truth": "  \u2022 Net IRR: 15%\n  \u2022 Net MOIC: 1.2x\n  \u2022 Net DPI: 0.1x\n  \u2022 Total Value: $4.6B (includes $0.4B of distributions and $4.2B of NAV)\n  \u2022 12 investments completed, 66% of capital committed\n  \u2022 Net IRR: 21%\n  \u2022 Net MOIC: 2.0x\n  \u2022 Net DPI: 0.7x\n  \u2022 Total Value: $13.5B (includes $5.1B of distributions and $8.4B of NAV)\n  \u2022 17 investments completed, 98% of capital committed\n  \u2022 Net IRR: 28%\n  \u2022 Net MOIC: 2.6x\n  \u2022 Net DPI: 1.8x\n  \u2022 Total Value: $8.4B (includes $5.8B of distributions and $2.6B of NAV)\n  \u2022 All investments realized or partially exited\n  \u2022 Net IRR: 20%\n  \u2022 Net MOIC: 2.3x\n  \u2022 Net DPI: 2.3x\n  \u2022 Fully realized with $4.8B of total distributions",
+          "predicted": "**Quantitative Performance:**\n  \u2022 Net IRR: 6.1% (vs benchmark 13.03% - Below Median)\n  \u2022 Net MOIC: 1.2x (vs benchmark 1.11x - Top 25%)\n  \u2022 Net DPI: 0.0x (vs benchmark 0.06x - Bottom 25%)\n  \u2022 As of 9/30/2025 Fund XI net MOI 1.2x (unchanged vs prior quarter)\n  \u2022 As of 9/30/2025 net IRR 6.0% unlevered / 6.1% levered\n  \u2022 Fund size $15,249.4mm; Q-end total value $16,674.0mm (+5.5% Q/Q); capital called 87%; invested capital $12,494.7mm; realized value $391.0mm\n  \u2022 Total Fund XI (including leverage): 1.3x MOIC and 10.0% IRR; Schedule of Investments shows ~1.3x MOIC / ~8.6% IRR (summary)"
+        },
+        "key_takeaways": {
+          "ground_truth": "  \u2022 Fund XI is still early in its deployment cycle, with just over two-thirds of capital committed and moderate early performance, suggesting a long runway for value creation ahead.\n  \u2022 Fund X is progressing strongly, showing meaningful value creation across its portfolio with a solid balance of NAV and DPI.\n  \u2022 Fund IX\u2019s performance remains robust with strong realizations contributing to high DPI and MOIC figures; most of the value has already been returned to investors.\n  \u2022 Fund VIII is fully exited and has returned all capital plus gains, rounding out its lifecycle with a 2.3x MOIC and solid returns through different market cycles.\n  \u2022 Portfolio NAV for all active funds reflects a conservative valuation policy and performance supported by both operational improvements and strategic exits.\n  \u2022 Continued emphasis on sector expertise (industrials, healthcare, consumer/retail, and services) supports performance stability amid macro uncertainty.",
+          "predicted": "**Key Takeaways and Business Updates:**\n  \u2022 Fund-level net performance: ~1.2x Net MOIC and ~6.0\u20136.1% Net IRR; net DPI remains 0.0x\n  \u2022 Q-end total value increased to $16.674bn (+5.5% Q/Q); portfolio momentum improving with fewer detractors\n  \u2022 White Cap = standout realized performance (5.0x MOIC; 49.9% IRR)\n  \u2022 MCC (Multi-Color) identified as challenged; transformation and balance-sheet restructuring underway\n  \u2022 Indicor: refinancing enabled $224M returned (2.5x MOI) and shows revenue/EBITDA growth with modest margin compression\n  \u2022 Vialto: deleveraging achieved (net debt down ~$504M); recapitalization completed Feb 2025"
+        },
+        "business_updates": {
+          "ground_truth": "  \u2022 CD&R notes a challenging macroeconomic backdrop including persistent inflation, interest rate volatility, and geopolitical instability, though deal flow has begun to recover from 2022\u20132023 lows.\n  \u2022 The firm has maintained disciplined underwriting and a value orientation, citing advantages in operational improvement as a key differentiator in driving portfolio performance.\n  \u2022 Exit activity is expected to increase going into 2026 as several portfolio companies mature and market conditions stabilize, particularly for IPOs and strategic sales.\n  \u2022 There is cautious optimism around the market environment, with CD&R citing early signs of a more constructive fundraising and exit landscape compared to recent quarters.\n  \u2022 Fundraising for the next vintage is likely to begin in 2026, supported by strong performance in prior funds and a differentiated sourcing and value creation strategy.",
+          "predicted": "**Market Commentary:**\n  \u2022 Sharp closed $319mm shareholder distribution in Oct 2025; Fund XI received $157mm used to repay subscription line\n  \u2022 Sharp refinancing raised net leverage to 6.0x but reduced cost of debt and extended maturities\n  \u2022 Gentiva, Indicor and Inizio advancing cost/growth initiatives; Pursuit Aerospace benefiting from robust demand\n  \u2022 Vialto pursuing AI-enabled efficiency (Project Vanguard) and other margin initiatives after recapitalization\n  \u2022 Morrisons: modest like\u2011for\u2011like topline growth, significant debt reduction and medium\u2011term cost/working\u2011capital targets"
+        }
+      }
+    },
+    {
+      "test_case": "2025_09_Q3_-_SpaceX_(Zanbato_Partners_Fund)_-_Q3_2025_Investment_Report_-_SEGIT_(Grojean)_(1)",
+      "metadata": {
+        "fund_name": "Zanbato Partners Fund LLC",
+        "asset_class": "Venture Capital",
+        "vintage": 2023,
+        "performance_summary": "As Expected"
+      },
+      "metrics": {
+        "extraction_tokens": 1972,
+        "extraction_prompt_tokens": 1532,
+        "extraction_completion_tokens": 440,
+        "extraction_cost": 0.008841,
+        "extraction_latency_ms": 9948.656797409058,
+        "formatting_tokens": 2168,
+        "formatting_prompt_tokens": 1319,
+        "formatting_completion_tokens": 849,
+        "formatting_cost": 0.00202775,
+        "formatting_latency_ms": 14611.330032348633,
+        "total_cost": 0.01086875
+      },
+      "sections": {
+        "quantitative_performance": {
+          "score": 3.0,
+          "irr_score": 1.0,
+          "moic_score": 1.0,
+          "dpi_score": 1.0,
+          "metric_checks": {
+            "irr": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "moic": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "dpi": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            }
+          },
+          "ground_truth": "  \u2022 Capital Account Balance (Q3 2025): $367,878.47\n  \u2022 Total Paid-in Capital: $142,884.00\n  \u2022 Invested Capital: $142,884.00\n  \u2022 Realized Proceeds: $0.00\n  \u2022 % Gain (Trailing 12 Months): 121.42%\n  \u2022 % Gain (All Time): 157.47%\n  \u2022 Issue Date: October 19, 2023\n  \u2022 Valuation Change: Share price rose from $81.00 (Sep 2023) to $212.00 (Aug 2025), reflecting a post-money valuation increase from $150B to $400B",
+          "predicted": "**Quantitative Performance:**\n  \u2022 Net IRR: Not provided\n  \u2022 Net MOIC: Not provided\n  \u2022 Net DPI: Not provided\n  \u2022 Q3 2025 capital account balance: $367,878.47\n  \u2022 Invested capital / total paid-in capital: $142,884.00\n  \u2022 Realized proceeds: $0.00\n  \u2022 % gain (TTM): 121.42% (net of management fees and expenses)\n  \u2022 % gain (all time): 157.47% (net of management fees and expenses)"
+        },
+        "key_takeaways": {
+          "ground_truth": "  \u2022 Capital account value more than doubled since investment initiation, driven by sustained growth in SpaceX\u2019s valuation across multiple tender offers\n  \u2022 Over the trailing 12 months, investor capital appreciated 121%, with 157% total gain since October 2023\n  \u2022 Investment remains fully unrealized, with no liquidity events or cash distributions recorded yet\n  \u2022 Latest secondary market tender priced SpaceX at $212/share, implying a $400B post-money valuation, the highest to date\n  \u2022 Rapid appreciation reflects strong private market demand and increasing strategic value of SpaceX's core businesses (launch, Starlink, and direct-to-cell connectivity)",
+          "predicted": "**Key Takeaways and Business Updates:**\n  \u2022 Performance presented as % gain based on capital account change (net of fees/expenses); fund-level Net IRR/MOIC/DPI not provided\n  \u2022 No realizations to date (realized proceeds: $0.00)\n  \u2022 Latest tender indicates underlying company post-money valuation of $400B at $212.00/share (Aug 2025)"
+        },
+        "business_updates": {
+          "ground_truth": "  \u2022 Starship Milestone: On August 26, SpaceX completed its 10th Starship test flight, successfully deploying eight Starlink simulator payloads in orbit. This marked the first in-space payload deployment and achieved key progress in heat-shield and propulsive reentry validation\n  \u2022 Starlink Expansion: Reported over 7 million users across 150 countries as of August 2025, reflecting strong global adoption of satellite internet\n  \u2022 Direct-to-Cell Rollout: T-Mobile and SpaceX launched Starlink-powered text messaging service in July, signaling commercialization of direct-to-cell satellite connectivity\n  \u2022 Strategic Spectrum Acquisition: SpaceX acquired $17B worth of wireless spectrum licenses from EchoStar, enabling it to operate independent cellular service without relying on third-party carrier spectrum\n  \u2022 These updates indicate continued vertical integration and expansion of SpaceX\u2019s capabilities across broadband, mobile, and space infrastructure sectors, with strong long-term value creation potential",
+          "predicted": "**Market Commentary:**\n  \u2022 SpaceX sustained a record launch cadence through Q3 2025\n  \u2022 Aug 26: Starship 10th test flight completed first in-space payload demonstration, deploying eight Starlink simulators and advancing heat\u2011shield and propulsive\u2011reentry objectives\n  \u2022 Starlink reportedly topped 7 million users in August and supports customers across 150 countries\n  \u2022 T\u2011Mobile Starlink-powered Direct-to-Cell text service began U.S. rollout in July\n  \u2022 SpaceX purchased wireless spectrum licenses from EchoStar for $17bn to support direct-to-cell service on owned frequencies\n  \u2022 Tender history (post-money valuations): Sep 2023 $150B; Apr 2024 $180B; Jul 2024 $210B; Dec 2024 $350B; Aug 2025 $400B"
+        }
+      }
+    },
+    {
+      "test_case": "2025_09_Q3_-_Figure_AI_(Parkway)_-_Q3_2025_Investor_Update",
+      "metadata": {
+        "fund_name": "Parkway Venture Capital",
+        "asset_class": "Venture Capital",
+        "vintage": 2019,
+        "performance_summary": "Outperforming"
+      },
+      "metrics": {
+        "extraction_tokens": 16404,
+        "extraction_prompt_tokens": 14468,
+        "extraction_completion_tokens": 1936,
+        "extraction_cost": 0.052423,
+        "extraction_latency_ms": 25503.947019577026,
+        "formatting_tokens": 5321,
+        "formatting_prompt_tokens": 2832,
+        "formatting_completion_tokens": 2489,
+        "formatting_cost": 0.005686,
+        "formatting_latency_ms": 46279.42204475403,
+        "total_cost": 0.058108999999999994
+      },
+      "sections": {
+        "quantitative_performance": {
+          "score": 2.0,
+          "irr_score": 1.0,
+          "moic_score": 0.0,
+          "dpi_score": 1.0,
+          "metric_checks": {
+            "irr": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "moic": {
+              "match": false,
+              "gt_value": "51.4",
+              "pred_value": "6.25",
+              "score": 0.0
+            },
+            "dpi": {
+              "match": true,
+              "gt_value": "0",
+              "pred_value": "0",
+              "score": 1.0
+            }
+          },
+          "ground_truth": "  \u2022 Capital Invested: $15.6M\n  \u2022 Current Value: $803.0M\n  \u2022 TVPI: 51.4x\n  \u2022 DPI: 0%\n  \u2022 Capital Invested: $108.7M\n  \u2022 Current Value: $1.37B\n  \u2022 TVPI: 12.6x\n  \u2022 DPI: 0%\n  \u2022 Capital Invested: $85.1M\n  \u2022 Current Value: $84.5M\n  \u2022 TVPI: 0.99x\n  \u2022 DPI: 0%\n  \u2022 Total Parkway exposure to Figure AI across all rounds exceeds $209M, with combined current value over $2.25B, reflecting extremely strong marked appreciation, especially in Series A and B holdings.",
+          "predicted": "**Quantitative Performance:**\n  \u2022 Net IRR: Not disclosed\n  \u2022 Net MOIC: 6.25x (vs benchmark 1.4x - Top 10%)\n  \u2022 Net DPI: 0.06x (vs benchmark 0.07x - Below Median)\n  \u2022 All Entity (as of Sep 30, 2025): TVPI 6.25x, DPI 0.06x; Current Value $3,499,365,975 on $559,740,900 contributions\n  \u2022 Parkway Fund 3 (Q3 2025): TVPI 6.70x; Fund Value $741,190,393 on $110,635,061\n  \u2022 Parkway Fund 2 (Q3 2025): TVPI 1.03x; DPI 0.13x; Fund Value $63,915,998 on $61,992,384\n  \u2022 Co-Investment 7 (Figure AI): TVPI 51.42x; Current Value $802,975,661 on $15,617,300\n  \u2022 Co-Investment 9 (Figure Series B): TVPI 12.60x; Current Value $1,369,009,292 on $108,661,899\n  \u2022 Co-Investment 3 (OnScale): TVPI 3.89x; DPI 3.80x; Current Value $24,692,604 on $6,350,000"
+        },
+        "key_takeaways": {
+          "ground_truth": "  \u2022 Public demonstrations of real-world humanoid dexterity, including folding laundry and loading a dishwasher\u2014complex tasks requiring fine motor coordination and perceptual reasoning.\n  \u2022 Completion of a $1B+ Series C round, bringing Figure\u2019s post-money valuation to $40+ billion. Parkway led the round, with strategic participation from NVIDIA, Intel Capital, Qualcomm Ventures, Salesforce, Brookfield, LG, T-Mobile Ventures, Microsoft, OpenAI, and Jeff Bezos.\n  \u2022 Launch of Project Go-Big, a landmark initiative focused on large-scale humanoid pretraining using internet-scale multimodal data and human-to-robot skill transfer.\n  \u2022 Reveal of Figure 03, the next-gen humanoid platform designed for mass production, with modular components, improved battery, and tighter AI integration.\n  \u2022 Figure has gone from a $420M valuation at Series A (2023) to $40B+ in Series C (2025), making it one of the most capital-efficient and rapidly appreciated investments in Parkway\u2019s portfolio.",
+          "predicted": "**Key Takeaways and Business Updates:**\n  \u2022 No fund-level Net IRR disclosed; only a deal IRR (6%) referenced for Fund 1.\n  \u2022 Aggregate performance driven by concentrated winners: All-entity TVPI 6.25x with low DPI (0.06x) to date.\n  \u2022 Fund 3 is the primary performance driver; Fund 2 has returned meaningful capital via OnScale exit.\n  \u2022 Figure-related co-investments show outsized mark-ups (51.4x and 12.6x), materially boosting NAV.\n  \u2022 Commercial traction highlighted: SandboxAQ nine-figure TCV deals; Persefoni 96% gross retention; TestFit >$5M ARR; R4 DoD contract could double ARR if executed."
+        },
+        "business_updates": {
+          "ground_truth": "  \u2022 Figure\u2019s technology integrates proprietary Helix AI, enabling real-world general-purpose functionality in humanoid robots.\n  \u2022 Strategic partnership with Brookfield provides real-world industrial environments for training data and deployment\u2014an edge in large-scale robotics learning.\n  \u2022 Parkway remains a major backer and board-level partner, having led all funding rounds from Series A through C.\n  \u2022 Figure is positioned at the frontier of embodied AI and is explicitly cited alongside OpenAI and xAI in Parkway's commentary on the emerging race toward AGI, with expected near-general cognitive functionality by 2027.",
+          "predicted": "**Market Commentary:**\n  \u2022 Q3 2025 momentum across Figure AI, SandboxAQ, and TAE Technologies with enterprise deployments, gov\u2019t/defense engagements, and strategic investor support.\n  \u2022 SandboxAQ: multi-year Bahrain partnership expected to accelerate biotech/drug-discovery commercialization.\n  \u2022 Figure AI: scaled rapidly (>$1B Series C; reported $40B+ post-money) and launched Project Go\u2011Big / Figure 03 iteration.\n  \u2022 TAE Technologies: raised >$150M (Jun 2025) with Google, Chevron, NEA participation; continued strategic backing.\n  \u2022 R4: advancing commercial, city/state, and defense deals including multi\u2011billion licensing terms under diligence."
+        }
+      }
+    },
+    {
+      "test_case": "2025_09_Q3_-_MBX_I_(FRx_Select)_-_Q3_2025_Report",
+      "metadata": {
+        "fund_name": "FRx Select I, LP",
+        "asset_class": "Venture Capital",
+        "vintage": null,
+        "performance_summary": "Outperforming"
+      },
+      "metrics": {
+        "extraction_tokens": 4283,
+        "extraction_prompt_tokens": 3392,
+        "extraction_completion_tokens": 891,
+        "extraction_cost": 0.01841,
+        "extraction_latency_ms": 12558.961868286133,
+        "formatting_tokens": 4174,
+        "formatting_prompt_tokens": 1772,
+        "formatting_completion_tokens": 2402,
+        "formatting_cost": 0.005247,
+        "formatting_latency_ms": 41289.44110870361,
+        "total_cost": 0.023656999999999997
+      },
+      "sections": {
+        "quantitative_performance": {
+          "score": 0.0,
+          "irr_score": 0.0,
+          "moic_score": 0.0,
+          "dpi_score": 0.0,
+          "metric_checks": {
+            "irr": {
+              "match": false,
+              "gt_value": null,
+              "pred_value": "15.75",
+              "score": 0.0
+            },
+            "moic": {
+              "match": false,
+              "gt_value": null,
+              "pred_value": "1.61",
+              "score": 0.0
+            },
+            "dpi": {
+              "match": false,
+              "gt_value": null,
+              "pred_value": "0.64",
+              "score": 0.0
+            }
+          },
+          "ground_truth": "  \u2022 MBX Capital III, LP is early in its deployment cycle with 27% of commitments called as of September 30, 2025, four investments closed and five additional investments planned, reflecting an active but still formative portfolio construction phase.\n  \u2022 All closed investments are currently marked at cost, with no unrealized gains or losses reported this quarter, which is typical given the early-stage nature and recency of deployments.\n  \u2022 Fund-level Net IRR, Net MOIC, and Net DPI are not reported this quarter, and no significant distributions are anticipated in the near term.",
+          "predicted": "**Quantitative Performance:**\n  \u2022 Net IRR: 15.75%\n  \u2022 Net MOIC: 1.61x\n  \u2022 Net DPI: 0.64x\n  \u2022 As of 9/30/2025: Net IRR 15.75%\n  \u2022 As of 9/30/2025: TVPI 1.61x\n  \u2022 As of 9/30/2025: DPI 0.64x\n  \u2022 As of 9/30/2025: MOIC 1.97x\n  \u2022 % of commitments called: 100%\n  \u2022 Portfolio: 20 companies; 17 active; 3 realized + 1 partial\n  \u2022 Realization: Opentrons secondary (Series C) cost $484,067, proceeds $6,716,235 (partial; residual remains)\n  \u2022 Realization: Brightside Health secondary (Series B) cost $800,000, proceeds $3,750,818\n  \u2022 Realization: Osmosis acquired by Elsevier cost $500,000, proceeds $738,299\n  \u2022 Realization: SecureAire acquired by R-Zero cost $500,000, proceeds $0\n  \u2022 Other holdings: FundRx residual value $1,649,998; $46,365 distribution from carried interest on SPV sale"
+        },
+        "key_takeaways": {
+          "ground_truth": "  \u2022 Portfolio companies are showing early signs of operating traction, particularly Keebler Health with $4.7M in contracted ARR and Persist AI with $1.3M in YTD bookings, indicating revenue momentum despite conservative valuation marks.\n  \u2022 Juniper Genomics has launched commercially and doubled revenue and clinic adoption quarter-over-quarter, ending Q3 at a $280K annualized revenue run rate, demonstrating initial product-market fit in IVF genetic testing.\n  \u2022 Capital call expectations are front-loaded, with up to 10% anticipated imminently and up to an additional 30% expected in 2026, suggesting an acceleration in deployment aligned with a robust deal pipeline.",
+          "predicted": "**Key Takeaways and Business Updates:**\n  \u2022 Fund-level (9/30/2025): Net IRR 15.75%, TVPI 1.61x, DPI 0.64x (MOIC also reported 1.97x)\n  \u2022 Fully called (100%); no further capital calls anticipated\n  \u2022 No material near-term distributions; potential small tax distribution in Q1 2026 from de minimis 2025 proceeds\n  \u2022 Largest realizations: Opentrons ($6.72mm on $0.48mm cost) and Brightside ($3.75mm on $0.80mm cost)\n  \u2022 Write-offs recorded at $0: CareRev ($1.50mm cost), Koneksa ($0.60mm), Luna Care ($0.60mm)"
+        },
+        "business_updates": {
+          "ground_truth": "  \u2022 The fund remains focused on early-stage, deep health and biotech investments, targeting pre-seed through Series A rounds with $1\u2013$4M check sizes and emphasizing platform science and differentiated technical risk.\n  \u2022 New and planned investments highlight themes in synthetic biology, AI-driven oncology decision support, microbiome therapeutics, and neurodegeneration, with several deals structured using tranched capital to manage development and execution risk.\n  \u2022 Management notes a strong opportunity pipeline and encourages LP engagement for founder introductions, while also offering year-end 1:1 check-ins to discuss fund progress, outlook, and strategy.",
+          "predicted": "**Market Commentary:**\n  \u2022 Fund will not make new company investments; may do follow-ons\n  \u2022 New investments sourced from MBX III with $1\u20134mm checks\n  \u2022 Management fees deferred to preserve reserves; repayment tied to liquidity\n  \u2022 Lucy Goods projecting $50mm revenue in 2025 (100% YoY); exploring Series C and building factory\n  \u2022 Atlas Labs near breakeven; est. $15.5mm revenue in 2025, $20mm in 2026; gross margin +12% YoY\n  \u2022 AmacaThera signed exclusive Pacira licensing deal up to $230mm; closed bridge financing\n  \u2022 Concert Health forecasting $36mm revenue in 2025 (+58% YoY); may seek financing to reach cash-flow breakeven\n  \u2022 Contraline expecting Phase 2 data publication in NEJM; raising Series B for Phase 3\n  \u2022 Opentrons CEO replaced; $32mm YTD revenue through Q3; recapitalization anticipated with fund evaluating participation\n  \u2022 Mightier pivoting to B2B health-plan sales; targeting >$15mm ARR and breakeven in 2026\n  \u2022 Tvardi Therapeutics went public (NASD: TVRD); position marked to quarter-close price"
+        }
+      }
+    },
+    {
+      "test_case": "2025_12_Q4_-_Boram_Care_-_December_2025_Investor_Update",
+      "metadata": {
+        "fund_name": "2025_12_Q4_-_Boram_Care_-_December_2025_Investor_Update",
+        "asset_class": "Venture Capital",
+        "vintage": 2025,
+        "performance_summary": "As Expected"
+      },
+      "metrics": {
+        "extraction_tokens": 1357,
+        "extraction_prompt_tokens": 1114,
+        "extraction_completion_tokens": 243,
+        "extraction_cost": 0.0053515,
+        "extraction_latency_ms": 3525.738000869751,
+        "formatting_tokens": 2147,
+        "formatting_prompt_tokens": 1122,
+        "formatting_completion_tokens": 1025,
+        "formatting_cost": 0.0023305,
+        "formatting_latency_ms": 19782.724142074585,
+        "total_cost": 0.0076820000000000005
+      },
+      "sections": {
+        "quantitative_performance": {
+          "score": 3.0,
+          "irr_score": 1.0,
+          "moic_score": 1.0,
+          "dpi_score": 1.0,
+          "metric_checks": {
+            "irr": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "moic": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "dpi": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            }
+          },
+          "ground_truth": "  \u2022 At underwriting in December 2023, Boram was projected to generate ~$2.5M of revenue in 2023 and scale to ~$9.9M in 2025, driven primarily by rapid expansion of Boram Retreats, meaningful contribution from Boram Anywhere (~26% of revenue), and improving gross margins to ~32% with net profitability by 2025. The company has completely pivoted business models, and it is a little too early to tell whether they will succeed; but we consider the company to be underperforming based on its revenue and margin profile.\n  \u2022 s of December 2025, Boram has generated ~$1.54M in cumulative gross booking sales year-to-date and ~$694K in completed (recognized) revenue, materially below original 2025 revenue expectations.\n  \u2022 While top-line scale has underperformed underwriting projections, actual unit-level performance remains strong, with ARPU of ~$8.4K and LTV of ~$1.67K+.\n  \u2022 The business remains cash flow negative at the operating level, with monthly net losses in the ~$65K\u2013$110K range and an end-of-year cash balance of ~$342K, contrasting with underwriting expectations that envisioned net profitability in 2025.",
+          "predicted": "**Quantitative Performance:**\n  \u2022 Net IRR: N/A\n  \u2022 Booking sales trend continues to be strong; total sales surpassed $1.5M\n  \u2022 LTV $1,670+\n  \u2022 CAC $355\n  \u2022 First celebrity booking"
+        },
+        "key_takeaways": {
+          "ground_truth": "  \u2022 Revenue realization continues to lag bookings, but the growing pipeline and consistent processed revenue suggest improving conversion efficiency over time.\n  \u2022 Customer acquisition efficiency is compelling given favorable LTV-to-CAC dynamics, which positions the business well for scale once growth capital is secured.\n  \u2022 Management indicated active fundraising efforts through mid-January, evaluating either a $3M priced round with a lead investor or a potential bridge round to extend runway.\n  \u2022 Cash runway is limited to February\u2013March 2026, making near-term fundraising execution critical to avoid operational disruption.",
+          "predicted": "**Key Takeaways and Business Updates:**\n  \u2022 Total sales surpassed $1.5M\n  \u2022 Unit economics: LTV $1,670+ vs. CAC $355\n  \u2022 Cash runway through Feb\u2013March 2026\n  \u2022 Fundraise efforts planned until mid-Jan; targeting a $3M round with a lead or considering a bridge round"
+        },
+        "business_updates": {
+          "ground_truth": "  \u2022 Boram plans to launch both client-facing and care professional\u2013facing mobile applications by the end of Q1 2026, which could enhance user experience, engagement, and operational efficiency.\n  \u2022 The company completed its first celebrity booking, signaling growing brand awareness and potential for higher-profile partnerships or demand catalysts.",
+          "predicted": "**Market Commentary:**\n  \u2022 Mobile apps (client & creator/partner facing) launching end of Q1\n  \u2022 Fundraising options under evaluation: $3M round with a lead and/or a potential bridge round"
+        }
+      }
+    },
+    {
+      "test_case": "2025_11_Q4_-_Coatue_Asia_-_November_2025_Exposure_Report",
+      "metadata": {
+        "fund_name": "Coatue Asia Fund LP",
+        "asset_class": "Hedge Fund",
+        "vintage": 2021,
+        "performance_summary": "Underperforming"
+      },
+      "metrics": {
+        "extraction_tokens": 4630,
+        "extraction_prompt_tokens": 3756,
+        "extraction_completion_tokens": 874,
+        "extraction_cost": 0.018809,
+        "extraction_latency_ms": 14008.367776870728,
+        "formatting_tokens": 3283,
+        "formatting_prompt_tokens": 1753,
+        "formatting_completion_tokens": 1530,
+        "formatting_cost": 0.0034982499999999996,
+        "formatting_latency_ms": 39717.34666824341,
+        "total_cost": 0.02230725
+      },
+      "sections": {
+        "quantitative_performance": {
+          "score": 3.0,
+          "irr_score": 1.0,
+          "moic_score": 1.0,
+          "dpi_score": 1.0,
+          "metric_checks": {
+            "irr": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "moic": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "dpi": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            }
+          },
+          "ground_truth": "  \u2022 Fund NAV (as of Nov 30, 2025): $552.0M\n  \u2022 MTD Performance (Net): -4.1%\n  \u2022 YTD Performance (Net): 54%",
+          "predicted": "**Quantitative Performance:**\n  \u2022 Net IRR: N/A\n  \u2022 Net MOIC: N/A\n  \u2022 Net DPI: N/A\n  \u2022 Reported fund NAV: USD 552,046,733 (as of 30-Nov-2025)\n  \u2022 CAF return: MTD Gross -4.06%, MTD Net -4.06%, YTD Net 69.03%\n  \u2022 CA Offshore Feeder return: MTD Gross -4.06%, MTD Net -4.06%, YTD Net 69.02%\n  \u2022 Benchmark YTD: MSCI China 30.23%, Hang Seng Tech 25.31%, CSI Overseas China 26.67%, NASDAQ 21.71%\n  \u2022 Portfolio gross contribution by country (long): China -0.89%, Japan -3.16%, Korea -0.78%, Taiwan -0.65%, Other +0.19%, Cash/Other -5.29% (total long -5.29%)\n  \u2022 Portfolio gross contribution by sector (long): Internet -0.20%, Tech -2.61%, Telecom/Media +0.19%, Consumer/Retail -0.14%, Other -2.53% (total long -5.29%)\n  \u2022 AUM (USD mm): CAF 307, CAOFF 244; Total 552\n  \u2022 NAV confirmation: Morgan Stanley USD 378,508,196 (68.57%); Private Placement USD 92,062,464 (16.68%); Goldman USD 75,488,690 (13.67%); Other <2%\n  \u2022 ASC 820 levels: Level I USD 394,503,191 (71.46%); Level II USD 67,181,473 (12.17%); Level III (private) USD 92,062,464 (16.68%)\n  \u2022 Total equity exposure by market cap (% NAV): $1bn\u2013$5bn 2.23%; $5bn\u2013$10bn 8.80%; $10bn\u2013$50bn 10.12%; $50bn\u2013$100bn 3.99%; $100bn\u2013$1tn 10.13%; >$1tn 6.89%; Private 8.42%; Cash/Other 1.23%"
+        },
+        "key_takeaways": {
+          "ground_truth": "  \u2022 Strong year-to-date performance of ~54% net for both the main and feeder funds contrasts with a sharp MTD decline of -4.1%, primarily attributed to technology and China-related exposures.\n  \u2022 The fund significantly outperformed major indices YTD (e.g., MSCI China Index at 30.2%, Hang Seng Tech Index at 25.3%, NASDAQ Composite at 21.7%).\n  \u2022 The portfolio is heavily concentrated in large-cap and mega-cap names (>$10B in market cap accounts for ~31% of NAV), while small and mid-cap exposures remain limited.\n  \u2022 Exposure by sector remains skewed toward Tech (26.8%), Private (8.4%), and Consumer/Retail (2.1%).\n  \u2022 Geographic concentration remains high with primary exposure to Japan (6.6%), South Korea (20.6%), and Taiwan (8.7%). Notably, China exposure was flat, suggesting hedging or limited active positions in the month.\n  \u2022 Despite the monthly drawdown, the cumulative return chart (page 3) shows positive long-term compounding since inception (Dec 2021), outperforming regional benchmarks.",
+          "predicted": "**Key Takeaways and Business Updates:**\n  \u2022 Reported returns are fund-level but performance shown is for a Class A\u2011unrestricted investor since 3 Dec 2021 (may be share-class specific).\n  \u2022 YTD net +69.03% materially outperformed listed benchmarks (MSCI China 30.23%, Hang Seng Tech 25.31%, CSI Overseas China 26.67%, NASDAQ 21.71%).\n  \u2022 MTD net was -4.06% (both CAF and feeder).\n  \u2022 NAV concentration: Morgan Stanley custody/counterparty ~68.6% of NAV.\n  \u2022 Level III (private investments) 16.68% of NAV; private placement positions limited liquidity and one private issuer reported."
+        },
+        "business_updates": {
+          "ground_truth": "  \u2022 As of this report, the fund holds 15 issuers and maintains a high liquidity profile, with 98%\u2013100% liquidity available within 1\u20135 days.\n  \u2022 Portfolio pricing integrity is supported by third-party confirmations, with 83.3% of NAV independently confirmed by MSFS and 16.7% from fund manager inputs, primarily for private investments.\n  \u2022 Only one private issuer is currently held in the portfolio; these private placement positions have limited liquidity.\n  \u2022 Private investment NAV is classified as Level III under ASC 820 and comprises the largest single issuer exposure (8.42% of NAV), indicating a material position with limited public valuation transparency.\n  \u2022 No leverage or short exposure is indicated in the report; performance is driven by long-only equity and option positions.",
+          "predicted": "**Market Commentary:**\n  \u2022 Manager notes one private issuer as of report date.\n  \u2022 Private placement positions have limited liquidity.\n  \u2022 NAV verification uses MSFS confirmations and manager pricing inputs."
+        }
+      }
+    },
+    {
+      "test_case": "2025_09_Q3_-_Blue_Sage_Strategic_Credit_Fund,_LP_-_Q3_2025_Quarterly_Letter",
+      "metadata": {
+        "fund_name": "Blue Sage Strategic Credit Fund, L.P.",
+        "asset_class": "Credit",
+        "vintage": 2025,
+        "performance_summary": "As Expected"
+      },
+      "metrics": {
+        "extraction_tokens": 2205,
+        "extraction_prompt_tokens": 1805,
+        "extraction_completion_tokens": 400,
+        "extraction_cost": 0.00875875,
+        "extraction_latency_ms": 5758.993864059448,
+        "formatting_tokens": 2117,
+        "formatting_prompt_tokens": 1282,
+        "formatting_completion_tokens": 835,
+        "formatting_cost": 0.0019905,
+        "formatting_latency_ms": 15956.531763076782,
+        "total_cost": 0.010749249999999998
+      },
+      "sections": {
+        "quantitative_performance": {
+          "score": 3.0,
+          "irr_score": 1.0,
+          "moic_score": 1.0,
+          "dpi_score": 1.0,
+          "metric_checks": {
+            "irr": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "moic": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "dpi": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            }
+          },
+          "ground_truth": "  \u2022 The fund held a final close at approximately $287M, exceeding its hard cap following an accelerated fundraising process.\n  \u2022 As of September 30, 2025, approximately $3M of capital had been called, representing ~1% of total fund capital, all from Private Limited Partners with no SBA capital drawn to date.\n  \u2022 Net IRR, Net MOIC, and Net DPI are not yet available as the fund has not completed its first platform investment and remains in the early deployment phase.",
+          "predicted": "**Quantitative Performance:**\n  \u2022 Net IRR: N/A (no fund-level Net IRR reported)\n  \u2022 Net MOIC: N/A (no fund-level Net MOIC/TVPI reported)\n  \u2022 Net DPI: N/A (no fund-level Net DPI reported)\n  \u2022 Final closing at approximately $287 million, exceeding hard cap\n  \u2022 As of September 30, 2025, approximately $3 million of total capital called (~1% of total capital available)\n  \u2022 As of September 30, 2025, $3 million called from Private Limited Partners and $0 million from the SBA\n  \u2022 Private capital called to date approximately 3% of private capital\n  \u2022 During Q3, reviewed 63 opportunities, discussed 8 in-depth with the Investment Committee, and entered into 1 Letter of Intent"
+        },
+        "key_takeaways": {
+          "ground_truth": "  \u2022 Deployment discipline is emphasized, with a deliberate pace toward the first platform investment expected around year-end 2025 or Q1 2026.",
+          "predicted": "**Key Takeaways and Business Updates:**\n  \u2022 Fund is in early deployment with minimal capital called (~1% of total capital available as of 9/30/2025)\n  \u2022 Fundraising exceeded hard cap with ~ $287 million final close\n  \u2022 No fund-level Net IRR, Net MOIC/TVPI, or Net DPI reported in this update\n  \u2022 First platform investment expected to close year-end 2025 or Q1 2026"
+        },
+        "business_updates": {
+          "ground_truth": "  \u2022 The fund strategy focuses on providing debt and equity capital to small, private, lower middle market businesses, often serving as first institutional capital alongside founders and management teams.\n  \u2022 Sector focus includes manufacturing, services, environmental, and industrial markets, consistent with Blue Sage\u2019s historical sourcing strengths.\n  \u2022 Deal activity was robust during the quarter, with 63 opportunities reviewed, eight discussed in depth at the Investment Committee level, and one Letter of Intent executed.\n  \u2022 Team expansion continued with the addition of a Principal (Spencer Klein) and a Senior Associate (John Baizer), enhancing sourcing and underwriting capacity, with further hiring planned.",
+          "predicted": "**Market Commentary:**\n  \u2022 Spencer Klein joined in September as Principal and will serve on the fund\u2019s investment committee (previously at Capital Southwest)\n  \u2022 John Baizer joined in May as Senior Associate (previously at DW Healthcare)\n  \u2022 Team continues to build investment professional talent\n  \u2022 Robust pipeline activity; first platform investment tracking toward year-end or Q1 2026 closing\n  \u2022 Sourcing strategy described as synergistic across the Blue Sage family of funds"
+        }
+      }
+    },
+    {
+      "test_case": "2025_09_Q3_-_MBX_Capital_II,_LP_-_Q3_2025_Report",
+      "metadata": {
+        "fund_name": "MBX Capital II, LP",
+        "asset_class": "Venture Capital",
+        "vintage": null,
+        "performance_summary": "Underperforming"
+      },
+      "metrics": {
+        "extraction_tokens": 4390,
+        "extraction_prompt_tokens": 3586,
+        "extraction_completion_tokens": 804,
+        "extraction_cost": 0.017531500000000002,
+        "extraction_latency_ms": 12427.457094192505,
+        "formatting_tokens": 3566,
+        "formatting_prompt_tokens": 1684,
+        "formatting_completion_tokens": 1882,
+        "formatting_cost": 0.004185,
+        "formatting_latency_ms": 28222.43905067444,
+        "total_cost": 0.021716500000000003
+      },
+      "sections": {
+        "quantitative_performance": {
+          "score": 0.0,
+          "irr_score": 0.0,
+          "moic_score": 0.0,
+          "dpi_score": 0.0,
+          "metric_checks": {
+            "irr": {
+              "match": false,
+              "gt_value": null,
+              "pred_value": "3.63",
+              "score": 0.0
+            },
+            "moic": {
+              "match": false,
+              "gt_value": null,
+              "pred_value": "1.29",
+              "score": 0.0
+            },
+            "dpi": {
+              "match": false,
+              "gt_value": null,
+              "pred_value": "0.19",
+              "score": 0.0
+            }
+          },
+          "ground_truth": "  \u2022 As of September 30, 2025, the fund has called 85% of commitments, holds 22 portfolio companies (20 active, 2 realized), and is largely past initial deployment, with future activity limited to selective follow-ons rather than new platform investments.\n  \u2022 Aggregate fund performance reflects a Net IRR of 3.63%, MOIC of 1.29x, TVPI of 1.11x, and DPI of 0.19x.\n  \u2022 Two realizations to date include a strong outcome in Rula (Path CCM), generating ~$6.4mm of proceeds on ~$1.0mm invested, partially offset by a weak post-IPO exit in Vaxxinity with ~$0.16mm returned on $2.0mm invested.",
+          "predicted": "**Quantitative Performance:**\n  \u2022 Net IRR: 3.63%\n  \u2022 Net MOIC: 1.29x\n  \u2022 Net DPI: 0.19x\n  \u2022 Fund-level MOIC: 1.29x (as of 9/30/2025)\n  \u2022 Fund-level TVPI: 1.11x (as of 9/30/2025)\n  \u2022 Fund-level DPI: 0.19x (as of 9/30/2025)\n  \u2022 Fund-level Net IRR: 3.63% (as of 9/30/2025)\n  \u2022 % of commitments called: 85%\n  \u2022 Portfolio: 22 companies; 20 active; 2 realized\n  \u2022 Arine: cost $799,999; current value $2,684,094; closed $21mm net new CARR YTD (total CARR $65mm); burn cut $2.8mm\u2192$0.7mm\n  \u2022 Junction Health: revenue $73K\u2192$306K; appointments 5\u2192178; first site unit-profitable; second site opened\n  \u2022 Mae Health: revenue +20% QoQ to $898K; >750 doula sessions (+26% QoQ)\n  \u2022 OFFOR Health (SmileMD): EBITDA positive; revenue +46% YoY; targeting debt refinance by Q1'26\n  \u2022 Vivodyne: 12 HIVEs deployed; projecting up to $6mm bookings after refocus on ADME/tox\n  \u2022 Realization \u2014 Rula (Path CCM): cost $999,996; proceeds $6,417,206 (secondary sale)\n  \u2022 Realization \u2014 Vaxxinity: cost $2,000,000; proceeds $157,618 (post-IPO sale)"
+        },
+        "key_takeaways": {
+          "ground_truth": "  \u2022 The fund is in the 2nd quartile for Net IRR and Net TVPI for the 2021 vintage.\n  \u2022 It\u2019s in the 1st quartile for DPI.\n  \u2022 Several companies show encouraging operating momentum (e.g., Junction Health reaching unit-level profitability, OFFOR Health remaining EBITDA positive with strong YoY growth, Mae Health scaling revenue and utilization), but many remain capital-raising dependent or behind plan, contributing to overall performance uncertainty.\n  \u2022 The write-off of Journey Colab and uneven outcomes across realized investments highlight continued downside risk, reinforcing that future fund returns hinge on successful financings, clinical milestones, and commercial execution in a concentrated subset of the portfolio.",
+          "predicted": "**Key Takeaways and Business Updates:**\n  \u2022 Fund performance (9/30/2025): Net IRR 3.63%, MOIC 1.29x, TVPI 1.11x, DPI 0.19x\n  \u2022 Capital deployment largely complete; 85% of commitments called\n  \u2022 Limited near-term liquidity; no significant distributions anticipated\n  \u2022 Two realizations: Rula ($6.417mm proceeds on ~$1.0mm cost) and Vaxxinity ($0.158mm proceeds on $2.0mm cost)\n  \u2022 Arine is the primary value driver (current value ~$2.684mm on $0.800mm cost)\n  \u2022 Several companies show execution risk (e.g., Macro Trials, Thesis core brand, Journey Colab winding down)"
+        },
+        "business_updates": {
+          "ground_truth": "  \u2022 Capital markets remain challenging for early-stage biotech, evidenced by multiple companies actively pursuing large Series A/B rounds (often $30\u201370mm) with thin cash buffers, extended timelines, and reliance on non-dilutive grants or strategic partnerships.",
+          "predicted": "**Market Commentary:**\n  \u2022 No new company investments from this fund; follow-ons possible for existing portfolio\n  \u2022 New company investments are being done from MBX III with typical checks of $1\u20134mm\n  \u2022 Anticipated capital calls: up to 10% of commitments over the next year\n  \u2022 Anticipated distributions: none significant in the near term\n  \u2022 Portfolio being managed by outcome category: Probable Contributors, Open Outcomes, Write-offs, Realizations"
+        }
+      }
+    },
+    {
+      "test_case": "2025_09_Q3_-_Thoma_Bravo_-_Q3_2025_Quarterly_Performance_Update_(1)",
+      "metadata": {
+        "fund_name": "Thoma Bravo XV (iCapital), L.P.",
+        "asset_class": "Private Equity",
+        "vintage": 2022,
+        "performance_summary": "As Expected"
+      },
+      "metrics": {
+        "extraction_tokens": 7382,
+        "extraction_prompt_tokens": 6571,
+        "extraction_completion_tokens": 811,
+        "extraction_cost": 0.02285325,
+        "extraction_latency_ms": 11462.347984313965,
+        "formatting_tokens": 4268,
+        "formatting_prompt_tokens": 1855,
+        "formatting_completion_tokens": 2413,
+        "formatting_cost": 0.00528975,
+        "formatting_latency_ms": 38059.170722961426,
+        "total_cost": 0.028142999999999998
+      },
+      "sections": {
+        "quantitative_performance": {
+          "score": 2.0,
+          "irr_score": 1.0,
+          "moic_score": 1.0,
+          "dpi_score": 0.0,
+          "metric_checks": {
+            "irr": {
+              "match": true,
+              "gt_value": "12.2",
+              "pred_value": "12.2",
+              "score": 1.0
+            },
+            "moic": {
+              "match": true,
+              "gt_value": "1.34",
+              "pred_value": "1.34",
+              "score": 1.0
+            },
+            "dpi": {
+              "match": false,
+              "gt_value": null,
+              "pred_value": "0.072",
+              "score": 0.0
+            }
+          },
+          "ground_truth": "  \u2022 Net IRR: 12.2% (fund level), 12.1% (for a $500K investor)\n  \u2022 Net MOIC: 1.34x (fund level), 1.33x (for a $500K investor)\n  \u2022 Net DPI (Distributions / Paid-in Capital): 7.2%\n  \u2022 NAV (as of 9/30/25): $566.5M\n  \u2022 Total Commitments: $479.9M\n  \u2022 Funded Commitments (net of recallables): $388.2M (80.9%)\n  \u2022 Total Paid-in Capital: $438.7M\n  \u2022 Distributions to Date: $31.5M\n  \u2022 Underlying Fund (Thoma Bravo Fund XV) MOIC: 1.40x (82.8% funded)\n  \u2022 Total Investments: 8, all still unrealized; 1 is publicly traded\n  \u2022 Average Age of Portfolio: 2.5 years",
+          "predicted": "**Quantitative Performance:**\n  \u2022 Net IRR: 12.2% (vs benchmark 10.12% - Above Median)\n  \u2022 Net MOIC: 1.34x (vs benchmark 1.18x - Top 25%)\n  \u2022 Net DPI: 0.072x (vs benchmark 0.19x - Below Median)\n  \u2022 Fund NAV (9/30/25): $566.5M\n  \u2022 Total paid-in capital: $438.7M; Distributions: $31.5M (Distributions / PIC: 7.2%)\n  \u2022 Funded commitment less recallable: $388.2M (80.9% of $479.9M commitments)\n  \u2022 Last capital call: 6/23/25, $21.8M (10th call, 4.5% of committed); Last distribution: 12/3/25, $15.6M (3rd distribution, 3.5% of contributed)\n  \u2022 Average age of remaining portfolio: 2.5 years; Underlying Fund XV MOIC 1.40x (82.8% funded; underlying commitments $477.0M; fund size $8.8B)"
+        },
+        "key_takeaways": {
+          "ground_truth": "  \u2022 Fund performance is tracking steadily with a Net IRR of 12.2% and MOIC of 1.34x, reflecting a solid mark-up across the portfolio\n  \u2022 DPI remains modest at 7.2%, typical for a fund still early in realization phase (vintage 2022, avg. portfolio age 2.5 years)\n  \u2022 Capital deployment is largely complete with over 80% of capital funded, supporting a transition into value build-up and select liquidity events\n  \u2022 The portfolio is fully concentrated in software and IT, with 100% of value in that sector, and 89% of holdings based in the U.S.\n  \u2022 The top 8 positions represent 100% of portfolio value, with largest exposures to SailPoint (18.9%), Ping Identity (17.3%), and Coupa Software (16.1%)\n  \u2022 Net MOIC has steadily increased over time, rising from 0.97x in mid-2022 to 1.34x as of Q3 2025, signaling consistent NAV appreciation",
+          "predicted": "**Key Takeaways and Business Updates:**\n  \u2022 Fund-level performance as of 9/30/25: 12.2% net IRR and 1.34x net MOIC\n  \u2022 Low realized return to date: net DPI of 0.072x (7.2% distributions / paid-in capital)\n  \u2022 Capital largely deployed: 80.9% funded commitment less recallable\n  \u2022 Portfolio is relatively young: 2.5 years average age of remaining investments (as of 9/30/25)"
+        },
+        "business_updates": {
+          "ground_truth": "  \u2022 Anaplan: Acquired Syrup Tech in September 2025 to enhance AI-native retail supply chain forecasting; continues profitable growth with reinvestment in tech and GTM strategy\n  \u2022 Bottomline Technologies: Migrating customers to new Financial Messaging SaaS platform; investing in AI for accounts payable automation\n  \u2022 Coupa: Pursuing multiple revenue initiatives including payment monetization via Bottomline, supplier upsells, and launch of the Coupa Advantage Marketplace\n  \u2022 Darktrace: Closed acquisition of Mira Security in Q3 to boost network security visibility, especially in encrypted traffic analysis for regulated industries\n  \u2022 Imprivata: Restructuring sales to improve cross-sell efficiency; launching new face authentication and Patient Access identity tools\n  \u2022 Ping Identity: Q2 acquisition of Procyon continues to perform well, strengthening access management capabilities\n  \u2022 Qlik: Released Open Lakehouse and Agentic AI framework; focused on expanding analytics product suite and bookings growth\n  \u2022 These updates reflect a portfolio actively executing on AI, cybersecurity, cloud migration, and enterprise productivity trends through M&A and product expansion",
+          "predicted": "**Market Commentary:**\n  \u2022 Anaplan acquired Syrup Tech (Sep 2025) to expand AI-native retail supply chain forecasting/optimization\n  \u2022 Darktrace closed Mira Security (Q3 2025) to strengthen network traffic visibility and decryption for regulated industries\n  \u2022 Ping Identity\u2019s Procyon (Q2 2025) continues to perform, bolstering workforce access management\n  \u2022 Coupa pursuing revenue acceleration: partnership with Bottomline, disciplined renewal pricing, launch of Coupa Advantage Marketplace\n  \u2022 Bottomline migrating customers to a new Financial Messaging SaaS; R&D prioritizing customer-facing AI capabilities\n  \u2022 Imprivata redesigning sales to improve cross-sell and releasing face authentication and Patient Access products\n  \u2022 Qlik announced Open Lakehouse and an Agentic AI framework (Q2 2025); focused on bookings and cross-sell\n  \u2022 Portfolio: 100% Information Technology; geography 89% U.S., 11% U.K.; top holdings SailPoint 18.9%, Ping 17.3%, Coupa 16.1%"
+        }
+      }
+    },
+    {
+      "test_case": "2025_09_Q3_-_LEONID_Credit_Income_Fund,_LP_-_Q3_2025_Investor_Update",
+      "metadata": {
+        "fund_name": "Leonid Credit Income Fund (LCIF)",
+        "asset_class": "Private Credit",
+        "vintage": null,
+        "performance_summary": "Outperforming"
+      },
+      "metrics": {
+        "extraction_tokens": 4920,
+        "extraction_prompt_tokens": 4174,
+        "extraction_completion_tokens": 746,
+        "extraction_cost": 0.0177485,
+        "extraction_latency_ms": 14130.309343338013,
+        "formatting_tokens": 4949,
+        "formatting_prompt_tokens": 1626,
+        "formatting_completion_tokens": 3323,
+        "formatting_cost": 0.0070525,
+        "formatting_latency_ms": 50011.3799571991,
+        "total_cost": 0.024801
+      },
+      "sections": {
+        "quantitative_performance": {
+          "score": 3.0,
+          "irr_score": 1.0,
+          "moic_score": 1.0,
+          "dpi_score": 1.0,
+          "metric_checks": {
+            "irr": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "moic": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "dpi": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            }
+          },
+          "ground_truth": "  \u2022 4.0% net total return for Q3 2025, net of fees and expenses, driven by continued capital deployment and strong borrower demand, with 2.8% of the quarter\u2019s return realized in net cash distributions and no reliance on fund-level leverage.\n  \u2022 The underwriting anticipated leverage via a warehouse line as a return enhancer; to date, returns have been achieved with zero fund-level leverage, implying embedded upside to underwriting once leverage ramps toward management\u2019s stated 1:1 target.\n  \u2022 Underwriting targeted ~15% net yield after fees on an unlevered basis, driven by high contractual spreads and rapid capital recycling; Q3 results show a 14.5% TTM net return and 15.3% net TWR, indicating performance is tracking at or slightly above underwritten net return targets, even before the introduction of fund-level leverage.\n  \u2022 Total LP managed capital stood at $298.8 million, with $245.7 million deployed and $53.1 million of remaining dry powder, positioning the Fund for full deployment in early Q4.\n  \u2022 The portfolio consisted of 57 active credit positions, with 100% of borrowers performing and amortizing, 0.0% non-performing exposure, and a minimal 0.4% watch list allocation.\n  \u2022 Portfolio risk metrics remained conservative, including 11.0% loan-to-value against controlled government cash flows, 13.9-month average duration, no fund-level leverage, and maximum borrower concentration of 8.5%, underscoring capital preservation discipline.",
+          "predicted": "**Quantitative Performance:**\n  \u2022 Net IRR: N/A\n  \u2022 Net MOIC: N/A\n  \u2022 Net DPI: N/A\n  \u2022 Q3 2025 total return: 4.0% net of fees and expenses (based on contributed capital)\n  \u2022 Q3 2025 net cash return: 2.8%\n  \u2022 Time-Weighted Rate of Return (TTM), net: 15.3%; Trailing Twelve Month (TTM) net return: 14.5%\n  \u2022 TTM benchmark comparisons: Preqin Private Credit 8.4% (LCIF +6.1%), CDLI 10.1% (LCIF +4.4%), Morningstar LSTA US Leveraged Loan Index 7.5% (LCIF +7.0%)\n  \u2022 Total LP Managed Capital: $298.8MM; Investor Capital Deployed: $245.7MM; Dry Powder (uncalled): $53.1MM\n  \u2022 Total realizations (ITD): $67.5MM across 53 borrowers"
+        },
+        "key_takeaways": {
+          "ground_truth": "  \u2022 Leonid continues to demonstrate consistent double-digit net returns with low duration and no leverage, validating the strength of its underwriting model and focus on mission-critical, government-backed cash flows.\n  \u2022 Expense efficiency improved materially, with annualized expenses reduced to approximately 81 basis points, representing a more than 50% year-over-year decline.\n  \u2022 The Fund is expected to reach full deployment in early Q4 2025, after which management plans to gradually introduce leverage toward a long-term 1:1 equity-to-debt target to sustain origination velocity and enhance returns.",
+          "predicted": "**Key Takeaways and Business Updates:**\n  \u2022 Net TTM performance reported at 15.3% (TWR) / 14.5% (TTM net)\n  \u2022 Outperformed cited private credit and leveraged loan benchmarks over the TTM period (Preqin, CDLI, LSTA)\n  \u2022 Credit quality: 100.0% performing & amortizing; 0.0% non\u2011performing; watch list 0.4% of portfolio\n  \u2022 Portfolio risk: duration 13.9 months; LTV 11.0% against controlled government cash flows\n  \u2022 Concentration: max borrower 8.5% (OnPoint Defense Systems); payor concentration at agency level 5.4% (USAF, AFWERX)\n  \u2022 No leverage currently; plan to draw leveraged facility after full deployment targeting ~1:1 fund-level leverage over time"
+        },
+        "business_updates": {
+          "ground_truth": "  \u2022 Leonid strengthened its institutional infrastructure with the appointment of a new CFO, formalization of the COO role, and expanded FP&A capabilities, while accelerating reporting timelines toward a Q+30\u201345 day standard.\n  \u2022 Management emphasized that the recent U.S. federal government shutdown had no material adverse impact on portfolio performance, as Leonid exclusively finances awarded, escrowed, and mission-critical national-security contracts that continue operating under \u201cexcepted activities.\u201d",
+          "predicted": "**Market Commentary:**\n  \u2022 Recent federal shutdown caused administrative delays (invoice processing/contracting); payments normalized after operations resumed\n  \u2022 Investment focus remains on awarded, fully escrowed government contracts to limit shutdown disruption\n  \u2022 Department of War adopting Warfighting Acquisition System (WAS) to compress timelines; increased use of commercial acquisition pathways (CSOs, OTAs)\n  \u2022 Operations hires: Monroe Weng as CFO; Ted Lanes as permanent COO; two FP&A hires added\n  \u2022 Fund administration: working with Ultimus LeverPoint to target 30\u201345 day reporting window post quarter-end\n  \u2022 Capital deployment expected to be fully deployed within a week (relative to report date); will begin using leverage thereafter\n  \u2022 Tax/expenses: blocker tax estimate increased to $4.2MM (Deloitte); estimated pro forma expense ~22 bps this quarter / ~81 bps annualized; >50% YoY reduction (excl. one\u2011time items)"
+        }
+      }
+    },
+    {
+      "test_case": "2025_12_Q4_-_Merida_Capital_Partners_III_&_IV_-__Message_to_Merida_Investors",
+      "metadata": {
+        "fund_name": "Merida",
+        "asset_class": "Private Equity",
+        "vintage": null,
+        "performance_summary": "As Expected"
+      },
+      "metrics": {
+        "extraction_tokens": 3350,
+        "extraction_prompt_tokens": 2787,
+        "extraction_completion_tokens": 563,
+        "extraction_cost": 0.01275925,
+        "extraction_latency_ms": 10606.16683959961,
+        "formatting_tokens": 2750,
+        "formatting_prompt_tokens": 1442,
+        "formatting_completion_tokens": 1308,
+        "formatting_cost": 0.0029765,
+        "formatting_latency_ms": 21028.92518043518,
+        "total_cost": 0.01573575
+      },
+      "sections": {
+        "quantitative_performance": {
+          "score": 3.0,
+          "irr_score": 1.0,
+          "moic_score": 1.0,
+          "dpi_score": 1.0,
+          "metric_checks": {
+            "irr": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "moic": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "dpi": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            }
+          },
+          "ground_truth": "  \u2022 MBX Capital III, LP is early in its deployment cycle with 27% of commitments called as of September 30, 2025, four investments closed and five additional investments planned, reflecting an active but still formative portfolio construction phase.\n  \u2022 All closed investments are currently marked at cost, with no unrealized gains or losses reported this quarter, which is typical given the early-stage nature and recency of deployments.\n  \u2022 Fund-level Net IRR, Net MOIC, and Net DPI are not reported this quarter, and no significant distributions are anticipated in the near term.",
+          "predicted": "**Quantitative Performance:**\n  \u2022 Net IRR: No fund-level Net IRR disclosed\n  \u2022 Net MOIC: No fund-level Net MOIC/TVPI disclosed\n  \u2022 Net DPI: No fund-level Net DPI disclosed\n  \u2022 No fund-level Net IRR, Net MOIC/TVPI, or Net DPI disclosed in this update\n  \u2022 Public cannabis equities surged on rumors of the Executive Order, then sold off after announcement; prices remain ~30\u201340% above pre-rumor levels (since Dec 12) on high volume\n  \u2022 Estimate: ~15 public cannabis companies could each benefit >$100MM/year from removal of IRS 280E (implying >$1.5B aggregate annual cash-flow benefit to large U.S. operators)\n  \u2022 Estimated unpaid 280E tax collections for 2023\u20132025 potentially $800MM\u2013$1.4B; companies may be able to settle for \"pennies on the dollar\" (per cited estimates)"
+        },
+        "key_takeaways": {
+          "ground_truth": "  \u2022 Portfolio companies are showing early signs of operating traction, particularly Keebler Health with $4.7M in contracted ARR and Persist AI with $1.3M in YTD bookings, indicating revenue momentum despite conservative valuation marks.\n  \u2022 Juniper Genomics has launched commercially and doubled revenue and clinic adoption quarter-over-quarter, ending Q3 at a $280K annualized revenue run rate, demonstrating initial product-market fit in IVF genetic testing.\n  \u2022 Capital call expectations are front-loaded, with up to 10% anticipated imminently and up to an additional 30% expected in 2026, suggesting an acceleration in deployment aligned with a robust deal pipeline.",
+          "predicted": "**Key Takeaways and Business Updates:**\n  \u2022 Executive Order to reschedule cannabis from Schedule I to Schedule III is the key macro catalyst (pending DEA finalization)\n  \u2022 Removal of IRS 280E could materially increase after-tax cash flows for U.S. operators; commentary cites effective tax rates up to ~75% for dispensary-only operations\n  \u2022 Schedule III could enable pharmacy distribution and insurance reimbursement, expanding normalized access (manager view)\n  \u2022 Medicare/Medicaid-related CBD pilot programs referenced as starting next year / mid-year\n  \u2022 Manager views market pullback as a buying opportunity in public equities over the next 12 months (opinion)"
+        },
+        "business_updates": {
+          "ground_truth": "  \u2022 The fund remains focused on early-stage, deep health and biotech investments, targeting pre-seed through Series A rounds with $1\u2013$4M check sizes and emphasizing platform science and differentiated technical risk.\n  \u2022 New and planned investments highlight themes in synthetic biology, AI-driven oncology decision support, microbiome therapeutics, and neurodegeneration, with several deals structured using tranched capital to manage development and execution risk.\n  \u2022 Management notes a strong opportunity pipeline and encourages LP engagement for founder introductions, while also offering year-end 1:1 check-ins to discuss fund progress, outlook, and strategy.",
+          "predicted": "**Market Commentary:**\n  \u2022 Manager combining Q3/Q4 update into a single mid-January call due to timing/significance of Executive Order developments\n  \u2022 DEA finalization expected to shift macro behavior positively; potential for pharmacy partnerships with dispensaries to expand medical access\n  \u2022 Pharma may enter via acquisitions rather than building internally, which could re-rate sector valuations if M&A occurs\n  \u2022 Reports cite AG Bondi tasked to implement mandates by end of January; CBD to enter Medicare pilots by mid-year\n  \u2022 Manager references a 2017 \"Size Matters\" commentary for historical perspective"
+        }
+      }
+    },
+    {
+      "test_case": "2025_11_Q4_-_Freedom_Biosciences_-_November_2025_Investor_Update",
+      "metadata": {
+        "fund_name": "2025_11_Q4_-_Freedom_Biosciences_-_November_2025_Investor_Update",
+        "asset_class": "Unknown",
+        "vintage": null,
+        "performance_summary": "As Expected"
+      },
+      "metrics": {
+        "extraction_tokens": 1065,
+        "extraction_prompt_tokens": 980,
+        "extraction_completion_tokens": 85,
+        "extraction_cost": 0.002905,
+        "extraction_latency_ms": 3352.529764175415,
+        "formatting_tokens": 1751,
+        "formatting_prompt_tokens": 966,
+        "formatting_completion_tokens": 785,
+        "formatting_cost": 0.0018115,
+        "formatting_latency_ms": 14409.39998626709,
+        "total_cost": 0.0047165
+      },
+      "sections": {
+        "quantitative_performance": {
+          "score": 3.0,
+          "irr_score": 1.0,
+          "moic_score": 1.0,
+          "dpi_score": 1.0,
+          "metric_checks": {
+            "irr": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "moic": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            },
+            "dpi": {
+              "match": true,
+              "gt_value": null,
+              "pred_value": null,
+              "score": 1.0
+            }
+          },
+          "ground_truth": "  \u2022 No fund-level IRR, MOIC, or DPI metrics were disclosed in this update.\n  \u2022 Key programs progressing through preclinical and early clinical stages include Free001 (ketamine IV solution) and Free008 (psychedelic therapeutic for cardiovascular and psychiatric use).\n  \u2022 Series B fundraising is underway with a target raise of $30\u201350M. Lead investor due diligence is in late stages, with $30M to be unlocked upon planned Phase 2 topline data for Free001 and Phase 1a/b data for Free008.\n  \u2022 Additional capital (up to $50M) may support CMC development and Phase 3 (Free001) and Phase 2 (Free008) trial acceleration.",
+          "predicted": "**Quantitative Performance:**\n  \u2022 Net IRR: No reported data\n  \u2022 Net MOIC: No reported data\n  \u2022 Net DPI: No reported data\n  \u2022 No significant updates"
+        },
+        "key_takeaways": {
+          "ground_truth": "  \u2022 The company has soft commitments for ~15\u201320% of the Series B round already from insiders and seeks broader early interest to support term sheet negotiations by December 17.\n  \u2022 Free001 Phase 2: Prototyping is near completion for two IV bag options. Development batch testing is planned for early Q1 2026, with Phase 2 study targeted for Q2 2026, contingent on Series B close.\n  \u2022 Free008 Phase 1: Experienced delays due to Chinese regulatory shifts. A new US-based CRO has been secured. Cardiovascular tox work begins next month, with UK Phase 1 trial planned for early 2027.\n  \u2022 Preparing for a Type D meeting with the FDA in early Q1 2026 to determine if Phase 1 trials for Free008 can proceed in the US to gain time efficiency.",
+          "predicted": "**Key Takeaways and Business Updates:**\n  \u2022 No significant updates"
+        },
+        "business_updates": {
+          "ground_truth": "  \u2022 Strong external validation is seen in industry M&A and positive trial data, including:\n  \u2022 AbbVie\u2019s $1B+ investment in Gilgamesh\u2019s psychedelic drug.\n  \u2022 Atai/Beckley merger and Supernus\u2019 $561M Sage acquisition.\n  \u2022 Compass Pathways\u2019 and Atai\u2019s positive Phase 2b readouts.\n  \u2022 Freedom Bio was active across several high-profile industry events and conferences:\n  \u2022 8th Neuropsychiatric Drug Development Conference (Boston).\n  \u2022 One Mind Festival (Napa) \u2013 selected participant.\n  \u2022 Wilson Sonsini Biopharma Summit and Wells Fargo Private Track.\n  \u2022 Panel participation at Harvard Business School Healthcare Conference with Gilgamesh and others.\n  \u2022 Upcoming presentations at Evercore, Citi, Lucid, and JPM Healthcare Conferences signal continued engagement with top-tier investors and strategic partners.",
+          "predicted": "**Market Commentary:**\n  \u2022 No significant updates"
+        }
+      }
+    },
+    {
+      "test_case": "2025_09_Q3_-_Star_Mountain_Fund_-_Q3_2025_Quarterly_Update_(1)",
+      "metadata": {
+        "fund_name": "Star Mountain SBIC Fund, LP",
+        "asset_class": "Private Credit",
+        "vintage": 2020,
+        "performance_summary": "As Expected"
+      },
+      "metrics": {
+        "extraction_tokens": 30327,
+        "extraction_prompt_tokens": 27304,
+        "extraction_completion_tokens": 3023,
+        "extraction_cost": 0.09010399999999999,
+        "extraction_latency_ms": 44509.29522514343,
+        "formatting_tokens": 5470,
+        "formatting_prompt_tokens": 3607,
+        "formatting_completion_tokens": 1863,
+        "formatting_cost": 0.00462775,
+        "formatting_latency_ms": 32657.413959503174,
+        "total_cost": 0.09473174999999999
+      },
+      "sections": {
+        "quantitative_performance": {
+          "score": 1.0,
+          "irr_score": 1.0,
+          "moic_score": 0.0,
+          "dpi_score": 0.0,
+          "metric_checks": {
+            "irr": {
+              "match": true,
+              "gt_value": "13.8",
+              "pred_value": "13.8",
+              "score": 1.0
+            },
+            "moic": {
+              "match": false,
+              "gt_value": null,
+              "pred_value": "1.54",
+              "score": 0.0
+            },
+            "dpi": {
+              "match": false,
+              "gt_value": null,
+              "pred_value": "0.16",
+              "score": 0.0
+            }
+          },
+          "ground_truth": "  \u2022 Net IRR: 13.8%\n  \u2022 Net TVPI (Total Value to Paid-In): 1.54x\n  \u2022 Net RVPI (Residual Value to Paid-In): 1.37x\n  \u2022 Net DPI (Distributions to Paid-In): 0.16x\n  \u2022 Fund Size: $291M (inclusive of LP, GP, and ABL)\n  \u2022 LP Capital Commitments: $113M, with 85% called ($96M)\n  \u2022 Gross Capital Invested: $331M (reflects redeployment to optimize IRR and MOIC)\n  \u2022 Total Gross Assets: $324M\n  \u2022 SBA Leverage Drawn: $175M (fully drawn facility)\n  \u2022 Leverage Ratio: 0.54x debt-to-total assets\n  \u2022 Average Yield to Maturity (YTM): 14.1%\n  \u2022 Average Cash Interest: 9.9%\n  \u2022 Portfolio Composition: 75% 1st lien debt, 24% 2nd lien/preferred equity, <1% common equity",
+          "predicted": "**Quantitative Performance:**\n  \u2022 Net IRR: 13.8%\n  \u2022 Net MOIC: 1.54x\n  \u2022 Net DPI: 0.16x\n  \u2022 Q3 2025 net: DPI 0.16x, RVPI 1.37x, TVPI 1.54x; Net IRR 13.8% (9/30/25)\n  \u2022 Total gross assets: $324.0M; total invested capital $331M (114% of AUM)\n  \u2022 SBA debenture drawn / facility: $175M / $175M; leverage ratio 0.54x debt-to-assets; fund-level leverage averaged 0.60x\n  \u2022 Yield to maturity: 14.1%; avg spread to SOFR 8.9%; 100% floating (avg floor 1.2%)\n  \u2022 Non-accruals: 2 positions (~5% of total invested); annualized non-accrual rate 0.7%\n  \u2022 Six realizations (through 9/30/25): avg gross IRR 62.2%; net unleveraged IRR 51.2%; illustrative net 0.60x leveraged IRR 98.7%\n  \u2022 Q3 FV change QoQ: +$0.1M; total fund FV = 96.5% of cost"
+        },
+        "key_takeaways": {
+          "ground_truth": "  \u2022 Consistent NAV and return growth: The fund achieved a net TVPI of 1.54x, up from 1.45x in Q2, reflecting strong unrealized gains despite limited DPI\n  \u2022 Net IRR of 13.8% reflects healthy risk-adjusted performance, especially given conservative underwriting and moderate leverage\n  \u2022 Diversified portfolio of 29 companies with median operating history of 27 years and average EBITDA of $12M, indicating stability in lower middle market exposure\n  \u2022 High embedded value: 83% of portfolio companies include structured equity or warrants; 97% have board observer rights; 100% include financial covenants\n  \u2022 Distributions remain modest, with an 8% average cash distribution yield since inception but only 2.3% return of capital in Q3 2025 due to SBA regulatory constraints on distributions (READ-related)\n  \u2022 Recent realizations (e.g. Project Justice) delivered outsized returns (net IRR: 149.9% leveraged; 290.9% with equity exposure), highlighting upside potential in structured deals",
+          "predicted": "**Key Takeaways and Business Updates:**\n  \u2022 Net fund performance (9/30/25): 13.8% Net IRR, 1.54x TVPI (net), 0.16x DPI\n  \u2022 Q3 2025 included a 2.3% return of capital distribution; no income distribution under READ\n  \u2022 SBA leverage fully drawn ($175M); 10-year fixed pricing noted ~4.5% (Q3 2025)\n  \u2022 Capital protection: 100% of portfolio companies have covenants; avg maintenance test ~4.2x\n  \u2022 Weighted average internal risk rating 2.7; two investments on non-accrual (Project Heat; Project Peanut II)\n  \u2022 Realizations and returns are preliminary/unaudited; unrealized values marked to market (ASC 820)"
+        },
+        "business_updates": {
+          "ground_truth": "  \u2022 Project Justice Exit (Q3 2025):\u2028 \u2013 Provider of adjudication services aligned with the No Surprises Act\u2028 \u2013 Realized through a refinancing; generated a 5.99x gross MOIC and 178.5% net unleveraged IRR, with further upside remaining via retained equity (valued at ~$121M)\u2028 \u2013 Notable growth from $10M to $150M EBITDA at exit; Star Mountain played an active board and strategic role in growth\n  \u2022 Post-Q3 Exit: Project Payment (Nov 2025):\u2028 \u2013 IT staffing and analytics platform; exited via debt refi\u2028 \u2013 23.1% gross IRR, 16.5% net unleveraged IRR\u2028 \u2013 Exit followed strategic add-ons led by Star Mountain, including $34M of incremental funding\n  \u2022 Quarterly Valuation Movements:\u2028 \u2013 Total fund FV flat QoQ; top write-up was Project Justice (+$5.9M)\u2028 \u2013 Largest write-down was Project Federal (-$3.8M) due to restructuring in government contracting sector\n  \u2022 Portfolio Highlights:\u2028 \u2013 Strong YoY growth in investments like Project Android (+145% EBITDA), Project Cardinal (+35% EBITDA), and Project Sleep (+28% EBITDA)\u2028 \u2013 Continued challenges in Project Quant (-49% EBITDA) and Project Federal (-74% EBITDA), although management changes and AI initiatives are underway\n  \u2022 Risk Ratings:\u2028 \u2013 Portfolio quality remains stable with 75% rated 1\u20133, implying no anticipated impairment\u2028 \u2013 Slight increase in average risk rating due to one downgrade (Project Metal) and the exit of a high-performing asset\n  \u2022 Leverage Management:\u2028 \u2013 SBA leverage usage is moderate and consistent (average 0.60x over fund life), with fixed rate borrowings at 4.5% average cost",
+          "predicted": "**Market Commentary:**\n  \u2022 READ positive as of Q3 2025; distribution constraints require SBA consent for capital >2% of Regulatory Capital\n  \u2022 No new platform investments closed in Q3 2025; internal risk ratings increased QoQ (partial exit/downgrade drivers)\n  \u2022 Project Justice: debt exited July 2025; retained ~3% equity, strong operating growth (revenue +128% YoY; adj. EBITDA +145% YoY)\n  \u2022 Project Cardinal and Project Sleep showing material YoY growth; Project Quant and Project Federal showing notable declines with active remediation\n  \u2022 Portfolio composition (6/30/25): ~75% 1st lien, ~24% 2nd lien/senior holdco PIK/structured-preferred"
+        }
+      }
+    }
+  ]
+}

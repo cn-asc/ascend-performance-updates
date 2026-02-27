@@ -1,0 +1,33 @@
+{
+  "investment_performance": [
+    "Net IRR: 13.8%",
+    "Net TVPI (Total Value to Paid-In): 1.54x",
+    "Net RVPI (Residual Value to Paid-In): 1.37x",
+    "Net DPI (Distributions to Paid-In): 0.16x",
+    "Fund Size: $291M (inclusive of LP, GP, and ABL)",
+    "LP Capital Commitments: $113M, with 85% called ($96M)",
+    "Gross Capital Invested: $331M (reflects redeployment to optimize IRR and MOIC)",
+    "Total Gross Assets: $324M",
+    "SBA Leverage Drawn: $175M (fully drawn facility)",
+    "Leverage Ratio: 0.54x debt-to-total assets",
+    "Average Yield to Maturity (YTM): 14.1%",
+    "Average Cash Interest: 9.9%",
+    "Portfolio Composition: 75% 1st lien debt, 24% 2nd lien/preferred equity, <1% common equity"
+  ],
+  "key_takeaways": [
+    "Consistent NAV and return growth: The fund achieved a net TVPI of 1.54x, up from 1.45x in Q2, reflecting strong unrealized gains despite limited DPI",
+    "Net IRR of 13.8% reflects healthy risk-adjusted performance, especially given conservative underwriting and moderate leverage",
+    "Diversified portfolio of 29 companies with median operating history of 27 years and average EBITDA of $12M, indicating stability in lower middle market exposure",
+    "High embedded value: 83% of portfolio companies include structured equity or warrants; 97% have board observer rights; 100% include financial covenants",
+    "Distributions remain modest, with an 8% average cash distribution yield since inception but only 2.3% return of capital in Q3 2025 due to SBA regulatory constraints on distributions (READ-related)",
+    "Recent realizations (e.g. Project Justice) delivered outsized returns (net IRR: 149.9% leveraged; 290.9% with equity exposure), highlighting upside potential in structured deals"
+  ],
+  "business_updates": [
+    "Project Justice Exit (Q3 2025):\u2028 \u2013 Provider of adjudication services aligned with the No Surprises Act\u2028 \u2013 Realized through a refinancing; generated a 5.99x gross MOIC and 178.5% net unleveraged IRR, with further upside remaining via retained equity (valued at ~$121M)\u2028 \u2013 Notable growth from $10M to $150M EBITDA at exit; Star Mountain played an active board and strategic role in growth",
+    "Post-Q3 Exit: Project Payment (Nov 2025):\u2028 \u2013 IT staffing and analytics platform; exited via debt refi\u2028 \u2013 23.1% gross IRR, 16.5% net unleveraged IRR\u2028 \u2013 Exit followed strategic add-ons led by Star Mountain, including $34M of incremental funding",
+    "Quarterly Valuation Movements:\u2028 \u2013 Total fund FV flat QoQ; top write-up was Project Justice (+$5.9M)\u2028 \u2013 Largest write-down was Project Federal (-$3.8M) due to restructuring in government contracting sector",
+    "Portfolio Highlights:\u2028 \u2013 Strong YoY growth in investments like Project Android (+145% EBITDA), Project Cardinal (+35% EBITDA), and Project Sleep (+28% EBITDA)\u2028 \u2013 Continued challenges in Project Quant (-49% EBITDA) and Project Federal (-74% EBITDA), although management changes and AI initiatives are underway",
+    "Risk Ratings:\u2028 \u2013 Portfolio quality remains stable with 75% rated 1\u20133, implying no anticipated impairment\u2028 \u2013 Slight increase in average risk rating due to one downgrade (Project Metal) and the exit of a high-performing asset",
+    "Leverage Management:\u2028 \u2013 SBA leverage usage is moderate and consistent (average 0.60x over fund life), with fixed rate borrowings at 4.5% average cost"
+  ]
+}
